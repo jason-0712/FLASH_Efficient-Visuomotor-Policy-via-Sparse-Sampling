@@ -1,0 +1,37 @@
+<class_libraries>
+<library path="flash_fr3_model_controller">
+  <class name="flash_fr3_model_controller/ModelController"
+         type="flash_fr3_model_controller::ModelController"
+         base_class_type="controller_interface::ControllerInterface">
+    <description>Frozen FLASH polynomial prefix with a C2 stop and latched heartbeat watchdog.</description>
+  </class>
+</library>
+<library path="flash_fr3_stream_plugin">
+  <class name="flash_fr3_model_controller/StreamController"
+         type="flash_fr3_model_controller::StreamController"
+         base_class_type="controller_interface::ControllerInterface">
+    <description>One timed C2 rolling handoff with a bounded stop and native watchdog.</description>
+  </class>
+</library>
+<library path="flash_fr3_task_plugin">
+  <class name="flash_fr3_model_controller/TaskController"
+         type="flash_fr3_model_controller::TaskController"
+         base_class_type="controller_interface::ControllerInterface">
+    <description>Dataset-bounded task segment with a C2 stop and native heartbeat watchdog.</description>
+  </class>
+</library>
+<library path="flash_fr3_torque_plugin">
+  <class name="flash_fr3_model_controller/TorqueController"
+         type="flash_fr3_model_controller::TorqueController"
+         base_class_type="controller_interface::ControllerInterface">
+    <description>Bounded effort-interface commissioning with polynomial analytic velocity feedforward and native watchdog.</description>
+  </class>
+</library>
+<library path="flash_fr3_continuous_effort_plugin">
+  <class name="flash_fr3_model_controller/ContinuousEffortController"
+         type="flash_fr3_model_controller::ContinuousEffortController"
+         base_class_type="controller_interface::ControllerInterface">
+    <description>Bounded persistent effort session consuming raw physical-clock Legendre predictions with analytic velocity and native stop.</description>
+  </class>
+</library>
+</class_libraries>

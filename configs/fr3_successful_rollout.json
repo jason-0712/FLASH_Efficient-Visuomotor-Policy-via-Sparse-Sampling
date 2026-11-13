@@ -1,0 +1,83 @@
+{
+  "recorded_success_date": "2026-11-13",
+  "operator_confirmed_success": true,
+  "checkpoint_step": 15000,
+  "weights": "ema_model",
+  "time_scale": 1.0,
+  "coefficients_corrected": false,
+  "history_frozen": false,
+  "intermediate_chunk_stops": false,
+  "controller_parameters": {
+    "k_gains": [
+      150.0,
+      150.0,
+      150.0,
+      150.0,
+      50.0,
+      30.0,
+      30.0
+    ],
+    "d_gains": [
+      24.49489742783178,
+      24.49489742783178,
+      24.49489742783178,
+      24.49489742783178,
+      14.142135623730951,
+      10.954451150103322,
+      10.954451150103322
+    ],
+    "torque_limits_nm": [
+      87.0,
+      87.0,
+      87.0,
+      87.0,
+      12.0,
+      12.0,
+      12.0
+    ],
+    "torque_rates_nm_s": [
+      999.999,
+      999.999,
+      999.999,
+      999.999,
+      999.999,
+      999.999,
+      999.999
+    ],
+    "tracking_limit_rad": null,
+    "position_handoff_limit_rad": null,
+    "position_error_policy": "record_only",
+    "reference_velocity_acceleration_jerk_limits": [
+      0.8,
+      10.0,
+      100.0
+    ],
+    "prediction_deadline": "physical curve horizon minus native braking time",
+    "position_limits_source": "active FR3 URDF and manufacturer robot_specifications.html",
+    "torque_limits_source": "FR3 manufacturer recommended amplitude: 87 Nm joints 1-4, 12 Nm joints 5-7; reject at boundary",
+    "torque_rates_source": "libfranka kMaxTorqueRate = 1000 - kLimitEps = 999.999 Nm/s; original driver limitRate remains enabled",
+    "gain_revision": "raw_rollout_j7_kp30_kd_2sqrtkp_20261111",
+    "description": "local gains/reference budgets and manufacturer torque constraints; no inherited commissioning torque budget; original Franka protection remains enabled"
+  },
+  "physical_time": {
+    "sample_dt_seconds": 0.26666666666666666,
+    "polynomial_duration_seconds": 2.933333333333333,
+    "action_chunk_interval_seconds": 2.1333333333333333,
+    "anchor_s": 0.18181818181818182,
+    "velocity_to_per_second": 0.34090909090909094,
+    "acceleration_to_per_second_squared": 0.11621900826446283
+  },
+  "gripper": {
+    "gripper_target_width_m": 0.028758387565612793,
+    "gripper_epsilon_m": 0.012,
+    "gripper_force_N": 20.0,
+    "gripper_speed_m_s": 0.1
+  },
+  "result_summary": {
+    "status": "TASK_SEQUENCE_FINISHED",
+    "handoffs_observed": 32,
+    "grasp_success": true,
+    "release_success": true
+  },
+  "scope": "one operator-confirmed success on this task; no success-rate estimate"
+}

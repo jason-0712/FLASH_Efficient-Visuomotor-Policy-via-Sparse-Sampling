@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>flash_fr3_pilot_controller</name>
+  <version>0.1.0</version>
+  <description>Bounded FR3 execution-chain experiment with an in-controller heartbeat watchdog.</description>
+  <maintainer email="maintainer@example.invalid">Local FLASH FR3 experiment</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>controller_interface</depend>
+  <depend>controller_manager_msgs</depend>
+  <depend>hardware_interface</depend>
+  <depend>pluginlib</depend>
+  <depend>rclcpp</depend>
+  <depend>rclcpp_lifecycle</depend>
+  <depend>realtime_tools</depend>
+  <depend>std_msgs</depend>
+  <depend>libfranka</depend>
+  <test_depend>ament_cmake_gtest</test_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

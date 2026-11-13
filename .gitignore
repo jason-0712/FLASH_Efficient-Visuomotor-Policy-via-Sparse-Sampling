@@ -1,0 +1,45 @@
+# Generated Python and ROS files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+build/
+install/
+log/
+
+# Demonstrations, checkpoints, observations and experiment outputs stay local
+data/
+dataset/
+datasets/
+runs/
+observations/
+artifacts/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.npy
+*.npz
+*.parquet
+*.mp4
+*.avi
+*.mov
+*.bag
+*.db3
+*.mcap
+*.so
+*.o
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+
+# Machine-local configuration and credentials
+.env
+.env.*
+*.pem
+*.key
+configs/*.local.*
+.codex/
+.agents/

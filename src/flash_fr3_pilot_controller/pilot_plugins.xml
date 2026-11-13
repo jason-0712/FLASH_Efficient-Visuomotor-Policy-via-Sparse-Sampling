@@ -1,0 +1,7 @@
+<library path="flash_fr3_pilot_controller">
+  <class name="flash_fr3_pilot_controller/PilotController"
+         type="flash_fr3_pilot_controller::PilotController"
+         base_class_type="controller_interface::ControllerInterface">
+    <description>One bounded out-and-back position reference; latched heartbeat watchdog.</description>
+  </class>
+</library>

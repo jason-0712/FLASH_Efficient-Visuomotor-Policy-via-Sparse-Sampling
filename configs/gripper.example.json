@@ -1,0 +1,7 @@
+{
+  "format": "flash_fr3_task_demonstration_events_v1",
+  "gripper_target_width_m": 0.028758387565612793,
+  "gripper_epsilon_m": 0.012,
+  "gripper_force_N": 20.0,
+  "gripper_speed_m_s": 0.1
+}

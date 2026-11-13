@@ -1,0 +1,12 @@
+diff --git a/crisp_controllers_robot_demos/config/fr3/fr3.ros2_control.urdf.xacro b/crisp_controllers_robot_demos/config/fr3/fr3.ros2_control.urdf.xacro
+index 554e45f..adb1219 100644
+--- a/crisp_controllers_robot_demos/config/fr3/fr3.ros2_control.urdf.xacro
++++ b/crisp_controllers_robot_demos/config/fr3/fr3.ros2_control.urdf.xacro
+@@ -25,6 +25,7 @@
+             <plugin>franka_hardware/FrankaHardwareInterface</plugin>
+             <param name="robot_ip">${robot_ip}</param>
+             <param name="arm_prefix">${arm_prefix}</param>
++            <param name="version">0.0.0</param>
+           </xacro:unless>
+           <xacro:if value="${use_fake_hardware}">
+             <plugin>crisp_mujoco_sim/Simulator</plugin>
