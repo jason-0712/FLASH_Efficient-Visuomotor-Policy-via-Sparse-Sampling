@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "paired_test_ids": [
+    0,
+    1,
+    2
+  ],
+  "paired_actual_resets_and_rgb_bitwise_equal": true,
+  "both_resets_match_frozen_cpu_traces": true,
+  "both_ema_weights_and_normalizers_verified": true,
+  "native_controller_arrays_equal": true,
+  "task_success_not_a_gate": true
+}

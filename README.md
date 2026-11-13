@@ -1,10 +1,29 @@
-# FLASH 在 Franka FR3 上的真机部署
+# FLASH 仿真复现与 Franka FR3 真机部署
 
-基于 [FLASH: Efficient Visuomotor Policy via Sparse Sampling](https://arxiv.org/abs/2605.15492) 的自有双相机抓放复现。使用74条VR示教训练策略，在真实FR3上执行原始Legendre多项式位置、解析速度前馈、连续关节力矩和异步夹爪动作，没有运行机器人动力学仿真。
+基于 [FLASH: Efficient Visuomotor Policy via Sparse Sampling](https://arxiv.org/abs/2605.15492) 的复现项目，包含 LIBERO/MuJoCo 单任务仿真评测和自有双相机 Franka FR3 抓放部署。真机部分使用74条VR示教训练策略，在真实FR3上执行原始Legendre多项式位置、解析速度前馈、连续关节力矩和异步夹爪动作。
 
 **2026-11-13 已完成一次由现场操作者确认的完整自主抓放。** 对应原15k EMA模型完成32次连续更新，抓取与释放均成功。当前成功率实验进行中；一次成功不代表论文任务成功率或全部性能指标已经复现。
 
-本仓库保存源码、配置示例与过程文档。示教视频、数据缓存、模型权重、现场图像和运行记录不上传。
+本仓库保存源码、配置示例、过程文档和仿真结果。真机示教视频、数据缓存、模型权重、现场图像和现场运行记录保留在本机。
+
+## 仿真结果
+
+2026-10-28—29 完成的单任务实验现已整理到 [simulation/](simulation/README.md)。任务为 `libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate`，使用同批40条参考回放示范（39条优化、1条内部验证），训练 seed 42。
+
+以下为冻结的50组未见物体位置、同一 H100 GPU2 上的配对闭环评测，共400回合：
+
+| 训练更新数 | FLASH，1步推理 | FM-DiT，10步推理 |
+| --- | --- | --- |
+| 2,500 | 48/50（96%） | 10/50（20%） |
+| 5,000 | 49/50（98%） | 32/50（64%） |
+| 7,500 | 50/50（100%） | 36/50（72%） |
+| 10,000 | 50/50（100%） | 44/50（88%） |
+
+![未见位置闭环收敛曲线](simulation/flash-heldout-convergence/plots/heldout-convergence.png)
+
+成功率采用原任务的几何 `SuccessOnce`，测试范围为固定机器人初态、训练坐标范围内的新物体位置。此前在原始50组来源初态上的独立补充实验中，要求释放并稳定保持至少2秒时，双方均为0/50；该结果与上表分开报告。当前结果限于单任务、单训练 seed。
+
+[完整结果与口径](simulation/README.md)包括逐回合 CSV/JSONL、冻结初态、配置、曲线、稳定放置诊断、推理计时及校验脚本；训练数据、检查点、视频和二进制轨迹仍在原实验留档中。
 
 ## 代码范围
 
@@ -21,6 +40,7 @@
 | `src/flash_fr3_pilot_controller` | 早期接口调试控制器，不是正式任务前置条件 |
 | `configs/` | 本次成功配置摘要、夹爪和起始关节姿态示例 |
 | `docs/DEPLOYMENT.md` | 机器人端依赖、部署与正式运行入口 |
+| `simulation/` | LIBERO/MuJoCo仿真结果、逐回合记录、历史复现脚本和文件校验 |
 
 其他`pilot`、`model_prefix`、`retimed`、`torque_hold`及相关测试脚本保留开发历史。正式完整任务使用`run_flash_fr3_pickplace.sh --execute`，无需逐个运行这些旧入口。
 

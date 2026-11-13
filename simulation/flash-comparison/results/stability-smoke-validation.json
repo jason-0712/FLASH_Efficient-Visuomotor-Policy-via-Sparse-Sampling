@@ -1,0 +1,53 @@
+{
+  "same_gpu_original_first_success_step": 118,
+  "prefix_max_errors": {
+    "pos_desired": 0.0,
+    "pos_actual": 0.0,
+    "vel_desired": 0.0,
+    "vel_actual": 0.0
+  },
+  "prefix_exactly_equal": true,
+  "cross_gpu_comparison": {
+    "gpu3_original_first_success_step": 117,
+    "gpu1_first_success_step": 118,
+    "prefix_max_errors": {
+      "pos_desired": 0.010477066040039062,
+      "pos_actual": 0.010076522827148438
+    },
+    "interpretation": "Cross-GPU numerical differences accumulated in closed-loop control. This is retained separately; instrumentation is checked against an unmodified early-stop control on the same GPU."
+  },
+  "smoke_stability_result": {
+    "rollout_id": 0,
+    "geometric_success_once": true,
+    "first_geometric_success_step": 118,
+    "stable_placement_success": false,
+    "stable_hold_first_completed_step": null,
+    "longest_stable_sample_span_s": 0.0,
+    "released_at_goal_once": false,
+    "termination": "300_step_supplemental_horizon",
+    "stable_failure_reason": "never_released_at_goal",
+    "checkpoint_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/checkpoints/10000.ckpt",
+    "bowl_final_linear_speed_m_s": 0.0020958764663807513,
+    "bowl_final_angular_speed_rad_s": 0.20989694870748332
+  },
+  "geometric_position_formula_matches": true,
+  "native_linear_speed_range_m_s": [
+    1.2670810671586851e-12,
+    1.0055297128927283
+  ],
+  "native_angular_speed_range_rad_s": [
+    1.082751555492525e-13,
+    10.51853989376131
+  ],
+  "finger_position_ranges_m": [
+    [
+      0.0018393294885754585,
+      0.04001309722661972
+    ],
+    [
+      -0.024912307038903236,
+      0.040350791066884995
+    ]
+  ],
+  "maximum_hand_contact_count": 33
+}

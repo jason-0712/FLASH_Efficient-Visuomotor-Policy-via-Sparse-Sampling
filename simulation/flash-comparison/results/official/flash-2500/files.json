@@ -1,0 +1,902 @@
+[
+  {
+    "path": "results/official/flash-2500/raw/0000.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0000.txt",
+    "bytes": 568,
+    "sha256": "95e8701b3e464814fc1fd279a6d8810c2a775d7a916e6cc9fb6cb8e991e506ad"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0.mp4",
+    "bytes": 72203,
+    "sha256": "dc8a40f33c938341c518678cc2b28b136cd76e7e43ad331fe01fa6b74301303c"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo0.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo0.npz",
+    "bytes": 20302,
+    "sha256": "40b7ee77d5899fe8308bf91436a02d71da056c19e908461b1d6bde7c4c905019"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0001.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0001.txt",
+    "bytes": 565,
+    "sha256": "5cf76177676c12c821c3071147c8c4cf47e9544dd5f26938815c9bd7b56d37bb"
+  },
+  {
+    "path": "results/official/flash-2500/raw/1.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/1.mp4",
+    "bytes": 58222,
+    "sha256": "5f699f82d27e4a31854286d9418c85506a69ecc3a6b53fce49ce9d0a41ae64e2"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo1.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo1.npz",
+    "bytes": 16414,
+    "sha256": "14ae8cb337c6018c0778cad6ee112f581d3e00867ea12c204bda5db56ab40c14"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0002.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0002.txt",
+    "bytes": 565,
+    "sha256": "04d1bee0ab39b411f42d01819c9c92c298f876772376fd6dfcb2874d90152220"
+  },
+  {
+    "path": "results/official/flash-2500/raw/2.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/2.mp4",
+    "bytes": 65972,
+    "sha256": "fca2ad6e11e63020227f29c5f98711d5d3f7ebda7ee7f94e6f92c2712d845f34"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo2.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo2.npz",
+    "bytes": 18574,
+    "sha256": "a438f594c2cf6d82eb44985168dd8c34a0d8e9ac5466019a7bb078586f2af3c1"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0003.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0003.txt",
+    "bytes": 565,
+    "sha256": "183995c367262a4abed18a40ffa6d109eb8960ee8b955b7d06ec251b5a5d62ce"
+  },
+  {
+    "path": "results/official/flash-2500/raw/3.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/3.mp4",
+    "bytes": 64681,
+    "sha256": "43c407aed33fddf4bfcaa1633426d241bb95a3fcf71f7526ee535ff9549fe391"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo3.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo3.npz",
+    "bytes": 18286,
+    "sha256": "d7669afbdd5377c26f47c0758b7cb638ead93790ab91e96e04fd55e103599c86"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0004.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0004.txt",
+    "bytes": 565,
+    "sha256": "32cf90dce82aea667a653b41985744d3beb06afaee631db80cdd5cb9bdcde7d9"
+  },
+  {
+    "path": "results/official/flash-2500/raw/4.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/4.mp4",
+    "bytes": 61213,
+    "sha256": "6a502ec867a8491692c533f06889f49dabddbb60a61024b67c43808c99450b58"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo4.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo4.npz",
+    "bytes": 16990,
+    "sha256": "4dc8a03a61cd16c5146e22517b2a74bb890578e80b0e48e86353bfb402841c59"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0005.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0005.txt",
+    "bytes": 565,
+    "sha256": "511958a4499de4fbefa6419bd7aec77f0ebc7876f1d7d5dd74c84184be6b8958"
+  },
+  {
+    "path": "results/official/flash-2500/raw/5.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/5.mp4",
+    "bytes": 70667,
+    "sha256": "97f23539845ee973173af9b2f3c3d070fb47f407823152c48d811f824561b9d8"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo5.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo5.npz",
+    "bytes": 20302,
+    "sha256": "9022c7ccd4a312db3e1f3c83ff29001cb2b6d571579e51e92997ce7c4c253c56"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0006.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0006.txt",
+    "bytes": 565,
+    "sha256": "bf2584160620c8b3b356633034bebc7de1dc050868f6027d2a0664df40fc8d7f"
+  },
+  {
+    "path": "results/official/flash-2500/raw/6.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/6.mp4",
+    "bytes": 58371,
+    "sha256": "c7ed7cade502351c6612fb40526772c55a4abf3a2a69be397b4e71d8fd90acee"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo6.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo6.npz",
+    "bytes": 16414,
+    "sha256": "37da8127ff013d30f907604f16a463554a573ed619c03c1a3faa38854b2d145d"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0007.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0007.txt",
+    "bytes": 565,
+    "sha256": "61eb22c549c289d0ee4f0fc46212133566358727e343915cedd405964a76aab1"
+  },
+  {
+    "path": "results/official/flash-2500/raw/7.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/7.mp4",
+    "bytes": 62511,
+    "sha256": "3bc7d6736a031e63d271e22e85b4b0524a04b847c6b866a0edd2b32096ae980b"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo7.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo7.npz",
+    "bytes": 17422,
+    "sha256": "edead41ead227f03a3c74464fcc89f49cca154377532a674b9160d72f3970ed3"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0008.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0008.txt",
+    "bytes": 566,
+    "sha256": "f41fa9a619eea47cadf20f4f24e656b00f8f64d179f9d7b10dee87b257bfe917"
+  },
+  {
+    "path": "results/official/flash-2500/raw/8.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/8.mp4",
+    "bytes": 63385,
+    "sha256": "d3eab7142ecd0035c4261f600277576f623569e5c11c312ad2e0cf892ec28c8f"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo8.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo8.npz",
+    "bytes": 17854,
+    "sha256": "6613b6d286d047e5dfba5364822072f2012dd03588f0dc7f22bd1f5ef9a02f36"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0009.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0009.txt",
+    "bytes": 565,
+    "sha256": "d84b6131a6bb46006d5ea1cc6aedc33270c7571f1bd8d3bdbc56b02c0f704523"
+  },
+  {
+    "path": "results/official/flash-2500/raw/9.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/9.mp4",
+    "bytes": 62928,
+    "sha256": "8cf29a32b801d98426cc00945d1dd4b187354d00c976be824a42838ddf7750a7"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo9.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo9.npz",
+    "bytes": 17998,
+    "sha256": "5a2b3c51c074a947b5c265949b5547de8df75688dd988a403d5a16d6a860b039"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0010.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0010.txt",
+    "bytes": 567,
+    "sha256": "3e9d8eaadbf74498ad1740e7ebdb943bf3f0d9cc6cbfc86a99e89b5a6853b88e"
+  },
+  {
+    "path": "results/official/flash-2500/raw/10.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/10.mp4",
+    "bytes": 80433,
+    "sha256": "73fd705aed2b6ba0c875ac21ef495883a2728be24b64b874d3507a62a06ad331"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo10.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo10.npz",
+    "bytes": 23758,
+    "sha256": "46fd66765d8b8215dc8e3f34339ace9a1ec4513b3bb8ef3c25d9dc9689133bd6"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0011.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0011.txt",
+    "bytes": 567,
+    "sha256": "f916a3f30a3e4c8f24d6b6de77925512b60cb0f9595f74f3fe2c229acc20f417"
+  },
+  {
+    "path": "results/official/flash-2500/raw/11.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/11.mp4",
+    "bytes": 64852,
+    "sha256": "b3ca0dd57f7f5583185f984bae2dc3f581f54147ee8c82f4a8cdb8f808ada6c1"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo11.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo11.npz",
+    "bytes": 18142,
+    "sha256": "e249e86ab9b237c8d8f1dc6b83e95cf1efb7b157d23628f7405670a7ec4bd46c"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0012.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0012.txt",
+    "bytes": 567,
+    "sha256": "994d9d135025927fdebae8688f0ff5328afbaa68d2221abcc99d93a2deb6a72e"
+  },
+  {
+    "path": "results/official/flash-2500/raw/12.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/12.mp4",
+    "bytes": 57835,
+    "sha256": "f26b5cb3eba27d5d13190a86be8bb357cca5e8836ecfa5964c5ce2b112dc78a1"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo12.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo12.npz",
+    "bytes": 16414,
+    "sha256": "4f26ecbe8785fcccc100a1939c0e983f85f8239fc92227cbd4b094694291570d"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0013.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0013.txt",
+    "bytes": 567,
+    "sha256": "8e7212cb00098701b707754bfd3ad2608f7f948b53e2c6304308d8a8bdaaaa03"
+  },
+  {
+    "path": "results/official/flash-2500/raw/13.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/13.mp4",
+    "bytes": 66459,
+    "sha256": "9d1b5fadc15359373c92e4a71f55ad02ac609b5f6f2d4b36cbe0bd14d196ea6f"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo13.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo13.npz",
+    "bytes": 18430,
+    "sha256": "6c95931624d03e5cf0dbb2bdd29e02f766540f66ea6cb69d3f860f0815cae78c"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0014.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0014.txt",
+    "bytes": 567,
+    "sha256": "fb15b887f761fe23d524043f0db0a07e64e17d1c91d0154f1377ada6b8da1834"
+  },
+  {
+    "path": "results/official/flash-2500/raw/14.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/14.mp4",
+    "bytes": 63494,
+    "sha256": "4ccd4794dd02615d9937ea468346c389992b25552495de88e97c5a41383186e3"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo14.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo14.npz",
+    "bytes": 18286,
+    "sha256": "3963596652c8d912d4bd358989032692f0c6e1b4e6c88090222154b587b6e92b"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0015.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0015.txt",
+    "bytes": 567,
+    "sha256": "c9dbc3ef7ae2eba24ee081af1ef95a6a33dcb7cb75d91f2b7f144b3dcf7ce0a5"
+  },
+  {
+    "path": "results/official/flash-2500/raw/15.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/15.mp4",
+    "bytes": 57985,
+    "sha256": "08e4ab06842bc328f53de9d69d88b1d2abc34deeaf029282fcb8ff2b4536bfc8"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo15.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo15.npz",
+    "bytes": 16126,
+    "sha256": "0e1ebc2301c2e235044ee743caecdc069cb540924c649b96501a2b1b0682a46b"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0016.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0016.txt",
+    "bytes": 567,
+    "sha256": "a9fd1e900af6ce8ce7f9f42d74a1d84c5bb95b83d9848dd80d78318b67fb92b6"
+  },
+  {
+    "path": "results/official/flash-2500/raw/16.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/16.mp4",
+    "bytes": 73698,
+    "sha256": "4a5fa6089e07ca52f50416846bccb658c9dc24f88246182faedca1c5c5a37ac5"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo16.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo16.npz",
+    "bytes": 20734,
+    "sha256": "ddadf5998bfe0130a8bae069b4ec04d58fce3aec1d7003626068d9128fd1b846"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0017.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0017.txt",
+    "bytes": 566,
+    "sha256": "3379f72b31bd720db7f97b156ac801383b59ab95daa1a36c8bef5264e75b9710"
+  },
+  {
+    "path": "results/official/flash-2500/raw/17.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/17.mp4",
+    "bytes": 58182,
+    "sha256": "76f21d5e9fa0351079a132bec974739ede104da0f1764cb88d90889a46e842c1"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo17.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo17.npz",
+    "bytes": 16270,
+    "sha256": "a45c71a0076aac3d6b9e6c51b9f342f9ee263d33ab05dc89e0296f890815c9fa"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0018.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0018.txt",
+    "bytes": 566,
+    "sha256": "e7d372547eadc46b647c7abbe9bb61317331894f6808d8a6110017ea0cde4b10"
+  },
+  {
+    "path": "results/official/flash-2500/raw/18.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/18.mp4",
+    "bytes": 58766,
+    "sha256": "0517b733c0d16cda4eecb1e3f5be41f86d7ff84c8ff18d202fe84a1cde32623d"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo18.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo18.npz",
+    "bytes": 16846,
+    "sha256": "5a48f0b8022fe3d1740a16eea89edf96584508cc183f5337e5925a39805a90af"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0019.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0019.txt",
+    "bytes": 566,
+    "sha256": "ea81ef373e60152c4656978588250290c08c8725b46215390e6afccaac883e18"
+  },
+  {
+    "path": "results/official/flash-2500/raw/19.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/19.mp4",
+    "bytes": 72853,
+    "sha256": "cb964952798022cef08e1cb9eca6e0f6b29d8eaaaa6a552956120bb216414533"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo19.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo19.npz",
+    "bytes": 20446,
+    "sha256": "de9cf7080e52a49c2c4ddb1851adb362484f827cadb41e8a30698f26e47808db"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0020.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0020.txt",
+    "bytes": 566,
+    "sha256": "34e18057e7633f853b2458bed8448f1b348a2d47cb798f26c9f0cce762fb3a4b"
+  },
+  {
+    "path": "results/official/flash-2500/raw/20.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/20.mp4",
+    "bytes": 65236,
+    "sha256": "a01c13f11f7b585cd17545fbb025e9dcb84d292f71f2a906796a738ca3a7197c"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo20.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo20.npz",
+    "bytes": 17998,
+    "sha256": "2ab5e8fe6d20a4ef4e577cfd0c6d7813d10476921c23daec8099bc9a83a0c3bb"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0021.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0021.txt",
+    "bytes": 566,
+    "sha256": "e373447f0e3cbae04264e0af3a524903b269f8a095d202e26209931e84cdf3b4"
+  },
+  {
+    "path": "results/official/flash-2500/raw/21.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/21.mp4",
+    "bytes": 57827,
+    "sha256": "7fa5ee330f4537f0c417e41df6af0ade083fb2836f2294a5489b3448afd859bb"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo21.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo21.npz",
+    "bytes": 16846,
+    "sha256": "1b0c215936cd62f3c27bb2d56ebd87061e05cac6811ee7343085e324307da11f"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0022.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0022.txt",
+    "bytes": 566,
+    "sha256": "47744b1f712658079e0e5818708023f1962820527e359d08cd9ac36667db825d"
+  },
+  {
+    "path": "results/official/flash-2500/raw/22.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/22.mp4",
+    "bytes": 63745,
+    "sha256": "e8ef4990705465ff1472c4ee605e4b4584997dd8d83c7ccd820710d12a2baba6"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo22.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo22.npz",
+    "bytes": 18142,
+    "sha256": "76e180796a1813b5d5cbb9270a67295250d2aa4ed8a4bbcbe67400408f52c05d"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0023.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0023.txt",
+    "bytes": 566,
+    "sha256": "eab209d0d43f7002479a8d2d3e5a38d4fc505ee1132b3571cca7137079c0ad6f"
+  },
+  {
+    "path": "results/official/flash-2500/raw/23.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/23.mp4",
+    "bytes": 58134,
+    "sha256": "6196db4fbf6c04a5ce19d46ccfe3083d74419f3ddb9899b6ea10c560929b8c37"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo23.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo23.npz",
+    "bytes": 16270,
+    "sha256": "f4bddeb92f3caa5de584d011194142f33e4b068be5a6c9e34b8f67ea8289d527"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0024.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0024.txt",
+    "bytes": 566,
+    "sha256": "4a860e10ecf4f60f3a82c0065b7123e281930095727495a31151b17c974948e1"
+  },
+  {
+    "path": "results/official/flash-2500/raw/24.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/24.mp4",
+    "bytes": 59334,
+    "sha256": "0fff9e54f64eafa43fc4b4845947b3ca41a1c4f4f57477296af58b29d170ebd7"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo24.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo24.npz",
+    "bytes": 16846,
+    "sha256": "762096c0677554af35190b0a3191a2c6a673bc75487ef39c13393ad121a3e749"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0025.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0025.txt",
+    "bytes": 565,
+    "sha256": "7afe4dc900f9ac50a7c4343223cb864dc96aca660e920218e99848814ea4c213"
+  },
+  {
+    "path": "results/official/flash-2500/raw/25.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/25.mp4",
+    "bytes": 51995,
+    "sha256": "b843dffc96b5843a66284a66649d16679f948f914deeed5a4d43d4bd454a83a3"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo25.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo25.npz",
+    "bytes": 14686,
+    "sha256": "8d3c987f8214cc74a1dfc4b144b3ae32675cac3ecde5cecacfc91a02c236c6ff"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0026.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0026.txt",
+    "bytes": 566,
+    "sha256": "7f3c66bae4a297d2a7b29268afec52779f73cf6275acb7bf3f9a3fac78f251fb"
+  },
+  {
+    "path": "results/official/flash-2500/raw/26.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/26.mp4",
+    "bytes": 60003,
+    "sha256": "9fb22ec8d8e7740b81d88b7c3503744fec3548d2afae8f600922d23e6c7ad2ae"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo26.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo26.npz",
+    "bytes": 16558,
+    "sha256": "e8488b84e0d0402caa837bb6633b2ad86f20d802b1eb8bc6db8d77891da53506"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0027.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0027.txt",
+    "bytes": 566,
+    "sha256": "c5ab146e32dff9c0e6c974e9bc18af83d070cc29c239c9d60cfee14513aeadce"
+  },
+  {
+    "path": "results/official/flash-2500/raw/27.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/27.mp4",
+    "bytes": 65451,
+    "sha256": "90017b882e78e7b2f3eb4fdf48f87833186b360d2859accd423da623f7566d6b"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo27.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo27.npz",
+    "bytes": 18286,
+    "sha256": "aef672e99d9d7f4e464beadd47c716c15865db123f1628625299e3875ad46335"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0028.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0028.txt",
+    "bytes": 566,
+    "sha256": "df4575b8f694bba43125dd87afaee3469480e13ecba4a473ce95a9bebc3e1d92"
+  },
+  {
+    "path": "results/official/flash-2500/raw/28.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/28.mp4",
+    "bytes": 61815,
+    "sha256": "4e4d6332641a1614c89058eb63d9bc186698d5a40fcd5c98ac7877785c95c735"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo28.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo28.npz",
+    "bytes": 17422,
+    "sha256": "91e820ec72ef19dad3f505dab25ed295c2022d3f97f87585e86355331e47794d"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0029.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0029.txt",
+    "bytes": 566,
+    "sha256": "da2be71faec13435ef5ce2e75c08bc6059ce2c932a246b479f350f80f135eec7"
+  },
+  {
+    "path": "results/official/flash-2500/raw/29.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/29.mp4",
+    "bytes": 59972,
+    "sha256": "5b8e018caebe56e649679dd45f558c50e55673dd41c61046dd0c8aaa818b9787"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo29.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo29.npz",
+    "bytes": 17134,
+    "sha256": "0a47cd45ccad65658b782f45c63f26aacb359ca841e4545ece735229f5ecb6ba"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0030.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0030.txt",
+    "bytes": 566,
+    "sha256": "1410a9073f2af47deb8fd69816d9b4a45381a822c3f28493465e7fe180153163"
+  },
+  {
+    "path": "results/official/flash-2500/raw/30.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/30.mp4",
+    "bytes": 66561,
+    "sha256": "4d797b8d2d984009518bb0b101de4ca82a0725d0e15cc6ae4f641a5f81da035a"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo30.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo30.npz",
+    "bytes": 18862,
+    "sha256": "cc42d72fecacb1dd002acba7f1c91e7315d99e867f513e1beeaf7219fe7b0107"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0031.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0031.txt",
+    "bytes": 566,
+    "sha256": "03292a9a7014301ab218dd2f467d70bfe3b4d2a0fb0f3ddce8eae33daef2e291"
+  },
+  {
+    "path": "results/official/flash-2500/raw/31.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/31.mp4",
+    "bytes": 63546,
+    "sha256": "3ca44a921e0d46bbaa2026168506d04e3f11c51322dbacaec19df4a61e9df765"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo31.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo31.npz",
+    "bytes": 17710,
+    "sha256": "211a675953172b859b64e1616828ccf9f051711be02395da967c82f0ee0cf084"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0032.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0032.txt",
+    "bytes": 566,
+    "sha256": "f2ccf1c9e3d1b992c83703a90dcef6071d7e8798af9c37979297dc5f1ae0a272"
+  },
+  {
+    "path": "results/official/flash-2500/raw/32.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/32.mp4",
+    "bytes": 57609,
+    "sha256": "763b91941c68d882c2236a6051c4b1713085e3657c57d4e83887cf97aaab192e"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo32.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo32.npz",
+    "bytes": 16270,
+    "sha256": "a792d03cb92c1877d9ff3f401034950fd20b21fc5bb8f760c9ce6ff7d9907389"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0033.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0033.txt",
+    "bytes": 566,
+    "sha256": "7c3988a5b144356a05fc946c82b48b6ed41a8126d8d61c6d46026f36912d7b84"
+  },
+  {
+    "path": "results/official/flash-2500/raw/33.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/33.mp4",
+    "bytes": 61047,
+    "sha256": "f62a600d03aed8361c0e00df6a152e62f2a0e3ba1646000de902e9956abb59de"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo33.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo33.npz",
+    "bytes": 16846,
+    "sha256": "7470f135e0ad524c3bfb767b9dde3eec75bec5ac8353690929e2afc0da55eeaf"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0034.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0034.txt",
+    "bytes": 566,
+    "sha256": "99096b4a0e681c0ec04ae7f6634ee9ace3dbca9405b7dddd4e650d4b9a1f0e61"
+  },
+  {
+    "path": "results/official/flash-2500/raw/34.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/34.mp4",
+    "bytes": 67539,
+    "sha256": "028ea7811afb87ff18a192731543be57c9815ede958d612d73aee60d46550995"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo34.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo34.npz",
+    "bytes": 19006,
+    "sha256": "261984d46874afbf8ef01038a565f16ae0c758a09984a9d8b50a969686d6f373"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0035.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0035.txt",
+    "bytes": 566,
+    "sha256": "743ea4751a4142b243a6b1f5bb4d415a93b398eac91381a11760e3cb591e3bff"
+  },
+  {
+    "path": "results/official/flash-2500/raw/35.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/35.mp4",
+    "bytes": 63920,
+    "sha256": "cbfb07ec2539926d4200201051de2f2f2c2f48d7a1a4cfff406e07417d14e1b1"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo35.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo35.npz",
+    "bytes": 17854,
+    "sha256": "d6206f0b5ea86f67e6a1bc72749d20865dad2a4238580524f6525848c8e6b577"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0036.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0036.txt",
+    "bytes": 566,
+    "sha256": "0c12017ddd3b7cd707c7b596f9272613a00604d18e5d7ccf546dd62510e57f85"
+  },
+  {
+    "path": "results/official/flash-2500/raw/36.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/36.mp4",
+    "bytes": 70344,
+    "sha256": "0c37756d0b475fb71819b910199aab94f2093448f31a1ea4cb211e4ffa3fac4f"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo36.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo36.npz",
+    "bytes": 19582,
+    "sha256": "887c128ba103e1e565ec6ed00ea87a2fa0964f6605680fd8cca1f48e7f7f50c4"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0037.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0037.txt",
+    "bytes": 566,
+    "sha256": "195e904d466722e819e54f565ff7587d607587f1aa99c4687bad0e32cbee518c"
+  },
+  {
+    "path": "results/official/flash-2500/raw/37.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/37.mp4",
+    "bytes": 63518,
+    "sha256": "4c176664a473cb9424304a0e682bc6026f94114de1cde91e3849f4c407be09b0"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo37.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo37.npz",
+    "bytes": 17854,
+    "sha256": "10b3badb75d1ca311bb71de77b8242ec0aa16f1302d82573e880f1a350f68e3d"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0038.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0038.txt",
+    "bytes": 566,
+    "sha256": "c97deae89c49bf281087a1a08b208b893dbe380ff77ce7a2a03cb1fe2d9b46d5"
+  },
+  {
+    "path": "results/official/flash-2500/raw/38.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/38.mp4",
+    "bytes": 70299,
+    "sha256": "4dfa731c9a37fd5f819b31a3abf506f727d155b40581b9a953788f8ee9a867e7"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo38.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo38.npz",
+    "bytes": 20158,
+    "sha256": "223a4cfc79efcece98321d5a39d7241330bc3728f845bd60c3398e8d227bb5dd"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0039.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0039.txt",
+    "bytes": 566,
+    "sha256": "eded80320e23ceb92f6d2a72f557215f79140155b1f82d1c867a686fc51b4ff0"
+  },
+  {
+    "path": "results/official/flash-2500/raw/39.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/39.mp4",
+    "bytes": 59558,
+    "sha256": "282ba5908b0248ee8333c0f012c71df9d77ed2a3864129d41b7f518458fc93c5"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo39.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo39.npz",
+    "bytes": 16702,
+    "sha256": "4cfeebb80b930c0d1cbe7987f65e12d0b872a9dbc3acd5cb477a7e0fd0a69945"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0040.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0040.txt",
+    "bytes": 566,
+    "sha256": "1a7be6aef84ed01e434f5ade7abe6e76f2e77cc5d7894d234ed9809d2e60987e"
+  },
+  {
+    "path": "results/official/flash-2500/raw/40.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/40.mp4",
+    "bytes": 64264,
+    "sha256": "3a5d9c683be6d85b604847eced31db7ede39d93bca85a5f56f64b6038a0a1b1d"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo40.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo40.npz",
+    "bytes": 17998,
+    "sha256": "3e9b17b5310fec416560c4e66401e07d3c1bb77695fc909eaafe4649ee1f4fca"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0041.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0041.txt",
+    "bytes": 566,
+    "sha256": "e12f45a9e770b51147aaa14da943d586ca3c9178faf534b4974336b59a3a1677"
+  },
+  {
+    "path": "results/official/flash-2500/raw/41.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/41.mp4",
+    "bytes": 70862,
+    "sha256": "7888d91948dd548d5554f01de3f3a1b63c6ff868c0b2bca62282156dccfd2c8f"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo41.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo41.npz",
+    "bytes": 20590,
+    "sha256": "f02e8e9aaaad0a2d92485df8b34efe8b3736c17f2335d30b86cb3b6af8e50ccf"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0042.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0042.txt",
+    "bytes": 566,
+    "sha256": "e89195de11b78d78f01280dd316a5c5e996028e841d1a1e3f25e203209dcfd28"
+  },
+  {
+    "path": "results/official/flash-2500/raw/42.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/42.mp4",
+    "bytes": 72252,
+    "sha256": "3a574977898045437bfe0d7645a88d8fb7cb3de54d62e94be4aed7ff839f7c2f"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo42.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo42.npz",
+    "bytes": 20302,
+    "sha256": "832365c20526add8b80d383ce5e8fd765c1e252d9eba0997ca16295d2d6479b2"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0043.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0043.txt",
+    "bytes": 566,
+    "sha256": "5809fde5dc84f002149b55a4cb5f364656c2da6354a6e37ad21ed3550df15b4b"
+  },
+  {
+    "path": "results/official/flash-2500/raw/43.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/43.mp4",
+    "bytes": 62145,
+    "sha256": "27e1fe0ab2f16cc56d7324ec6aeceb7daad7c4285756d538d117fd3cc4973516"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo43.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo43.npz",
+    "bytes": 17566,
+    "sha256": "81c3bd953136d660545fe7f885418d7b650be5ec986bfb5934df83fb12c189eb"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0044.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0044.txt",
+    "bytes": 566,
+    "sha256": "404f80f3610792a19ba42af91567f7c6371d1144b6ee1736afb892e103c89af2"
+  },
+  {
+    "path": "results/official/flash-2500/raw/44.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/44.mp4",
+    "bytes": 58036,
+    "sha256": "6627a06b74921691674041e71360b83d836be29bdd6dc47b24ff88888447446d"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo44.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo44.npz",
+    "bytes": 16270,
+    "sha256": "ea935efcddcdc8f7a558b46c1afaeaeea742840a7dda87f3626f1a9424daf3e7"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0045.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0045.txt",
+    "bytes": 566,
+    "sha256": "aa933c42516eeb6637679e37053e1cac0ac96aca74d3cf79e4f5b4bd7b565c93"
+  },
+  {
+    "path": "results/official/flash-2500/raw/45.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/45.mp4",
+    "bytes": 72230,
+    "sha256": "5c55b1ebf6494af218a622fcf4c2ca12de60a3630df580a0211ba467cf92ed6f"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo45.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo45.npz",
+    "bytes": 20590,
+    "sha256": "c3eba0125116780dfe49388fc823e7d2f2115bdaa764efe86483a61018d2511d"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0046.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0046.txt",
+    "bytes": 566,
+    "sha256": "5d0792097cb6245db4192766f3d43345e6dbb864543a89942f4d07c544514338"
+  },
+  {
+    "path": "results/official/flash-2500/raw/46.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/46.mp4",
+    "bytes": 70164,
+    "sha256": "bc725a361eccad7fb460d49cd7a0b2612ea8d5235232d0b21545c440827bcad1"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo46.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo46.npz",
+    "bytes": 20014,
+    "sha256": "657cc997581bdc35dde8fc9ed0284c97bc46babdbdcd28e032f55b4a7552c33d"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0047.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0047.txt",
+    "bytes": 566,
+    "sha256": "21eeabe69594d7ff3e11d0c8dd3d61ad11f873c328cd502b7db36b810fae516d"
+  },
+  {
+    "path": "results/official/flash-2500/raw/47.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/47.mp4",
+    "bytes": 61889,
+    "sha256": "9087108050855de68a8f99d1ee67d1fd03b5fa2949c8da1b46b433f661d3ddad"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo47.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo47.npz",
+    "bytes": 17710,
+    "sha256": "b7d3613aebef9968ed526b0fd1dedab47127b3acb972467aa7256c5a73e5db69"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0048.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0048.txt",
+    "bytes": 566,
+    "sha256": "0e4f9b084828d70f6cbbbd87dccefdfa4db63a899419e3581c72c2faa0ca3326"
+  },
+  {
+    "path": "results/official/flash-2500/raw/48.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/48.mp4",
+    "bytes": 62291,
+    "sha256": "15d146fb20187115ecfd29340b341d311a934380529f473b71b02c98aeb9a71f"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo48.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo48.npz",
+    "bytes": 17134,
+    "sha256": "473742b5c6ff98fcaf32f39d8bf1ce0554b71cdd0b7bbea4dc205b41edda3781"
+  },
+  {
+    "path": "results/official/flash-2500/raw/0049.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/0049.txt",
+    "bytes": 566,
+    "sha256": "29218fa982eb93b304f077ca86c8d9af7ff880f2c518e8649ea49953e10706e6"
+  },
+  {
+    "path": "results/official/flash-2500/raw/49.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/49.mp4",
+    "bytes": 71448,
+    "sha256": "8f6c167d10ec05a7c1f5d53a52bed0c57b57a850abcb0be775993e52122885ae"
+  },
+  {
+    "path": "results/official/flash-2500/raw/diag_data_demo49.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05/vel_diag/npz_data/diag_data_demo49.npz",
+    "bytes": 20302,
+    "sha256": "a431837dc7e086bf67fdf510b435e1c8164cbb77e1758712791222a9df7608e5"
+  }
+]

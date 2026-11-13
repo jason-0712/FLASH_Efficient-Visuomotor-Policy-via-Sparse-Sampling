@@ -1,0 +1,1049 @@
+{
+  "new_npz_files": 65,
+  "existing_npz_files": 100,
+  "new_samples": 21128,
+  "existing_samples": 30000,
+  "all_finite_and_all_saved_flags_exact": true,
+  "new_rollouts": [
+    {
+      "samples": 337,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 0.0,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 0.0,
+        "geometry_no_contact_linear_slow": 0.0,
+        "geometry_no_contact_slow": 0.0,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": false,
+      "kind": "reference",
+      "reference_id": 0
+    },
+    {
+      "samples": 318,
+      "qualified_samples": 190,
+      "longest_spans_s": {
+        "geometry": 3.3449999999999998,
+        "geometry_open": 3.045,
+        "geometry_no_contact": 3.1499999999999995,
+        "geometry_no_contact_linear_slow": 3.0749999999999997,
+        "geometry_no_contact_slow": 2.76,
+        "v1": 2.76
+      },
+      "v1_success": true,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 1
+    },
+    {
+      "samples": 370,
+      "qualified_samples": 65,
+      "longest_spans_s": {
+        "geometry": 3.945,
+        "geometry_open": 3.06,
+        "geometry_no_contact": 3.165,
+        "geometry_no_contact_linear_slow": 2.925,
+        "geometry_no_contact_slow": 0.54,
+        "v1": 0.54
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": false,
+      "kind": "reference",
+      "reference_id": 2
+    },
+    {
+      "samples": 409,
+      "qualified_samples": 170,
+      "longest_spans_s": {
+        "geometry": 2.8049999999999997,
+        "geometry_open": 2.8049999999999997,
+        "geometry_no_contact": 2.8049999999999997,
+        "geometry_no_contact_linear_slow": 2.505,
+        "geometry_no_contact_slow": 2.475,
+        "v1": 2.475
+      },
+      "v1_success": true,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 3
+    },
+    {
+      "samples": 330,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 3.3600000000000003,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 3.045,
+        "geometry_no_contact_linear_slow": 2.91,
+        "geometry_no_contact_slow": 2.865,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 4
+    },
+    {
+      "samples": 326,
+      "qualified_samples": 177,
+      "longest_spans_s": {
+        "geometry": 3.255,
+        "geometry_open": 3.03,
+        "geometry_no_contact": 3.135,
+        "geometry_no_contact_linear_slow": 2.82,
+        "geometry_no_contact_slow": 2.61,
+        "v1": 2.61
+      },
+      "v1_success": true,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 5
+    },
+    {
+      "samples": 328,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 0.0,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 0.0,
+        "geometry_no_contact_linear_slow": 0.0,
+        "geometry_no_contact_slow": 0.0,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": false,
+      "kind": "reference",
+      "reference_id": 6
+    },
+    {
+      "samples": 340,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 0.014999999999999902,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 0.014999999999999902,
+        "geometry_no_contact_linear_slow": 0.0,
+        "geometry_no_contact_slow": 0.0,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": false,
+      "kind": "reference",
+      "reference_id": 7
+    },
+    {
+      "samples": 332,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 0.0,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 0.0,
+        "geometry_no_contact_linear_slow": 0.0,
+        "geometry_no_contact_slow": 0.0,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": false,
+      "kind": "reference",
+      "reference_id": 8
+    },
+    {
+      "samples": 324,
+      "qualified_samples": 170,
+      "longest_spans_s": {
+        "geometry": 3.4049999999999994,
+        "geometry_open": 2.9849999999999994,
+        "geometry_no_contact": 3.0599999999999996,
+        "geometry_no_contact_linear_slow": 2.8049999999999997,
+        "geometry_no_contact_slow": 2.4449999999999994,
+        "v1": 2.4449999999999994
+      },
+      "v1_success": true,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 9
+    },
+    {
+      "samples": 349,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 0.0,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 0.0,
+        "geometry_no_contact_linear_slow": 0.0,
+        "geometry_no_contact_slow": 0.0,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": false,
+      "kind": "reference",
+      "reference_id": 10
+    },
+    {
+      "samples": 329,
+      "qualified_samples": 183,
+      "longest_spans_s": {
+        "geometry": 3.42,
+        "geometry_open": 3.0,
+        "geometry_no_contact": 2.9699999999999998,
+        "geometry_no_contact_linear_slow": 2.8049999999999997,
+        "geometry_no_contact_slow": 2.7299999999999995,
+        "v1": 2.7299999999999995
+      },
+      "v1_success": true,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 11
+    },
+    {
+      "samples": 343,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 3.6149999999999993,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 3.0449999999999995,
+        "geometry_no_contact_linear_slow": 2.82,
+        "geometry_no_contact_slow": 2.4299999999999997,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 12
+    },
+    {
+      "samples": 329,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 0.0,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 0.0,
+        "geometry_no_contact_linear_slow": 0.0,
+        "geometry_no_contact_slow": 0.0,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": false,
+      "kind": "reference",
+      "reference_id": 13
+    },
+    {
+      "samples": 324,
+      "qualified_samples": 171,
+      "longest_spans_s": {
+        "geometry": 3.3599999999999994,
+        "geometry_open": 2.9999999999999996,
+        "geometry_no_contact": 2.8049999999999997,
+        "geometry_no_contact_linear_slow": 2.5799999999999996,
+        "geometry_no_contact_slow": 2.5499999999999994,
+        "v1": 2.5499999999999994
+      },
+      "v1_success": true,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 14
+    },
+    {
+      "samples": 318,
+      "qualified_samples": 99,
+      "longest_spans_s": {
+        "geometry": 3.3449999999999998,
+        "geometry_open": 3.0149999999999997,
+        "geometry_no_contact": 2.7299999999999995,
+        "geometry_no_contact_linear_slow": 2.3999999999999995,
+        "geometry_no_contact_slow": 0.7050000000000001,
+        "v1": 0.7050000000000001
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": false,
+      "kind": "reference",
+      "reference_id": 15
+    },
+    {
+      "samples": 333,
+      "qualified_samples": 200,
+      "longest_spans_s": {
+        "geometry": 3.345,
+        "geometry_open": 3.0600000000000005,
+        "geometry_no_contact": 3.165,
+        "geometry_no_contact_linear_slow": 3.09,
+        "geometry_no_contact_slow": 2.9850000000000003,
+        "v1": 2.9850000000000003
+      },
+      "v1_success": true,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 16
+    },
+    {
+      "samples": 345,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 3.75,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 3.0,
+        "geometry_no_contact_linear_slow": 2.715,
+        "geometry_no_contact_slow": 2.475,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 17
+    },
+    {
+      "samples": 331,
+      "qualified_samples": 35,
+      "longest_spans_s": {
+        "geometry": 3.525,
+        "geometry_open": 3.09,
+        "geometry_no_contact": 3.12,
+        "geometry_no_contact_linear_slow": 2.835,
+        "geometry_no_contact_slow": 0.10499999999999954,
+        "v1": 0.10499999999999954
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": false,
+      "kind": "reference",
+      "reference_id": 18
+    },
+    {
+      "samples": 365,
+      "qualified_samples": 191,
+      "longest_spans_s": {
+        "geometry": 3.75,
+        "geometry_open": 3.045,
+        "geometry_no_contact": 3.135,
+        "geometry_no_contact_linear_slow": 2.925,
+        "geometry_no_contact_slow": 2.835,
+        "v1": 2.835
+      },
+      "v1_success": true,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 19
+    },
+    {
+      "samples": 333,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 3.6450000000000005,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 2.895,
+        "geometry_no_contact_linear_slow": 2.7750000000000004,
+        "geometry_no_contact_slow": 2.5500000000000003,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 20
+    },
+    {
+      "samples": 329,
+      "qualified_samples": 185,
+      "longest_spans_s": {
+        "geometry": 3.4499999999999997,
+        "geometry_open": 3.09,
+        "geometry_no_contact": 3.135,
+        "geometry_no_contact_linear_slow": 2.7749999999999995,
+        "geometry_no_contact_slow": 2.76,
+        "v1": 2.76
+      },
+      "v1_success": true,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 21
+    },
+    {
+      "samples": 322,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 3.255,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 0.030000000000000027,
+        "geometry_no_contact_linear_slow": 0.0,
+        "geometry_no_contact_slow": 0.0,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": false,
+      "kind": "reference",
+      "reference_id": 22
+    },
+    {
+      "samples": 321,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 3.3299999999999996,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 2.8049999999999997,
+        "geometry_no_contact_linear_slow": 2.6399999999999997,
+        "geometry_no_contact_slow": 2.5199999999999996,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 23
+    },
+    {
+      "samples": 316,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 3.3900000000000006,
+        "geometry_open": 0.015000000000000124,
+        "geometry_no_contact": 3.0450000000000004,
+        "geometry_no_contact_linear_slow": 2.6700000000000004,
+        "geometry_no_contact_slow": 2.37,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 24
+    },
+    {
+      "samples": 326,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 0.20999999999999996,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 0.08999999999999986,
+        "geometry_no_contact_linear_slow": 0.0,
+        "geometry_no_contact_slow": 0.0,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": false,
+      "kind": "reference",
+      "reference_id": 25
+    },
+    {
+      "samples": 326,
+      "qualified_samples": 174,
+      "longest_spans_s": {
+        "geometry": 3.5249999999999995,
+        "geometry_open": 3.1049999999999995,
+        "geometry_no_contact": 2.955,
+        "geometry_no_contact_linear_slow": 2.8049999999999997,
+        "geometry_no_contact_slow": 2.445,
+        "v1": 2.445
+      },
+      "v1_success": true,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 26
+    },
+    {
+      "samples": 322,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 0.0,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 0.0,
+        "geometry_no_contact_linear_slow": 0.0,
+        "geometry_no_contact_slow": 0.0,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": false,
+      "kind": "reference",
+      "reference_id": 27
+    },
+    {
+      "samples": 321,
+      "qualified_samples": 2,
+      "longest_spans_s": {
+        "geometry": 3.2549999999999994,
+        "geometry_open": 0.04500000000000015,
+        "geometry_no_contact": 3.0749999999999993,
+        "geometry_no_contact_linear_slow": 2.9999999999999996,
+        "geometry_no_contact_slow": 2.88,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 28
+    },
+    {
+      "samples": 322,
+      "qualified_samples": 172,
+      "longest_spans_s": {
+        "geometry": 3.5100000000000002,
+        "geometry_open": 3.0300000000000002,
+        "geometry_no_contact": 2.88,
+        "geometry_no_contact_linear_slow": 2.745,
+        "geometry_no_contact_slow": 2.535,
+        "v1": 2.535
+      },
+      "v1_success": true,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 29
+    },
+    {
+      "samples": 342,
+      "qualified_samples": 1,
+      "longest_spans_s": {
+        "geometry": 3.585,
+        "geometry_open": 0.33000000000000007,
+        "geometry_no_contact": 0.015000000000000124,
+        "geometry_no_contact_linear_slow": 0.0,
+        "geometry_no_contact_slow": 0.0,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": false,
+      "kind": "reference",
+      "reference_id": 30
+    },
+    {
+      "samples": 339,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 3.645,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 0.06000000000000005,
+        "geometry_no_contact_linear_slow": 0.0,
+        "geometry_no_contact_slow": 0.0,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": false,
+      "kind": "reference",
+      "reference_id": 31
+    },
+    {
+      "samples": 315,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 3.2399999999999998,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 0.10499999999999998,
+        "geometry_no_contact_linear_slow": 0.030000000000000027,
+        "geometry_no_contact_slow": 0.0,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": false,
+      "kind": "reference",
+      "reference_id": 32
+    },
+    {
+      "samples": 340,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 0.0,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 0.0,
+        "geometry_no_contact_linear_slow": 0.0,
+        "geometry_no_contact_slow": 0.0,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": false,
+      "kind": "reference",
+      "reference_id": 33
+    },
+    {
+      "samples": 327,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 3.345,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 0.030000000000000027,
+        "geometry_no_contact_linear_slow": 0.0,
+        "geometry_no_contact_slow": 0.0,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": false,
+      "kind": "reference",
+      "reference_id": 34
+    },
+    {
+      "samples": 348,
+      "qualified_samples": 181,
+      "longest_spans_s": {
+        "geometry": 3.8099999999999996,
+        "geometry_open": 3.0599999999999996,
+        "geometry_no_contact": 3.1799999999999997,
+        "geometry_no_contact_linear_slow": 2.925,
+        "geometry_no_contact_slow": 2.625,
+        "v1": 2.625
+      },
+      "v1_success": true,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 35
+    },
+    {
+      "samples": 330,
+      "qualified_samples": 165,
+      "longest_spans_s": {
+        "geometry": 3.375,
+        "geometry_open": 3.0300000000000002,
+        "geometry_no_contact": 3.1050000000000004,
+        "geometry_no_contact_linear_slow": 2.58,
+        "geometry_no_contact_slow": 2.4600000000000004,
+        "v1": 2.4600000000000004
+      },
+      "v1_success": true,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 36
+    },
+    {
+      "samples": 319,
+      "qualified_samples": 184,
+      "longest_spans_s": {
+        "geometry": 3.3000000000000003,
+        "geometry_open": 2.97,
+        "geometry_no_contact": 2.8950000000000005,
+        "geometry_no_contact_linear_slow": 2.835,
+        "geometry_no_contact_slow": 2.7300000000000004,
+        "v1": 2.7300000000000004
+      },
+      "v1_success": true,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 37
+    },
+    {
+      "samples": 326,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 3.2849999999999997,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 3.03,
+        "geometry_no_contact_linear_slow": 2.925,
+        "geometry_no_contact_slow": 2.385,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 38
+    },
+    {
+      "samples": 318,
+      "qualified_samples": 193,
+      "longest_spans_s": {
+        "geometry": 3.42,
+        "geometry_open": 3.045,
+        "geometry_no_contact": 3.1199999999999997,
+        "geometry_no_contact_linear_slow": 2.88,
+        "geometry_no_contact_slow": 2.88,
+        "v1": 2.88
+      },
+      "v1_success": true,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 39
+    },
+    {
+      "samples": 344,
+      "qualified_samples": 177,
+      "longest_spans_s": {
+        "geometry": 3.615,
+        "geometry_open": 3.0300000000000002,
+        "geometry_no_contact": 3.12,
+        "geometry_no_contact_linear_slow": 2.91,
+        "geometry_no_contact_slow": 2.6100000000000003,
+        "v1": 2.6100000000000003
+      },
+      "v1_success": true,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 40
+    },
+    {
+      "samples": 341,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 0.0,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 0.0,
+        "geometry_no_contact_linear_slow": 0.0,
+        "geometry_no_contact_slow": 0.0,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": false,
+      "kind": "reference",
+      "reference_id": 41
+    },
+    {
+      "samples": 336,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 3.3,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 3.18,
+        "geometry_no_contact_linear_slow": 2.97,
+        "geometry_no_contact_slow": 2.805,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 42
+    },
+    {
+      "samples": 323,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 3.255,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 3.0149999999999997,
+        "geometry_no_contact_linear_slow": 2.8949999999999996,
+        "geometry_no_contact_slow": 2.88,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 43
+    },
+    {
+      "samples": 320,
+      "qualified_samples": 188,
+      "longest_spans_s": {
+        "geometry": 3.525,
+        "geometry_open": 3.0599999999999996,
+        "geometry_no_contact": 3.12,
+        "geometry_no_contact_linear_slow": 2.8499999999999996,
+        "geometry_no_contact_slow": 2.8049999999999997,
+        "v1": 2.8049999999999997
+      },
+      "v1_success": true,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 44
+    },
+    {
+      "samples": 340,
+      "qualified_samples": 191,
+      "longest_spans_s": {
+        "geometry": 3.3149999999999995,
+        "geometry_open": 3.0149999999999997,
+        "geometry_no_contact": 3.135,
+        "geometry_no_contact_linear_slow": 3.0149999999999997,
+        "geometry_no_contact_slow": 2.7899999999999996,
+        "v1": 2.7899999999999996
+      },
+      "v1_success": true,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 45
+    },
+    {
+      "samples": 318,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 0.0,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 0.0,
+        "geometry_no_contact_linear_slow": 0.0,
+        "geometry_no_contact_slow": 0.0,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": false,
+      "kind": "reference",
+      "reference_id": 46
+    },
+    {
+      "samples": 326,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 0.0,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 0.0,
+        "geometry_no_contact_linear_slow": 0.0,
+        "geometry_no_contact_slow": 0.0,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": false,
+      "kind": "reference",
+      "reference_id": 47
+    },
+    {
+      "samples": 327,
+      "qualified_samples": 198,
+      "longest_spans_s": {
+        "geometry": 3.5100000000000002,
+        "geometry_open": 3.0600000000000005,
+        "geometry_no_contact": 3.1500000000000004,
+        "geometry_no_contact_linear_slow": 3.0450000000000004,
+        "geometry_no_contact_slow": 2.9250000000000003,
+        "v1": 2.9250000000000003
+      },
+      "v1_success": true,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 48
+    },
+    {
+      "samples": 331,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 3.465,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 3.0300000000000002,
+        "geometry_no_contact_linear_slow": 2.8049999999999997,
+        "geometry_no_contact_slow": 2.4899999999999998,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": true,
+      "kind": "reference",
+      "reference_id": 49
+    },
+    {
+      "samples": 300,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 0.0,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 0.0,
+        "geometry_no_contact_linear_slow": 0.0,
+        "geometry_no_contact_slow": 0.0,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": false,
+      "kind": "fixture",
+      "name": "0001-off_goal_open_hand"
+    },
+    {
+      "samples": 300,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 4.425,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 4.425,
+        "geometry_no_contact_linear_slow": 4.275,
+        "geometry_no_contact_slow": 4.275,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": true,
+      "kind": "fixture",
+      "name": "0001-on_plate_closed_detached_hand"
+    },
+    {
+      "samples": 300,
+      "qualified_samples": 286,
+      "longest_spans_s": {
+        "geometry": 4.425,
+        "geometry_open": 4.425,
+        "geometry_no_contact": 4.425,
+        "geometry_no_contact_linear_slow": 4.275,
+        "geometry_no_contact_slow": 4.275,
+        "v1": 4.275
+      },
+      "v1_success": true,
+      "opening_removed_sensitivity_success": true,
+      "kind": "fixture",
+      "name": "0001-on_plate_open_hand"
+    },
+    {
+      "samples": 300,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 0.0,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 0.0,
+        "geometry_no_contact_linear_slow": 0.0,
+        "geometry_no_contact_slow": 0.0,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": false,
+      "kind": "fixture",
+      "name": "0002-off_goal_open_hand"
+    },
+    {
+      "samples": 300,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 4.425,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 4.425,
+        "geometry_no_contact_linear_slow": 4.275,
+        "geometry_no_contact_slow": 4.275,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": true,
+      "kind": "fixture",
+      "name": "0002-on_plate_closed_detached_hand"
+    },
+    {
+      "samples": 300,
+      "qualified_samples": 286,
+      "longest_spans_s": {
+        "geometry": 4.425,
+        "geometry_open": 4.425,
+        "geometry_no_contact": 4.425,
+        "geometry_no_contact_linear_slow": 4.275,
+        "geometry_no_contact_slow": 4.275,
+        "v1": 4.275
+      },
+      "v1_success": true,
+      "opening_removed_sensitivity_success": true,
+      "kind": "fixture",
+      "name": "0002-on_plate_open_hand"
+    },
+    {
+      "samples": 300,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 0.0,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 0.0,
+        "geometry_no_contact_linear_slow": 0.0,
+        "geometry_no_contact_slow": 0.0,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": false,
+      "kind": "fixture",
+      "name": "0003-off_goal_open_hand"
+    },
+    {
+      "samples": 300,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 4.425,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 4.425,
+        "geometry_no_contact_linear_slow": 4.275,
+        "geometry_no_contact_slow": 4.275,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": true,
+      "kind": "fixture",
+      "name": "0003-on_plate_closed_detached_hand"
+    },
+    {
+      "samples": 300,
+      "qualified_samples": 286,
+      "longest_spans_s": {
+        "geometry": 4.425,
+        "geometry_open": 4.425,
+        "geometry_no_contact": 4.425,
+        "geometry_no_contact_linear_slow": 4.275,
+        "geometry_no_contact_slow": 4.275,
+        "v1": 4.275
+      },
+      "v1_success": true,
+      "opening_removed_sensitivity_success": true,
+      "kind": "fixture",
+      "name": "0003-on_plate_open_hand"
+    },
+    {
+      "samples": 300,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 0.0,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 0.0,
+        "geometry_no_contact_linear_slow": 0.0,
+        "geometry_no_contact_slow": 0.0,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": false,
+      "kind": "fixture",
+      "name": "0004-off_goal_open_hand"
+    },
+    {
+      "samples": 300,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 4.425,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 4.425,
+        "geometry_no_contact_linear_slow": 4.275,
+        "geometry_no_contact_slow": 4.275,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": true,
+      "kind": "fixture",
+      "name": "0004-on_plate_closed_detached_hand"
+    },
+    {
+      "samples": 300,
+      "qualified_samples": 286,
+      "longest_spans_s": {
+        "geometry": 4.425,
+        "geometry_open": 4.425,
+        "geometry_no_contact": 4.425,
+        "geometry_no_contact_linear_slow": 4.275,
+        "geometry_no_contact_slow": 4.275,
+        "v1": 4.275
+      },
+      "v1_success": true,
+      "opening_removed_sensitivity_success": true,
+      "kind": "fixture",
+      "name": "0004-on_plate_open_hand"
+    },
+    {
+      "samples": 300,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 0.0,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 0.0,
+        "geometry_no_contact_linear_slow": 0.0,
+        "geometry_no_contact_slow": 0.0,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": false,
+      "kind": "fixture",
+      "name": "0005-off_goal_open_hand"
+    },
+    {
+      "samples": 300,
+      "qualified_samples": 0,
+      "longest_spans_s": {
+        "geometry": 4.425,
+        "geometry_open": 0.0,
+        "geometry_no_contact": 4.425,
+        "geometry_no_contact_linear_slow": 4.275,
+        "geometry_no_contact_slow": 4.275,
+        "v1": 0.0
+      },
+      "v1_success": false,
+      "opening_removed_sensitivity_success": true,
+      "kind": "fixture",
+      "name": "0005-on_plate_closed_detached_hand"
+    },
+    {
+      "samples": 300,
+      "qualified_samples": 286,
+      "longest_spans_s": {
+        "geometry": 4.425,
+        "geometry_open": 4.425,
+        "geometry_no_contact": 4.425,
+        "geometry_no_contact_linear_slow": 4.275,
+        "geometry_no_contact_slow": 4.275,
+        "v1": 4.275
+      },
+      "v1_success": true,
+      "opening_removed_sensitivity_success": true,
+      "kind": "fixture",
+      "name": "0005-on_plate_open_hand"
+    }
+  ]
+}

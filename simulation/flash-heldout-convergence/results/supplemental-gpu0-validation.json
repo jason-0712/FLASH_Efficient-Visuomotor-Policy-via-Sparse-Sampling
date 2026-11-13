@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "supplemental_gpu0_episodes_recomputed": 100,
+  "supplemental_smoke_full_bitwise_equal": 6,
+  "same_input_and_checkpoint_full2500_hardware_comparison": {
+    "flash": {
+      "gpu0": 49,
+      "gpu2": 48,
+      "n_each": 50,
+      "success_disagreements": 3
+    },
+    "fm_dit": {
+      "gpu0": 19,
+      "gpu2": 10,
+      "n_each": 50,
+      "success_disagreements": 19
+    }
+  },
+  "formal_selection_rule": "All-GPU2 per user scheduling reply; GPU0 is supplemental regardless of score. Do not select larger values."
+}

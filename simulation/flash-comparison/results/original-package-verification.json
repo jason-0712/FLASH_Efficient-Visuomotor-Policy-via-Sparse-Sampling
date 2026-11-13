@@ -1,0 +1,9 @@
+{
+  "verified_utc": "2026-10-28T14:56:51.987877+00:00",
+  "original_package_files": 331,
+  "original_package_bytes": 14854025,
+  "all_original_hashes_match": true,
+  "original_SHA256SUMS_sha256": "a9d954bd8d8b7cd4c0b6aecdfb2a16126dcbc9751e1dbce17968606513494c5c",
+  "original_and_current_source_patch_sha256": "56fec88a58c6475de026bc2a4bf81fb4a797679c6a7ff104676149accfb677d9",
+  "source_patch_unchanged": true
+}

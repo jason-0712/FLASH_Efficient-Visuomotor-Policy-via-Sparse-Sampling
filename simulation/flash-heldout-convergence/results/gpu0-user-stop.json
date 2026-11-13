@@ -1,0 +1,11 @@
+{
+  "at_utc": "2026-10-29T07:27:25.203040+00:00",
+  "reason": "User scheduling reply: 全部改到 2 号卡串行完成",
+  "signaled_only_verified_own_gpu0_processes": [],
+  "other_processes_untouched": [
+    {
+      "pid": 2801147,
+      "untouched": true
+    }
+  ]
+}

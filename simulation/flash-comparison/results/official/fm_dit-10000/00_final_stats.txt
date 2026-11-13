@@ -1,0 +1,33 @@
+=== Success Statistics ===
+Total Success: 37
+Total Completed: 50
+Average Success Rate: 0.7400
+
+=== Domain Randomization ===
+Domain Randomization Level: 0
+Domain Randomization Scene Mode: 0
+Domain Randomization Seed: None
+
+=== Overall Inference Time Statistics ===
+Total Inference Steps: 7809
+Number of Demos Evaluated: 50
+Average Inference Time: 12.13ms
+STD of Demo Avg Inference Time: 2.97ms
+Min Inference Time: 0.26ms
+Max Inference Time: 452.97ms
+
+=== Overall Per-Inference Time Statistics (model forward pass only) ===
+Total Actual Inferences: 996
+Number of Demos Evaluated: 50
+Average Per-Inference Time: 87.16ms
+STD of Demo Avg Per-Inference Time: 20.40ms
+Min Per-Inference Time: 43.02ms
+Max Per-Inference Time: 452.97ms
+
+=== Successful Episodes Duration (successful episodes only) ===
+Number of Successful Episodes: 37
+Avg Episode Duration (success only): 3603.76ms
+
+=== Successful Episodes Total Inference Time (successful episodes only) ===
+Number of Successful Episodes: 37
+Avg Episode Total Inference Time (success only): 1173.74ms

@@ -1,0 +1,512 @@
+[
+  {
+    "path": "assets/libero/COMMON/articulated_objects/wooden_cabinet/mjcf/wooden_cabinet/dark_fine_wood.png",
+    "bytes": 42358,
+    "sha256": "9aaa94ef4cd61592b566569bba3569276a38ea5ff22ed4b978b77b038b38a11f",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n9aaa94ef4cd61592b566569bba3569276a38ea5ff22ed4b978b77b038b38a11f\n1793191312.17683\n"
+  },
+  {
+    "path": "assets/libero/COMMON/articulated_objects/wooden_cabinet/mjcf/wooden_cabinet/metal.png",
+    "bytes": 196878,
+    "sha256": "93784216a66b52be9c8ccc3732e50f511815291e32f34f97bd139ed7229061fa",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n93784216a66b52be9c8ccc3732e50f511815291e32f34f97bd139ed7229061fa\n1793191314.9448996\n"
+  },
+  {
+    "path": "assets/libero/COMMON/articulated_objects/wooden_cabinet/mjcf/wooden_cabinet/wooden_cabinet_base/visual/wooden_cabinet_base_vis.msh",
+    "bytes": 21400,
+    "sha256": "8bcf371361562de9ac8ac2fe06db6b6b695dde3cbe50e86de5a6e272d21e1f9c",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n8bcf371361562de9ac8ac2fe06db6b6b695dde3cbe50e86de5a6e272d21e1f9c\n1793191319.1761684\n"
+  },
+  {
+    "path": "assets/libero/COMMON/articulated_objects/wooden_cabinet/mjcf/wooden_cabinet/wooden_cabinet_bottom/visual/wooden_cabinet_bottom_vis.msh",
+    "bytes": 9088,
+    "sha256": "23181bdeb6ce44e3634318e6c946fa00f568eb25256b8546558775eda691700c",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n23181bdeb6ce44e3634318e6c946fa00f568eb25256b8546558775eda691700c\n1793191327.3592532\n"
+  },
+  {
+    "path": "assets/libero/COMMON/articulated_objects/wooden_cabinet/mjcf/wooden_cabinet/wooden_cabinet_bottom_handle/visual/wooden_cabinet_bottom_handle_vis.msh",
+    "bytes": 40192,
+    "sha256": "a61587cbcebb8a8ad5dc0d8c60e6db4747a5a118397485a0a5eb5e171c2d397e",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\na61587cbcebb8a8ad5dc0d8c60e6db4747a5a118397485a0a5eb5e171c2d397e\n1793191329.4192324\n"
+  },
+  {
+    "path": "assets/libero/COMMON/articulated_objects/wooden_cabinet/mjcf/wooden_cabinet/wooden_cabinet_middle/visual/wooden_cabinet_middle_vis.msh",
+    "bytes": 9088,
+    "sha256": "580eead06792affbd91c1b5c17e3d1c94082fcb247eb4812d1a8ac4c120253c5",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n580eead06792affbd91c1b5c17e3d1c94082fcb247eb4812d1a8ac4c120253c5\n1793191323.194206\n"
+  },
+  {
+    "path": "assets/libero/COMMON/articulated_objects/wooden_cabinet/mjcf/wooden_cabinet/wooden_cabinet_middle_handle/visual/wooden_cabinet_middle_handle_vis.msh",
+    "bytes": 40192,
+    "sha256": "1688f375dde79450d9e5cfcb5dc17a16c27018c9dbf74513577588d54e62e0a8",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n1688f375dde79450d9e5cfcb5dc17a16c27018c9dbf74513577588d54e62e0a8\n1793191325.2802207\n"
+  },
+  {
+    "path": "assets/libero/COMMON/articulated_objects/wooden_cabinet/mjcf/wooden_cabinet/wooden_cabinet_top/visual/wooden_cabinet_top_vis.msh",
+    "bytes": 9088,
+    "sha256": "2b7c08ad3740ad45965eaedd9cf07f64ea12dd4044cac7e71fa5b601b4cbb481",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n2b7c08ad3740ad45965eaedd9cf07f64ea12dd4044cac7e71fa5b601b4cbb481\n1793191317.0880916\n"
+  },
+  {
+    "path": "assets/libero/COMMON/articulated_objects/wooden_cabinet/mjcf/wooden_cabinet/wooden_cabinet_top_handle/visual/wooden_cabinet_top_handle_vis.msh",
+    "bytes": 40192,
+    "sha256": "58924271007a30a14eda7111e7eefd7be3f8b04a1d31bbf4964d7da419282df6",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n58924271007a30a14eda7111e7eefd7be3f8b04a1d31bbf4964d7da419282df6\n1793191321.2964225\n"
+  },
+  {
+    "path": "assets/libero/COMMON/articulated_objects/wooden_cabinet/mjcf/wooden_cabinet.xml",
+    "bytes": 14435,
+    "sha256": "eca251258c7ff6a05fa181a316c767508801812f4ea870921f3ce28fd82ea7af",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n25be7cb2b37dafb6272c6b1f9561eb9b841fdf4c\n1793191295.1634507\n"
+  },
+  {
+    "path": "assets/libero/COMMON/stable_scanned_objects/akita_black_bowl/mjcf/akita_black_bowl.xml",
+    "bytes": 10379,
+    "sha256": "0dad00081d68188f9eff95820061a8e2dc0a59745f1b3d36e9a16bdf72821fbd",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n6f11565af9358509947beee745e2d323c93ee2f1\n1793191292.9149494\n"
+  },
+  {
+    "path": "assets/libero/COMMON/stable_scanned_objects/akita_black_bowl/mjcf/texture.png",
+    "bytes": 12751242,
+    "sha256": "8a646d98b084b7400dd91beed9c83e10b4a4dca572896b3974356b7937a4bd85",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n8a646d98b084b7400dd91beed9c83e10b4a4dca572896b3974356b7937a4bd85\n1793191300.3407445\n"
+  },
+  {
+    "path": "assets/libero/COMMON/stable_scanned_objects/akita_black_bowl/mjcf/visual/akita_black_bowl_vis.msh",
+    "bytes": 4592392,
+    "sha256": "6474d536a740e995c3a2eaeb74c61e14da94131b0b222c250b61b30b13d11229",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n6474d536a740e995c3a2eaeb74c61e14da94131b0b222c250b61b30b13d11229\n1793191303.1208742\n"
+  },
+  {
+    "path": "assets/libero/COMMON/stable_scanned_objects/plate/mjcf/plate.xml",
+    "bytes": 3158,
+    "sha256": "72b4de23b2daa3169843b784998c0c3c30a6559c6c85917c6b86e3d39fa241e6",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n004fadc5500c3d2bb76d44c3b894856e6882c031\n1793191293.9915478\n"
+  },
+  {
+    "path": "assets/libero/COMMON/stable_scanned_objects/plate/mjcf/texture.png",
+    "bytes": 8660937,
+    "sha256": "6b742142bf0e29a90d76c4b0254a4481e9eff4807eff3ac6c4ac67a5888fb005",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n6b742142bf0e29a90d76c4b0254a4481e9eff4807eff3ac6c4ac67a5888fb005\n1793191307.194244\n"
+  },
+  {
+    "path": "assets/libero/COMMON/stable_scanned_objects/plate/mjcf/visual/model_vis.msh",
+    "bytes": 374128,
+    "sha256": "7d3278b1cefb2ed496094cad18f0c66004ee65ab933122ec8d5efdc78daa96b4",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n7d3278b1cefb2ed496094cad18f0c66004ee65ab933122ec8d5efdc78daa96b4\n1793191309.6699624\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/finger_0.obj",
+    "bytes": 87872,
+    "sha256": "215098c0fcdf7192f6c503a37cf49e3efecf8a9e1320f02b17c5584d89cc5b2c",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n215098c0fcdf7192f6c503a37cf49e3efecf8a9e1320f02b17c5584d89cc5b2c\n1793191463.3413825\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/finger_1.obj",
+    "bytes": 64651,
+    "sha256": "cf239e9aca26bba09dbbf1c544c47d87cfc9a2f0637c8bb786af750b6d4eca44",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\ncf239e9aca26bba09dbbf1c544c47d87cfc9a2f0637c8bb786af750b6d4eca44\n1793191465.2085712\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/hand.stl",
+    "bytes": 10084,
+    "sha256": "94493e94f30fe940f2c8ca2f155c3bbe67bbff406d3edf5e261670d2f0f6e2ed",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n94493e94f30fe940f2c8ca2f155c3bbe67bbff406d3edf5e261670d2f0f6e2ed\n1793191349.3106565\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/hand_0.obj",
+    "bytes": 9091,
+    "sha256": "b94aab901086f85df04c019b30f43bf9aa23a7ad0443ec80a8c14662a41cabd2",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\nb94aab901086f85df04c019b30f43bf9aa23a7ad0443ec80a8c14662a41cabd2\n1793191450.3487403\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/hand_1.obj",
+    "bytes": 121863,
+    "sha256": "cd76f7494bb314406a1819c46eb826ee254894f87235714f604a470653d9badb",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\ncd76f7494bb314406a1819c46eb826ee254894f87235714f604a470653d9badb\n1793191452.2237058\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/hand_2.obj",
+    "bytes": 596001,
+    "sha256": "e0f44a71712afa5b98eb20355eff17763d3e2e19f459b2bef19abed3727e64b3",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\ne0f44a71712afa5b98eb20355eff17763d3e2e19f459b2bef19abed3727e64b3\n1793191454.2453818\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/hand_3.obj",
+    "bytes": 902145,
+    "sha256": "a431a06d99e88a1b322b3122a01424ee7704daeaad0bc343b90b9604f014ad0c",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\na431a06d99e88a1b322b3122a01424ee7704daeaad0bc343b90b9604f014ad0c\n1793191459.3566313\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/hand_4.obj",
+    "bytes": 151988,
+    "sha256": "21f96ef6a8de082e41b1ea9834f1043de359e5d60305541bcb63539581f53bff",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n21f96ef6a8de082e41b1ea9834f1043de359e5d60305541bcb63539581f53bff\n1793191461.3590848\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link0.stl",
+    "bytes": 10084,
+    "sha256": "dfc6d94330de8ddb005b311bfdba9f3b8e1aa7c256b71592ee7ff32cb9a9a5aa",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\ndfc6d94330de8ddb005b311bfdba9f3b8e1aa7c256b71592ee7ff32cb9a9a5aa\n1793191331.3527262\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link0_0.obj",
+    "bytes": 296497,
+    "sha256": "6b9f41a4c203540daaeb7a33cc3d0d6c6a32dc8bba187074eeaf97b3e36b3f9c",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n6b9f41a4c203540daaeb7a33cc3d0d6c6a32dc8bba187074eeaf97b3e36b3f9c\n1793191351.4283152\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link0_1.obj",
+    "bytes": 103978,
+    "sha256": "57673d2ee2a9db2e10c8986ae57c56a7c39c012b60fd26d7d8549553b664a5ed",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n57673d2ee2a9db2e10c8986ae57c56a7c39c012b60fd26d7d8549553b664a5ed\n1793191353.4107854\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link0_10.obj",
+    "bytes": 343308,
+    "sha256": "c9198b9d8534d628d097b0f2b239bb30343353182df098ce0d9db6bc13326848",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\nc9198b9d8534d628d097b0f2b239bb30343353182df098ce0d9db6bc13326848\n1793191369.7979774\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link0_11.obj",
+    "bytes": 22295,
+    "sha256": "f0adec78d6677b7799d25121981270e8bfe119b5c18d08a91ee37a54ad75f65c",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\nf0adec78d6677b7799d25121981270e8bfe119b5c18d08a91ee37a54ad75f65c\n1793191371.7368307\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link0_2.obj",
+    "bytes": 590892,
+    "sha256": "1ca435a2a87a9608a146a47955724d43dd7ce10fc3dd3018800aa98f8ba86e05",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n1ca435a2a87a9608a146a47955724d43dd7ce10fc3dd3018800aa98f8ba86e05\n1793191355.432518\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link0_3.obj",
+    "bytes": 47588,
+    "sha256": "3e9c6334d2b3b47944af3458ee5f20519abc20fe7ee23063bb53405ccab28046",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n3e9c6334d2b3b47944af3458ee5f20519abc20fe7ee23063bb53405ccab28046\n1793191357.4015474\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link0_4.obj",
+    "bytes": 211200,
+    "sha256": "215d25789704936120f119c0bc1cc7f68516dd3f8f1df61457b71acac3873f26",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n215d25789704936120f119c0bc1cc7f68516dd3f8f1df61457b71acac3873f26\n1793191359.3316247\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link0_5.obj",
+    "bytes": 17023,
+    "sha256": "9361b104e93743045107aa5b15fb1a0835ba9c1f355aae71f56403cf6a9c33f6",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n9361b104e93743045107aa5b15fb1a0835ba9c1f355aae71f56403cf6a9c33f6\n1793191361.4209743\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link0_7.obj",
+    "bytes": 30699,
+    "sha256": "2dc0b8ebbbc80e4c065d71e195adbc384f673438641fac82b07b801b4d2837cb",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n2dc0b8ebbbc80e4c065d71e195adbc384f673438641fac82b07b801b4d2837cb\n1793191363.4226928\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link0_8.obj",
+    "bytes": 3263194,
+    "sha256": "3b8c436999db5586b8eb47bed2b0aa7de6993868b2681b4c04246eeac42fdb7a",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n3b8c436999db5586b8eb47bed2b0aa7de6993868b2681b4c04246eeac42fdb7a\n1793191365.7232702\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link0_9.obj",
+    "bytes": 105629,
+    "sha256": "45178f97d2b5da6bce11f610212c4ef7d08c73db33a4fc38e1b7f66b93d023f5",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n45178f97d2b5da6bce11f610212c4ef7d08c73db33a4fc38e1b7f66b93d023f5\n1793191367.7737007\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link1.obj",
+    "bytes": 3274995,
+    "sha256": "51091e776b16babdbe2f3849b5c041f921d1f11dd94ac19a0f1c81abf496fbae",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n51091e776b16babdbe2f3849b5c041f921d1f11dd94ac19a0f1c81abf496fbae\n1793191374.0109904\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link1.stl",
+    "bytes": 15084,
+    "sha256": "e41a39a94108fcf56aacff603fc91ec80541f4c1af17b51a0de5617f5566e6d2",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\ne41a39a94108fcf56aacff603fc91ec80541f4c1af17b51a0de5617f5566e6d2\n1793191333.1266036\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link2.obj",
+    "bytes": 3295608,
+    "sha256": "5c9f8e715de52c3eb71b475de35993b3b96081e02abea9f28c414768877fc59b",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n5c9f8e715de52c3eb71b475de35993b3b96081e02abea9f28c414768877fc59b\n1793191376.0819979\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link2.stl",
+    "bytes": 15084,
+    "sha256": "370f7605a0fae3529db169ded50f52f171024aa792d4d773bc84197301f6a039",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n370f7605a0fae3529db169ded50f52f171024aa792d4d773bc84197301f6a039\n1793191334.9105823\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link3.stl",
+    "bytes": 15084,
+    "sha256": "0a8d638b9349c6c0eefc4e888636ac4838c4b27170f18a51699321118af709c1",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n0a8d638b9349c6c0eefc4e888636ac4838c4b27170f18a51699321118af709c1\n1793191336.6950421\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link3_0.obj",
+    "bytes": 3046804,
+    "sha256": "ce2da87f51708e11b189249d41401065dabe89a06e251185a06cef4d5ff27178",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\nce2da87f51708e11b189249d41401065dabe89a06e251185a06cef4d5ff27178\n1793191378.2101157\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link3_1.obj",
+    "bytes": 65260,
+    "sha256": "2880b7753a7173f38fa87ee21da4dfc7fa7be46fbe07bac5aef9e128513cb118",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n2880b7753a7173f38fa87ee21da4dfc7fa7be46fbe07bac5aef9e128513cb118\n1793191380.2099507\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link3_2.obj",
+    "bytes": 83591,
+    "sha256": "670cff81ae84693769ca4ae658c154cf909d81167e7c8d22b70ea977f2504efa",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n670cff81ae84693769ca4ae658c154cf909d81167e7c8d22b70ea977f2504efa\n1793191382.1630576\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link3_3.obj",
+    "bytes": 457684,
+    "sha256": "30ede0c812efd0e0b767d134a4eae0b84e0fa407bb6325a5a555e0569b3a3ffd",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n30ede0c812efd0e0b767d134a4eae0b84e0fa407bb6325a5a555e0569b3a3ffd\n1793191384.1883366\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link4.stl",
+    "bytes": 15084,
+    "sha256": "0180ebb5772ec9840cb049750cffb29a9ddc90311752a16ea34757782ef9e48d",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n0180ebb5772ec9840cb049750cffb29a9ddc90311752a16ea34757782ef9e48d\n1793191338.454834\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link4_0.obj",
+    "bytes": 83486,
+    "sha256": "443bf6d178177cf347951ecf107ccd10ca444e605e375b67304579e5f948806f",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n443bf6d178177cf347951ecf107ccd10ca444e605e375b67304579e5f948806f\n1793191386.0492923\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link4_1.obj",
+    "bytes": 3148001,
+    "sha256": "ca935ec7cc8b3f0e86aa079c76b0b3bf593b1e9830bab0fa7131ac51577c74f0",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\nca935ec7cc8b3f0e86aa079c76b0b3bf593b1e9830bab0fa7131ac51577c74f0\n1793191388.3378716\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link4_2.obj",
+    "bytes": 455522,
+    "sha256": "c89caf26d379c35bb9e191ee2d91d09ab29ecc792b48d8bc10b39e5b38222175",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\nc89caf26d379c35bb9e191ee2d91d09ab29ecc792b48d8bc10b39e5b38222175\n1793191390.3400657\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link4_3.obj",
+    "bytes": 67497,
+    "sha256": "1495d17f45bdb230cf58b0beef9da4e8c9cfe76a3d2d38da89017efe5e093136",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n1495d17f45bdb230cf58b0beef9da4e8c9cfe76a3d2d38da89017efe5e093136\n1793191392.3078558\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link5_0.obj",
+    "bytes": 824158,
+    "sha256": "a3238b8f2af0f2eb66d9fe63dc5d41ac52d5d38507241b5ed10e3cb019ab3e71",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\na3238b8f2af0f2eb66d9fe63dc5d41ac52d5d38507241b5ed10e3cb019ab3e71\n1793191394.3515706\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link5_1.obj",
+    "bytes": 63174,
+    "sha256": "9d994bbf83ec241e301b5197a6846da13f2a4a0582edb2c0f76962c5549649d6",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n9d994bbf83ec241e301b5197a6846da13f2a4a0582edb2c0f76962c5549649d6\n1793191396.2484808\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link5_2.obj",
+    "bytes": 3856621,
+    "sha256": "83b4ffe9f772cd7fe182e98640650eebc899aaf01842656574b0416c90dd40a4",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n83b4ffe9f772cd7fe182e98640650eebc899aaf01842656574b0416c90dd40a4\n1793191398.6684792\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link5_collision_0.obj",
+    "bytes": 3861,
+    "sha256": "3e5aa75fb13f193555c3dfb999df91d81df25006a5c3af5338297d78137c129b",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n3e5aa75fb13f193555c3dfb999df91d81df25006a5c3af5338297d78137c129b\n1793191340.34338\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link5_collision_1.obj",
+    "bytes": 2412,
+    "sha256": "87cd8f621071df010f774cbde789282b8463840dfe704f8bdfa2e29be0142e15",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n87cd8f621071df010f774cbde789282b8463840dfe704f8bdfa2e29be0142e15\n1793191342.149067\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link5_collision_2.obj",
+    "bytes": 3786,
+    "sha256": "823ab6c8f7b1d79e0844fa071d82a03499ff68e34fddb1ba3451032c22736040",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n823ab6c8f7b1d79e0844fa071d82a03499ff68e34fddb1ba3451032c22736040\n1793191343.9455707\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link6.stl",
+    "bytes": 10084,
+    "sha256": "20b768e99a0e0440b5754dcca108016434e57937cc356acd9c352ccd3cb27f77",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n20b768e99a0e0440b5754dcca108016434e57937cc356acd9c352ccd3cb27f77\n1793191345.7736437\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link6_0.obj",
+    "bytes": 157563,
+    "sha256": "0504c70ebf1b284ee8faae7dcb896b8830bc672a6552015dd5dbd121fa031fb9",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n0504c70ebf1b284ee8faae7dcb896b8830bc672a6552015dd5dbd121fa031fb9\n1793191400.642031\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link6_1.obj",
+    "bytes": 27106,
+    "sha256": "45f7ca77695198b6d86ec2417ad4e42e6275044f0f96266699ee8e1057757ac1",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n45f7ca77695198b6d86ec2417ad4e42e6275044f0f96266699ee8e1057757ac1\n1793191402.541477\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link6_10.obj",
+    "bytes": 368502,
+    "sha256": "365f26c21d10332cab8d8704645cb46930c30b3085956f2d097498c793f24db4",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n365f26c21d10332cab8d8704645cb46930c30b3085956f2d097498c793f24db4\n1793191420.7113464\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link6_11.obj",
+    "bytes": 32653,
+    "sha256": "8ae61e08b3ad064f25bbf03b22e59cc15d65883b5a7ce92711aff29df2493901",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n8ae61e08b3ad064f25bbf03b22e59cc15d65883b5a7ce92711aff29df2493901\n1793191422.78515\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link6_12.obj",
+    "bytes": 3894,
+    "sha256": "f28d1bfd62b0244ffd19fb35fe9edefdf583d3c9167db944e87185d919e1d021",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\nf28d1bfd62b0244ffd19fb35fe9edefdf583d3c9167db944e87185d919e1d021\n1793191424.56513\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link6_13.obj",
+    "bytes": 3798,
+    "sha256": "0a55fa92dccb261d07200e6565fca4c850fd17f0c1ecf38821c0b97d51796c7d",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n0a55fa92dccb261d07200e6565fca4c850fd17f0c1ecf38821c0b97d51796c7d\n1793191426.4375753\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link6_14.obj",
+    "bytes": 444469,
+    "sha256": "750ae3ee4781e62e3a045c662195247b03f6642b05aa93104f08258e5f6eba26",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n750ae3ee4781e62e3a045c662195247b03f6642b05aa93104f08258e5f6eba26\n1793191428.3864956\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link6_15.obj",
+    "bytes": 668552,
+    "sha256": "5999c1c2497a004a7c4bbe034cdf13744f839d85ae7a11b1bc386c48a3e642e6",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n5999c1c2497a004a7c4bbe034cdf13744f839d85ae7a11b1bc386c48a3e642e6\n1793191430.4546368\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link6_16.obj",
+    "bytes": 3675358,
+    "sha256": "551d7a8b37c53e7a152d008b4e36992e5b5abe74a4be18b57ee6319c27def09f",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n551d7a8b37c53e7a152d008b4e36992e5b5abe74a4be18b57ee6319c27def09f\n1793191432.5801494\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link6_2.obj",
+    "bytes": 9916,
+    "sha256": "e54eee4d8232947ee8af65afd5a067e09dac2da6e7e585cb1dccb65496457da0",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\ne54eee4d8232947ee8af65afd5a067e09dac2da6e7e585cb1dccb65496457da0\n1793191404.4176767\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link6_3.obj",
+    "bytes": 11943,
+    "sha256": "d4f6a25ef32fa1fa4734146981994ee760232cb077c80fea6487d78a077c7f27",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\nd4f6a25ef32fa1fa4734146981994ee760232cb077c80fea6487d78a077c7f27\n1793191406.199677\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link6_4.obj",
+    "bytes": 13846,
+    "sha256": "be353480fe71d46f7a96f0a3cbb7e112caaf8d88368826f321a36a253c8749b2",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\nbe353480fe71d46f7a96f0a3cbb7e112caaf8d88368826f321a36a253c8749b2\n1793191409.2484217\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link6_5.obj",
+    "bytes": 11841,
+    "sha256": "7c87664623c3e1a6cb330db273227a69626dc5e53b4caff1d4ee7911eb3340c6",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n7c87664623c3e1a6cb330db273227a69626dc5e53b4caff1d4ee7911eb3340c6\n1793191411.0161326\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link6_6.obj",
+    "bytes": 12597,
+    "sha256": "8fbc031e0d07b795ebf99115c75223141caaba317cab569159f3d477a7821681",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n8fbc031e0d07b795ebf99115c75223141caaba317cab569159f3d477a7821681\n1793191412.8012922\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link6_7.obj",
+    "bytes": 4382,
+    "sha256": "7dc5ebb799fe281aab27d6e84e7a4efa0a8e42da2369ec83de3ea3f206f62d73",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n7dc5ebb799fe281aab27d6e84e7a4efa0a8e42da2369ec83de3ea3f206f62d73\n1793191414.5384836\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link6_8.obj",
+    "bytes": 9131,
+    "sha256": "e3f77381817a341030f9dcc4c4aa7c559f80411b453fd87eb0fefecca82151bf",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\ne3f77381817a341030f9dcc4c4aa7c559f80411b453fd87eb0fefecca82151bf\n1793191416.8538945\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link6_9.obj",
+    "bytes": 17616,
+    "sha256": "25a56ea9b02a03b6cb5a81f31c54f54d0185e1a0b3937c37e4289d896e50215a",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n25a56ea9b02a03b6cb5a81f31c54f54d0185e1a0b3937c37e4289d896e50215a\n1793191418.724843\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link7.stl",
+    "bytes": 10084,
+    "sha256": "92ac6afcf7574c034d3170d8a68e95ac9048ab9d0dd5bbd8311b86e551b9ab1c",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n92ac6afcf7574c034d3170d8a68e95ac9048ab9d0dd5bbd8311b86e551b9ab1c\n1793191347.5538495\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link7_0.obj",
+    "bytes": 1362355,
+    "sha256": "04586b0bde011715cfc22072ac72fe0717eb4d4817bcf665987ce6cd88eb2b93",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n04586b0bde011715cfc22072ac72fe0717eb4d4817bcf665987ce6cd88eb2b93\n1793191434.7194242\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link7_1.obj",
+    "bytes": 121358,
+    "sha256": "c3f72289f394c9d6749a4a327fb11f05b203c37c95032c92f28019b40ebe7e00",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\nc3f72289f394c9d6749a4a327fb11f05b203c37c95032c92f28019b40ebe7e00\n1793191436.7810812\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link7_2.obj",
+    "bytes": 208907,
+    "sha256": "d2faecedb304d0989040d082410378dc949dbbda23bd18c05134f08aae984db5",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\nd2faecedb304d0989040d082410378dc949dbbda23bd18c05134f08aae984db5\n1793191438.7808955\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link7_3.obj",
+    "bytes": 123684,
+    "sha256": "b62d87c4d4bdb7b281ed341d347c39dad0e50bf36aed8ac11d050073701d5f70",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\nb62d87c4d4bdb7b281ed341d347c39dad0e50bf36aed8ac11d050073701d5f70\n1793191440.6114333\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link7_4.obj",
+    "bytes": 85732,
+    "sha256": "cb78ccb61fd4ad6c7bff4c4d2e6cb41e1964a5a3e1a28e67c0c6202371cfc018",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\ncb78ccb61fd4ad6c7bff4c4d2e6cb41e1964a5a3e1a28e67c0c6202371cfc018\n1793191442.606169\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link7_5.obj",
+    "bytes": 226402,
+    "sha256": "099071d3090b51471ba52f4f90814fd3089f4975d196e4d488117073d0bfe491",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n099071d3090b51471ba52f4f90814fd3089f4975d196e4d488117073d0bfe491\n1793191444.538274\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link7_6.obj",
+    "bytes": 99900,
+    "sha256": "99469e2d95ab74ce0292f2f16954c87a8a7dc16652e62e970fe37c94330a81bb",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n99469e2d95ab74ce0292f2f16954c87a8a7dc16652e62e970fe37c94330a81bb\n1793191446.4514723\n"
+  },
+  {
+    "path": "robots/franka/mjcf/assets/link7_7.obj",
+    "bytes": 792162,
+    "sha256": "426c3db8a19373f3dc73d4bec672e948121b2914c10e2e7b9c7ea80643a19e54",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n426c3db8a19373f3dc73d4bec672e948121b2914c10e2e7b9c7ea80643a19e54\n1793191448.4583557\n"
+  },
+  {
+    "path": "robots/franka/mjcf/panda.xml",
+    "bytes": 14690,
+    "sha256": "1414ff6358dda4f1c66d8021d473a7940ddbcbece66e0ab61156af395112d3a2",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n639bfcc03a26f4763e5e90f848dba73d29832d9d\n1793191296.2255793\n"
+  },
+  {
+    "path": "trajs/libero90/libero_90_kitchen_scene1_put_the_black_bowl_on_the_plate_traj_v2.pkl",
+    "bytes": 6194415,
+    "sha256": "825d791beedc973b58fc1dfbca9eab47c5f1d18997f596ad84c488e703a0a864",
+    "hf_local_download_metadata": "fab63ccaaed54f413901f86edc3fa1ab77a96500\n825d791beedc973b58fc1dfbca9eab47c5f1d18997f596ad84c488e703a0a864\n1793191291.6691058\n"
+  }
+]

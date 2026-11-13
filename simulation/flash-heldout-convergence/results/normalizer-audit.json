@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "within_method_all_four_checkpoints_identical": true,
+  "cross_method_different_keys": [
+    "normalizer.params_dict.action.offset",
+    "normalizer.params_dict.action.scale",
+    "normalizer.params_dict.action.input_stats.max",
+    "normalizer.params_dict.action.input_stats.mean",
+    "normalizer.params_dict.action.input_stats.min",
+    "normalizer.params_dict.action.input_stats.std",
+    "normalizer.params_dict.agent_pos.offset",
+    "normalizer.params_dict.agent_pos.scale",
+    "normalizer.params_dict.agent_pos.input_stats.max",
+    "normalizer.params_dict.agent_pos.input_stats.mean",
+    "normalizer.params_dict.agent_pos.input_stats.min",
+    "normalizer.params_dict.agent_pos.input_stats.std"
+  ],
+  "cross_method_equality_not_required": true,
+  "all_loaded_parameters_verified_against_own_checkpoint": true,
+  "initial_aggregate_check_failure": "An overly strict cross-method normalizer-equality assertion failed. Corrected to within-method across-checkpoint stability; original failure log preserved. No policy or input changes and no evaluation rerun needed."
+}

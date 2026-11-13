@@ -1,0 +1,478 @@
+{
+  "status": "PASS",
+  "controls": 6,
+  "all_resets_and_controllers_equal": true,
+  "all_successes_match": true,
+  "all_trajectories_bitwise_equal": false,
+  "interpretation": "Six hardware sensitivity controls, not a hardware equivalence proof. No latency comparison across devices.",
+  "records": [
+    {
+      "policy": "flash",
+      "test_id": 0,
+      "reset_and_rgb_bitwise_equal": true,
+      "gpu0_success": true,
+      "gpu2_success": true,
+      "gpu0_control_steps": 106,
+      "gpu2_control_steps": 104,
+      "same_success": true,
+      "same_length": false,
+      "trajectory_differences": {
+        "step": {
+          "compared_prefix": 104,
+          "bitwise_equal_on_prefix": true,
+          "max_absolute_difference_on_prefix": 0.0
+        },
+        "time_s": {
+          "compared_prefix": 104,
+          "bitwise_equal_on_prefix": true,
+          "max_absolute_difference_on_prefix": 0.0
+        },
+        "bowl_pose": {
+          "compared_prefix": 104,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.060783371329307556
+        },
+        "plate_pose": {
+          "compared_prefix": 104,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 9.094947017729282e-13
+        },
+        "joint_positions": {
+          "compared_prefix": 104,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.009075522422790527
+        },
+        "native_qpos": {
+          "compared_prefix": 104,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.06078337078618318
+        },
+        "native_qvel": {
+          "compared_prefix": 104,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 2.5288381530327566
+        },
+        "action_joint_targets": {
+          "compared_prefix": 104,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.009262919425964355
+        },
+        "bowl_linear_velocity_world": {
+          "compared_prefix": 104,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.12902859205668737
+        },
+        "bowl_angular_velocity_world": {
+          "compared_prefix": 104,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 2.3429531057242685
+        },
+        "bowl_hand_contact_count": {
+          "compared_prefix": 104,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 6.0
+        },
+        "geometric_success": {
+          "compared_prefix": 104,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 1.0
+        },
+        "model_call": {
+          "compared_prefix": 104,
+          "bitwise_equal_on_prefix": true,
+          "max_absolute_difference_on_prefix": 0.0
+        }
+      }
+    },
+    {
+      "policy": "flash",
+      "test_id": 1,
+      "reset_and_rgb_bitwise_equal": true,
+      "gpu0_success": true,
+      "gpu2_success": true,
+      "gpu0_control_steps": 109,
+      "gpu2_control_steps": 110,
+      "same_success": true,
+      "same_length": false,
+      "trajectory_differences": {
+        "step": {
+          "compared_prefix": 109,
+          "bitwise_equal_on_prefix": true,
+          "max_absolute_difference_on_prefix": 0.0
+        },
+        "time_s": {
+          "compared_prefix": 109,
+          "bitwise_equal_on_prefix": true,
+          "max_absolute_difference_on_prefix": 0.0
+        },
+        "bowl_pose": {
+          "compared_prefix": 109,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.032157883048057556
+        },
+        "plate_pose": {
+          "compared_prefix": 109,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 9.094947017729282e-13
+        },
+        "joint_positions": {
+          "compared_prefix": 109,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.00866958498954773
+        },
+        "native_qpos": {
+          "compared_prefix": 109,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.03215787736513809
+        },
+        "native_qvel": {
+          "compared_prefix": 109,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 2.247994935910847
+        },
+        "action_joint_targets": {
+          "compared_prefix": 109,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.009725034236907959
+        },
+        "bowl_linear_velocity_world": {
+          "compared_prefix": 109,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.1744842550810861
+        },
+        "bowl_angular_velocity_world": {
+          "compared_prefix": 109,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 2.296598136954719
+        },
+        "bowl_hand_contact_count": {
+          "compared_prefix": 109,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 5.0
+        },
+        "geometric_success": {
+          "compared_prefix": 109,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 1.0
+        },
+        "model_call": {
+          "compared_prefix": 109,
+          "bitwise_equal_on_prefix": true,
+          "max_absolute_difference_on_prefix": 0.0
+        }
+      }
+    },
+    {
+      "policy": "flash",
+      "test_id": 2,
+      "reset_and_rgb_bitwise_equal": true,
+      "gpu0_success": true,
+      "gpu2_success": true,
+      "gpu0_control_steps": 110,
+      "gpu2_control_steps": 110,
+      "same_success": true,
+      "same_length": true,
+      "trajectory_differences": {
+        "step": {
+          "compared_prefix": 110,
+          "bitwise_equal_on_prefix": true,
+          "max_absolute_difference_on_prefix": 0.0
+        },
+        "time_s": {
+          "compared_prefix": 110,
+          "bitwise_equal_on_prefix": true,
+          "max_absolute_difference_on_prefix": 0.0
+        },
+        "bowl_pose": {
+          "compared_prefix": 110,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.05113597959280014
+        },
+        "plate_pose": {
+          "compared_prefix": 110,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 9.094947017729282e-13
+        },
+        "joint_positions": {
+          "compared_prefix": 110,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.023357629776000977
+        },
+        "native_qpos": {
+          "compared_prefix": 110,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.051135983218954545
+        },
+        "native_qvel": {
+          "compared_prefix": 110,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 2.418767598428238
+        },
+        "action_joint_targets": {
+          "compared_prefix": 110,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.02343118190765381
+        },
+        "bowl_linear_velocity_world": {
+          "compared_prefix": 110,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.13749368411740315
+        },
+        "bowl_angular_velocity_world": {
+          "compared_prefix": 110,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 2.1599564031645615
+        },
+        "bowl_hand_contact_count": {
+          "compared_prefix": 110,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 5.0
+        },
+        "geometric_success": {
+          "compared_prefix": 110,
+          "bitwise_equal_on_prefix": true,
+          "max_absolute_difference_on_prefix": 0.0
+        },
+        "model_call": {
+          "compared_prefix": 110,
+          "bitwise_equal_on_prefix": true,
+          "max_absolute_difference_on_prefix": 0.0
+        }
+      }
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 0,
+      "reset_and_rgb_bitwise_equal": true,
+      "gpu0_success": true,
+      "gpu2_success": true,
+      "gpu0_control_steps": 89,
+      "gpu2_control_steps": 89,
+      "same_success": true,
+      "same_length": true,
+      "trajectory_differences": {
+        "step": {
+          "compared_prefix": 89,
+          "bitwise_equal_on_prefix": true,
+          "max_absolute_difference_on_prefix": 0.0
+        },
+        "time_s": {
+          "compared_prefix": 89,
+          "bitwise_equal_on_prefix": true,
+          "max_absolute_difference_on_prefix": 0.0
+        },
+        "bowl_pose": {
+          "compared_prefix": 89,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.16639548540115356
+        },
+        "plate_pose": {
+          "compared_prefix": 89,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 1.8189894035458565e-12
+        },
+        "joint_positions": {
+          "compared_prefix": 89,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.03329920768737793
+        },
+        "native_qpos": {
+          "compared_prefix": 89,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.16639545033453218
+        },
+        "native_qvel": {
+          "compared_prefix": 89,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 5.505410143898957
+        },
+        "action_joint_targets": {
+          "compared_prefix": 89,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.03482961654663086
+        },
+        "bowl_linear_velocity_world": {
+          "compared_prefix": 89,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.2944917735464797
+        },
+        "bowl_angular_velocity_world": {
+          "compared_prefix": 89,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 5.468040319737586
+        },
+        "bowl_hand_contact_count": {
+          "compared_prefix": 89,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 19.0
+        },
+        "geometric_success": {
+          "compared_prefix": 89,
+          "bitwise_equal_on_prefix": true,
+          "max_absolute_difference_on_prefix": 0.0
+        },
+        "model_call": {
+          "compared_prefix": 89,
+          "bitwise_equal_on_prefix": true,
+          "max_absolute_difference_on_prefix": 0.0
+        }
+      }
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 1,
+      "reset_and_rgb_bitwise_equal": true,
+      "gpu0_success": true,
+      "gpu2_success": true,
+      "gpu0_control_steps": 104,
+      "gpu2_control_steps": 99,
+      "same_success": true,
+      "same_length": false,
+      "trajectory_differences": {
+        "step": {
+          "compared_prefix": 99,
+          "bitwise_equal_on_prefix": true,
+          "max_absolute_difference_on_prefix": 0.0
+        },
+        "time_s": {
+          "compared_prefix": 99,
+          "bitwise_equal_on_prefix": true,
+          "max_absolute_difference_on_prefix": 0.0
+        },
+        "bowl_pose": {
+          "compared_prefix": 99,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.21466951817274094
+        },
+        "plate_pose": {
+          "compared_prefix": 99,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.005528251100258785
+        },
+        "joint_positions": {
+          "compared_prefix": 99,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.04384422302246094
+        },
+        "native_qpos": {
+          "compared_prefix": 99,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.2146695104463434
+        },
+        "native_qvel": {
+          "compared_prefix": 99,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 8.058134715198392
+        },
+        "action_joint_targets": {
+          "compared_prefix": 99,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.045450448989868164
+        },
+        "bowl_linear_velocity_world": {
+          "compared_prefix": 99,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.4375711008098031
+        },
+        "bowl_angular_velocity_world": {
+          "compared_prefix": 99,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 8.391478761798023
+        },
+        "bowl_hand_contact_count": {
+          "compared_prefix": 99,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 6.0
+        },
+        "geometric_success": {
+          "compared_prefix": 99,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 1.0
+        },
+        "model_call": {
+          "compared_prefix": 99,
+          "bitwise_equal_on_prefix": true,
+          "max_absolute_difference_on_prefix": 0.0
+        }
+      }
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 2,
+      "reset_and_rgb_bitwise_equal": true,
+      "gpu0_success": true,
+      "gpu2_success": true,
+      "gpu0_control_steps": 95,
+      "gpu2_control_steps": 98,
+      "same_success": true,
+      "same_length": false,
+      "trajectory_differences": {
+        "step": {
+          "compared_prefix": 95,
+          "bitwise_equal_on_prefix": true,
+          "max_absolute_difference_on_prefix": 0.0
+        },
+        "time_s": {
+          "compared_prefix": 95,
+          "bitwise_equal_on_prefix": true,
+          "max_absolute_difference_on_prefix": 0.0
+        },
+        "bowl_pose": {
+          "compared_prefix": 95,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.09765186253935099
+        },
+        "plate_pose": {
+          "compared_prefix": 95,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 1.8189894035458565e-12
+        },
+        "joint_positions": {
+          "compared_prefix": 95,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.03870058059692383
+        },
+        "native_qpos": {
+          "compared_prefix": 95,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.09765186511186834
+        },
+        "native_qvel": {
+          "compared_prefix": 95,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 7.9238325202762026
+        },
+        "action_joint_targets": {
+          "compared_prefix": 95,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.039182186126708984
+        },
+        "bowl_linear_velocity_world": {
+          "compared_prefix": 95,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 0.31275639434364605
+        },
+        "bowl_angular_velocity_world": {
+          "compared_prefix": 95,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 7.878072265019503
+        },
+        "bowl_hand_contact_count": {
+          "compared_prefix": 95,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 24.0
+        },
+        "geometric_success": {
+          "compared_prefix": 95,
+          "bitwise_equal_on_prefix": false,
+          "max_absolute_difference_on_prefix": 1.0
+        },
+        "model_call": {
+          "compared_prefix": 95,
+          "bitwise_equal_on_prefix": true,
+          "max_absolute_difference_on_prefix": 0.0
+        }
+      }
+    }
+  ]
+}

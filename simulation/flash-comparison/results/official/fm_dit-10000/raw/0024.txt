@@ -1,0 +1,23 @@
+Demo Index: 24
+Num Envs: 1
+SuccessOnce: False
+SuccessEnd: False
+TimeOut: True
+Domain Randomization Level: 0
+Domain Randomization Scene Mode: 0
+Domain Randomization Seed: None
+Cumulative Average Success Rate: 0.7200
+
+--- Inference Time Statistics ---
+Total Steps: 300
+Average Inference Time: 14.41ms
+Min Inference Time: 0.57ms
+Max Inference Time: 137.29ms
+
+--- Per-Inference Time Statistics (model forward pass only) ---
+Actual Inferences: 38
+Average Per-Inference Time: 99.33ms
+
+--- Episode Duration ---
+Episode Duration: 11182.37ms
+Episode Total Inference Time: 3774.64ms

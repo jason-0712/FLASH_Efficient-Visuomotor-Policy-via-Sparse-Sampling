@@ -1,0 +1,10 @@
+{
+  "candidate_count": 53,
+  "selected_count": 50,
+  "rejected_count": 3,
+  "negative_controls_rejected": 4,
+  "selected_state_hashes_unique": true,
+  "minimum_selected_distance_to_original_50_m": 0.005032394938097915,
+  "test_initials_sha256": "ad70b6e7b77873373246002ea0a07e1345312e0e2c10b62e092f939f16b24076",
+  "known_robot_state_note": "Reference second finger starts negative and relaxes to its joint stop. Physical admissibility here concerns bowl/plate support and undesired object contacts, not a claim that every original robot joint is initially within limits. The inherited robot state is identical for both methods."
+}

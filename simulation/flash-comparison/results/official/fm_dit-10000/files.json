@@ -1,0 +1,902 @@
+[
+  {
+    "path": "results/official/fm_dit-10000/raw/0000.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0000.txt",
+    "bytes": 571,
+    "sha256": "3650b3e368d6cae50b38c870a00c54d9ccf75406fdb212bdd0fcd543f692ff69"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0.mp4",
+    "bytes": 147620,
+    "sha256": "88a0757a2551dfe40421da4c19bcbd8e07afa0d57ac3597d9bd80bb947a0911b"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo0.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo0.npz",
+    "bytes": 22388,
+    "sha256": "e75fee9772b9e5a0fe305d4c9c591ee546916c0519415f58dd40a875e1715d16"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0001.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0001.txt",
+    "bytes": 566,
+    "sha256": "ff4d1eb0208d560641ac17e4f9a3ed645ca5ea2502feff502d47adcf17a96e4c"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/1.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/1.mp4",
+    "bytes": 56726,
+    "sha256": "a232e265c075de58817241d682ac3fdc14772e4b4f102fd2eb22e73a90d16677"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo1.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo1.npz",
+    "bytes": 7916,
+    "sha256": "f1126cf7db6f95b60f67760bc5e1f5d0c88f7d7c962ffb5bed65d092ee738e13"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0002.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0002.txt",
+    "bytes": 573,
+    "sha256": "70298667a57ab3f3a5a2107d1b3dea062bf23b37586123f4caa0e16a6ba766b7"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/2.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/2.mp4",
+    "bytes": 144819,
+    "sha256": "02833f9a61d298e83037840aa8375fa3aa0ad579336b534c50be4943fa02d35e"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo2.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo2.npz",
+    "bytes": 22388,
+    "sha256": "e6deccd3a704daa5fbf4f1212c5e3c876a90c29944d741affddf06310695b973"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0003.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0003.txt",
+    "bytes": 570,
+    "sha256": "85ae4bb25217b55dc7fd4d604a3f4a37f99ee4a50c0ed8aa201fbc556cc7173e"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/3.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/3.mp4",
+    "bytes": 62860,
+    "sha256": "d2a26e9c23db8f21a8266c8f68e920edf56607115c8ec186b39a82adc9b7f3b7"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo3.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo3.npz",
+    "bytes": 8996,
+    "sha256": "b13d817f614b6a983089d41c7748f494bae5cf9e50168b93a4c12b6d7b5a3bd6"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0004.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0004.txt",
+    "bytes": 569,
+    "sha256": "4aa803771d6c3f3e52b2ab8e960721a40be313c93b957328aaf8029371155b0a"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/4.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/4.mp4",
+    "bytes": 51731,
+    "sha256": "275c30b4d1e258d7b2962bf35fd104dcb668e71b28dcb455e58f9614f3054a60"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo4.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo4.npz",
+    "bytes": 7628,
+    "sha256": "ecea64be72af63392df9b52a4bfa4a0e47897633cb5023fadcbc4fb937f8d4bc"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0005.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0005.txt",
+    "bytes": 570,
+    "sha256": "4c03fc80d0e1d221b1335faa7e493b9b6c0f1bd80e189031a227768f23b4f22d"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/5.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/5.mp4",
+    "bytes": 55778,
+    "sha256": "aa7ed2ce0d9e2cccd4d6d47a403d9049dab9d521a155c1f1410f6c8c87907c25"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo5.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo5.npz",
+    "bytes": 8204,
+    "sha256": "b549c449b51a2036f0fda7a91da943d2695a2ceb8d4fc58cbb9108097cb373b6"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0006.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0006.txt",
+    "bytes": 569,
+    "sha256": "845cdbe6a45dfa7c219af1091c08abefffee2e5dfc0e354442f036e0ab1dca0a"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/6.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/6.mp4",
+    "bytes": 54485,
+    "sha256": "7ffa1bb09180036e3c1bf1b77a6d3622f423f48dd4ea0ffa5b447d01151cc457"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo6.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo6.npz",
+    "bytes": 7628,
+    "sha256": "b18f5ae5adec4cd050b97a6222707ee4a73801efdb715a4e37a18d82b0a8adfe"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0007.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0007.txt",
+    "bytes": 573,
+    "sha256": "853cec1a2930bec99d61aed100c78c6f1dca314a08a1927d30f0ba535cc7fce0"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/7.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/7.mp4",
+    "bytes": 138630,
+    "sha256": "112d07da7742391aebac61d30a8f3d1b5fa38948fc831e6979c944626389c876"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo7.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo7.npz",
+    "bytes": 22388,
+    "sha256": "3a1f683ba85fd42052804fd7f3e750c5c835c213d1753c130d037f49d80be2b5"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0008.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0008.txt",
+    "bytes": 567,
+    "sha256": "7b7d945c1f0d399605a5874679ae20a0a386d74986b781235e8ec1323d6ef690"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/8.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/8.mp4",
+    "bytes": 59957,
+    "sha256": "3f542383b1e1caad0b0033277c1d25137f69ce044ac56487eb230e8af2a1c8ce"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo8.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo8.npz",
+    "bytes": 8564,
+    "sha256": "82c1bad4131ac97a3524df256bc492846bfbff7c9f29ac57f21b321b6b5dead4"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0009.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0009.txt",
+    "bytes": 569,
+    "sha256": "c57fe7cc706ab200028be0674f1db78a7c9633a674318ff3bf979c9a37968351"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/9.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/9.mp4",
+    "bytes": 64658,
+    "sha256": "e275e72418475fb4c1fca48d7b0a4bc543268a1af314e9cbdbda2bdb34c99e26"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo9.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo9.npz",
+    "bytes": 9356,
+    "sha256": "e9960bae04b06a89fc938a480198fe0d49e6cdef004527d10a27dc02fe29808c"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0010.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0010.txt",
+    "bytes": 571,
+    "sha256": "c04781656488d6014a6185e14fb7bbca70d75b6ad52c6c02e0d0a542fff13bfa"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/10.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/10.mp4",
+    "bytes": 63214,
+    "sha256": "f93ae926389b2789d64d69ca759655b7506e1663842daf743eeefaa61f2bf70e"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo10.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo10.npz",
+    "bytes": 8852,
+    "sha256": "0b5a07beabe3702e3887072ab52e07ea0e1e3658509022524ddf45bf265b0372"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0011.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0011.txt",
+    "bytes": 574,
+    "sha256": "e89cb22ea7924c56073a8943dfbb3b4836930a043c36127106573f9045c3fb40"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/11.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/11.mp4",
+    "bytes": 137902,
+    "sha256": "8cbb6049b9fcbf40cc8b88296720a0d76cff283bcc01347e3fdd1fb888f4487e"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo11.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo11.npz",
+    "bytes": 22388,
+    "sha256": "6fbf12a03f1aca44418420741e8b94bb3de1f7ca2bedd439e51ccc8bfb06cfe7"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0012.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0012.txt",
+    "bytes": 570,
+    "sha256": "fe651aa8826d6747263c5fe19bc1732d29961f308721b32352ff4be0f5d22e52"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/12.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/12.mp4",
+    "bytes": 54327,
+    "sha256": "096e15dd29f98f830a69c1d8d5be4250670e5bbae1b729888dc29cdd6f1abc09"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo12.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo12.npz",
+    "bytes": 7916,
+    "sha256": "21f19f8cbbf24367798076cfc6cff35f00e800c9e7e95988e621691994f01ed4"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0013.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0013.txt",
+    "bytes": 571,
+    "sha256": "b4837bf671eb623dac53bd22bc35417c1648632f6ce06672dc8e4fec43f988a6"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/13.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/13.mp4",
+    "bytes": 61359,
+    "sha256": "64cac1e1ea7815d6ab307bcbab7ad4bb1d8e190b81f99dddeb5f6ec16f089c20"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo13.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo13.npz",
+    "bytes": 8780,
+    "sha256": "fb1bdcc646b8a3e694cc0f86c1b445b4199b40c044948d74fe7c9cfb01677f30"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0014.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0014.txt",
+    "bytes": 574,
+    "sha256": "2fe303e357bf81793397b57f5e7abe79073e7d5300d0952b57654eacb4111365"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/14.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/14.mp4",
+    "bytes": 133016,
+    "sha256": "ca436d607da3ab06420505cb3b576d6c8ae65a520b8230cb207012ce273297a2"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo14.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo14.npz",
+    "bytes": 22388,
+    "sha256": "6f278dde1a70639004709a99a6be4282ac463683c6f81bf9e5b7c67171a7abd0"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0015.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0015.txt",
+    "bytes": 572,
+    "sha256": "859c88673f5e4228070d76ea03a7544f63fc72699280b611475d9713a76c61fd"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/15.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/15.mp4",
+    "bytes": 58925,
+    "sha256": "01d2ae66fcd7740ba424ce088d084989011de414b770d81ad5a97aa55b88be22"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo15.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo15.npz",
+    "bytes": 8132,
+    "sha256": "52f8d623ad1eef7a8db5e1b046cd2539a3bf8c0bbeef2ea3fc72321981bcad6d"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0016.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0016.txt",
+    "bytes": 572,
+    "sha256": "fb2ccb1f2f910a9d2c99c8744daad69e2d35b3cab0a60eb2e4530970f8665301"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/16.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/16.mp4",
+    "bytes": 145172,
+    "sha256": "8202443c224528e61595673458009e3cf0851a9fead1e120e8f2ff70ad996422"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo16.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo16.npz",
+    "bytes": 22388,
+    "sha256": "57dc9c025cc2f61db33bdda6ce1faa6e9e80f4c06e502377f9a0e11218878803"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0017.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0017.txt",
+    "bytes": 570,
+    "sha256": "5b3a240a351a553f30d539cdde7260884835175035bc0d31a49ebf348947576c"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/17.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/17.mp4",
+    "bytes": 54997,
+    "sha256": "f6d51e9d47d3fb5fad9f2869e1be42e1c584c7a7d4b54a24c2dda8f5fbc99542"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo17.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo17.npz",
+    "bytes": 8132,
+    "sha256": "0534b2f6ba9220692daa279c40945f7248e34a08bc08a7ab910e2a59c4545900"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0018.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0018.txt",
+    "bytes": 572,
+    "sha256": "e5ce2fc666d2ec679080918b2f497bac1c3e50cdb13171986d9466ee8d4f5280"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/18.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/18.mp4",
+    "bytes": 58851,
+    "sha256": "ff8cb076d591fc6eb124b3ca21adf4b0f073e964e1aa6109cac63d4393ac4e34"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo18.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo18.npz",
+    "bytes": 8420,
+    "sha256": "6a15c53d0124705a097607a286b4939d09aff92d3de4cc2785bcf61346626c82"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0019.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0019.txt",
+    "bytes": 570,
+    "sha256": "28d57556d77c32a89ec643d05791c7491cd3be2395c01de0c7b25ba4ce767b16"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/19.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/19.mp4",
+    "bytes": 55018,
+    "sha256": "0f0e84a149dc693252a6235e7cb75905b1060f970fc629a98e8721a7f8de9b47"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo19.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo19.npz",
+    "bytes": 8276,
+    "sha256": "80c238cf7f4b996953c806078d77e2c0b57fe662f0045648be2d4aa4ec56b82b"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0020.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0020.txt",
+    "bytes": 568,
+    "sha256": "17bd5c823e8de922eb2430d9c25de43a9dd7446dd01596305e4b54563e48e17d"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/20.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/20.mp4",
+    "bytes": 60964,
+    "sha256": "91f4bc0525c352c9c797c5775b2a7944435864017988d74bf3b97c6b857ca028"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo20.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo20.npz",
+    "bytes": 8780,
+    "sha256": "63b722bc3b0decd21a52a103c19e3a70e7683542c62681015a7058d88f223ef1"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0021.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0021.txt",
+    "bytes": 570,
+    "sha256": "6a0d70919a11e8604dc857c10c78d8dd52c811d486d0b42ce0c71275c7796d14"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/21.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/21.mp4",
+    "bytes": 53657,
+    "sha256": "7109c59f1c746eb3cbe4f9d82a32c9c12c62fe8e60a486000cd9d3d2e570a3d4"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo21.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo21.npz",
+    "bytes": 8060,
+    "sha256": "f8f71b86c2b2bcca3c7f7f0f6ba648acc76e7e0084fb71f1f8d285d4dcf1a66b"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0022.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0022.txt",
+    "bytes": 571,
+    "sha256": "c5b16cfaf737276a73b8c911edb5f4fa0cd94251e67691c90f89781aed2bd33b"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/22.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/22.mp4",
+    "bytes": 65197,
+    "sha256": "cd44263dbe499c0d2478b23b7d9872c77b7b910900af475b48a9e38338323aa7"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo22.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo22.npz",
+    "bytes": 9356,
+    "sha256": "70c9bcb4e77e0530c92592c215b7730a1ee1d6dd30e762a5793d2417ba37eb96"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0023.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0023.txt",
+    "bytes": 567,
+    "sha256": "4a30fa53c8c1ccf2e28b2dd675bb78bc04008aa2f485e144194e86dabb6ec031"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/23.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/23.mp4",
+    "bytes": 54893,
+    "sha256": "9730f04d8bbe2987ea3885124748cfd63d4cf384ba4a1c2598db332cd409f14c"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo23.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo23.npz",
+    "bytes": 7700,
+    "sha256": "f82178bcca4d19f18c4640023378e565a427e8f50388a28a53ac61db01b2b5df"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0024.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0024.txt",
+    "bytes": 573,
+    "sha256": "986e153ff3c0323a4ac90a5068a76ad2bb2e027d9bc85e939acdb309eeeee266"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/24.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/24.mp4",
+    "bytes": 133722,
+    "sha256": "687e2565f5dbcf5e4cf123cba4d4e14c7e50fa8d9e8b8b64cf75096f1dfdd551"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo24.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo24.npz",
+    "bytes": 22388,
+    "sha256": "fa55190288c18b341fe83f0421706642932b74d0eb4ec3cd169768677e2ba684"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0025.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0025.txt",
+    "bytes": 570,
+    "sha256": "93dd9bee42686926150f78e6dcc8e7538e4f89847bce12ea49b18d6275a8df6e"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/25.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/25.mp4",
+    "bytes": 140741,
+    "sha256": "bfae58ddaa045c85e8189012b1bf62b8189315e72afa9604ee6d079bdb9a45c6"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo25.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo25.npz",
+    "bytes": 22388,
+    "sha256": "1d580bb1d013136c4fd4e7d77294a21ce4596718fe57919443897e8a1b9148e7"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0026.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0026.txt",
+    "bytes": 571,
+    "sha256": "794be6bbb185e56490787dfbc506bc2c0c5d1610fcb76f7ffa84015466e9753d"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/26.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/26.mp4",
+    "bytes": 56821,
+    "sha256": "b7706d396a338e0d1458acb5644dfed397dc9474f3bbbedc88ed377a99171671"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo26.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo26.npz",
+    "bytes": 7988,
+    "sha256": "b8121fbe92a51e8f6dfe38a75d37ae8d9d3cfbbefc88e0369307d2d2aad54e33"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0027.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0027.txt",
+    "bytes": 568,
+    "sha256": "ce4c03cac09bf81a6d79f1221e2a124dd76e5775bc1f8ce688928f68e8560ec5"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/27.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/27.mp4",
+    "bytes": 55193,
+    "sha256": "50f5844b740d42494225ff30f112d4057b7c258ade230b9c411c9708ae06ee3e"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo27.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo27.npz",
+    "bytes": 8060,
+    "sha256": "c1feaa0aaf18992f35e9a51b5d9a3a230c4f19ac2b8a5e0ca87994f273369196"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0028.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0028.txt",
+    "bytes": 572,
+    "sha256": "cb0758e1323972c0732db78075265d3af23da436932fd6f92f9ef3f6815808fc"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/28.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/28.mp4",
+    "bytes": 144198,
+    "sha256": "72809c45f3afb2b97ade0d2e84bb7bc9447cbf4c2538a750bc37ad4e4e1a2bb8"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo28.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo28.npz",
+    "bytes": 22388,
+    "sha256": "bd86c64c61870ac2fa30625b5985cfd194d7ded08ea5d1a0bfff59c25d70edd8"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0029.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0029.txt",
+    "bytes": 569,
+    "sha256": "5bc0408ba29750fd9b7cf73184c3f28421d8f67e546c8ebd1059223de372cfb9"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/29.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/29.mp4",
+    "bytes": 54334,
+    "sha256": "9c09e372e4c164a38e9df3cb738c7c8d64620e857246b4e7eb0a04d1d077f598"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo29.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo29.npz",
+    "bytes": 7628,
+    "sha256": "4435a72b877954ee68ce9eeb4ca2a5bf211b335db422df595f0c7a8e43e5496b"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0030.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0030.txt",
+    "bytes": 568,
+    "sha256": "3d1a310a3336bf7e9fa460d69c27aa5eaf180bcd54854a9eb820f678d7b2d509"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/30.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/30.mp4",
+    "bytes": 62399,
+    "sha256": "424a6a43ada1e31fc0982c71f710f6a7f184cd50716b3236000d41441e1899e0"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo30.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo30.npz",
+    "bytes": 9068,
+    "sha256": "ee53d14d838dc3a8bf7f6866ca6f9a00d266d8295e0a0f4ce635d810f672f7ef"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0031.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0031.txt",
+    "bytes": 570,
+    "sha256": "99802433174d8ba2c0280d0588973ad92efaf28310a0da199d067311f69cd4d6"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/31.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/31.mp4",
+    "bytes": 130449,
+    "sha256": "26c6e09bdead0f04a8abf72e8164e2e932769da9a5994fcca0dac0df09996457"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo31.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo31.npz",
+    "bytes": 22388,
+    "sha256": "7b82c0a513a6b7e41f792822f3ccd345bf7344b0991bc07155b04ef5210db418"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0032.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0032.txt",
+    "bytes": 568,
+    "sha256": "fb823c05b2aae6f97b27d10fc5d2950947ecd6fab62fbdd164bd5589cbe6a5be"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/32.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/32.mp4",
+    "bytes": 56666,
+    "sha256": "1d5bedc8f3f8b7d5846a559083ad7568405930705c218b9601ff86422f2217c0"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo32.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo32.npz",
+    "bytes": 8348,
+    "sha256": "685654f25a1d30e596aff2e4d184c93cb0d98018e92b277f83ace9b837ba7d6e"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0033.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0033.txt",
+    "bytes": 570,
+    "sha256": "b1e812897100a168960fa504466096f274323b717145831fe0ee366374753077"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/33.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/33.mp4",
+    "bytes": 58792,
+    "sha256": "29a5c9798bde575bd16c904f0435ccfdc4a04243e91b4c252159d6047003e8d7"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo33.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo33.npz",
+    "bytes": 8132,
+    "sha256": "00e4886b3b3f05ae682e620a6fd6bb178002dbf2f72966f95bfe983a420e4766"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0034.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0034.txt",
+    "bytes": 572,
+    "sha256": "199cb137e10c6ed10ea49b48fbc1bf60e664fdb0c4b2891de6702dd1ef9e4777"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/34.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/34.mp4",
+    "bytes": 59271,
+    "sha256": "fbfd130b1a75faf559b28aef3d12835a56cf1033028d92e1adf9bf07e1d113f4"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo34.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo34.npz",
+    "bytes": 8420,
+    "sha256": "4348be201ceb8071d8373a6155aac0428253943725398cfd235f9f0a3019b2ff"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0035.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0035.txt",
+    "bytes": 573,
+    "sha256": "461b24add73801f436d1ea0bc54d0b2a20e585549786ba740aeaa35e9dfc2355"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/35.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/35.mp4",
+    "bytes": 129471,
+    "sha256": "6248e74712052837e79c289dbec3909a19419a88427959ac2b658b8d5893298f"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo35.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo35.npz",
+    "bytes": 22388,
+    "sha256": "d0148dccd090935595982a77f3ab1ebd9f84d3724d385d052dcce19c93690731"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0036.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0036.txt",
+    "bytes": 571,
+    "sha256": "fe7e6891baf69284439de2330e29dddce0c760acae32ae820514040ed4eddc34"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/36.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/36.mp4",
+    "bytes": 62547,
+    "sha256": "4a4c65d4f76e71f0d507bdfddd5fe8409a25a7270fb63bf664ecde04cfc59e46"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo36.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo36.npz",
+    "bytes": 9068,
+    "sha256": "984bf27b16fbbdde8a7953b7a5cd0bee2c043e4de9ebe3b37fa12b246c6ecf9b"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0037.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0037.txt",
+    "bytes": 572,
+    "sha256": "9f56285c47eeb63310f2c2e8df6f5ac7d4f9ef7c2d113e8da1b7c6e9f0fca806"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/37.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/37.mp4",
+    "bytes": 61568,
+    "sha256": "70623e62de61abff8ffdfdc71a29d6d943fe2e83d1f1e0e0914afb976d8c3783"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo37.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo37.npz",
+    "bytes": 8780,
+    "sha256": "7fceaf89c2aed5b4151a59f9d482100d1e24fbcb2861c26b2781b46a12b92eab"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0038.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0038.txt",
+    "bytes": 571,
+    "sha256": "72fd183260699d9e358c424062cc14331e79639a5cc78849ca2557e2cb591fa9"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/38.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/38.mp4",
+    "bytes": 54775,
+    "sha256": "dba34b72517545b0f2d717f15dcab6ad7cb7403ce15c63c9cee16606189c8240"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo38.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo38.npz",
+    "bytes": 8132,
+    "sha256": "154b0753ee3186689daa994c7a84a8227649333b34a32e47993a15335177fa47"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0039.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0039.txt",
+    "bytes": 569,
+    "sha256": "da4cdfd483c7cf968af48b30e1e580333f04f11b7e153dca2d60d8411ccee7c7"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/39.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/39.mp4",
+    "bytes": 51943,
+    "sha256": "85fec5892876338f1c87208a2959cb91498d670ee1dae6219ca69d2ec17e8907"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo39.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo39.npz",
+    "bytes": 7340,
+    "sha256": "be275da5d82fda94530d6373d4b6c2cfaedefe5921cfac2b0d9ff85bfec9a0d2"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0040.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0040.txt",
+    "bytes": 568,
+    "sha256": "d6073678c44a8cd8a4712e09b73432e7bcd5b27ae58a10f6159cc4d9adca5844"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/40.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/40.mp4",
+    "bytes": 61315,
+    "sha256": "07c50610c7b6303bac9f16affae97965ed2111505b7b9e17d7276f19d92b215a"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo40.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo40.npz",
+    "bytes": 8636,
+    "sha256": "5f3e6e76f3305f05630eef88dffde1ff6547736389deb9132cdeb1c9ca846657"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0041.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0041.txt",
+    "bytes": 568,
+    "sha256": "7e080b4ec0dd70e1085262854a37a7b8ed21706400ad8d4cbd518ddb45becd4e"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/41.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/41.mp4",
+    "bytes": 59087,
+    "sha256": "a5d785141f1c6c7e6ce90e278249d262c1c466da68e52cc14e5ece67f789be0a"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo41.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo41.npz",
+    "bytes": 8852,
+    "sha256": "88ce5f115aecefabfbf6400d6eaaf56f6254e2cc69cd2a35d987e774bc194d74"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0042.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0042.txt",
+    "bytes": 568,
+    "sha256": "ced6a5ab62f39567b3f42e1c02a5ac658d45b256d80d6feb98be0ce008e60680"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/42.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/42.mp4",
+    "bytes": 65940,
+    "sha256": "e857ac1d217e46ea380bd32d6c8490991b5352d7e92dca9d1d5b8cafd7325dbe"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo42.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo42.npz",
+    "bytes": 9356,
+    "sha256": "473f1e4e3672ebad350e8a45eb60cc559a4ddb0703a7a909ad70bb5978e51261"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0043.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0043.txt",
+    "bytes": 572,
+    "sha256": "fd415b3f175fbaabb41cb36608770207d0103fbe0f8a78988eca84f1d673f199"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/43.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/43.mp4",
+    "bytes": 61066,
+    "sha256": "53352928bda979914355706f091523099c59e670b1bfc33928d3b9b7515452a8"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo43.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo43.npz",
+    "bytes": 8492,
+    "sha256": "8e5f9bffdca53293dda77796ed3e033e4123b0e17989a83ebb16d86294c4c6ec"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0044.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0044.txt",
+    "bytes": 572,
+    "sha256": "ed59140a60708e64970fc029ebfb5450ad3f8cd04708332908fbc90445987be4"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/44.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/44.mp4",
+    "bytes": 58348,
+    "sha256": "1ae7111f67295000f7033f223ccc34a6262c8eaf9fd9ff632b4157fe5a793b1d"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo44.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo44.npz",
+    "bytes": 8420,
+    "sha256": "2dba5dc78803f84a91b1403c2a03bbbd4ab46ba251a7d853fc36cbbd3b50a4e7"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0045.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0045.txt",
+    "bytes": 572,
+    "sha256": "dac7b20d20471ce9f80cab3ec78e720aeeaa7223b41f4635134bbb98c1157c8e"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/45.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/45.mp4",
+    "bytes": 131024,
+    "sha256": "e890528b250228ef215e4c4575522a78588dfd27733033576816645d194bf9ee"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo45.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo45.npz",
+    "bytes": 22388,
+    "sha256": "582476837dabe2326a61d2853fe950f950234310ce3a890bea5a6309ca12212e"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0046.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0046.txt",
+    "bytes": 568,
+    "sha256": "6029dd6c10ba6375b22ba022ddb84e44683d4a9357bc6e06877c8165ff0e688f"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/46.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/46.mp4",
+    "bytes": 62104,
+    "sha256": "229a8dfd17124a2b6c4aa167155ac75ba28b31bddab4fe69de104f6b5ab77af9"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo46.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo46.npz",
+    "bytes": 8780,
+    "sha256": "823025c41880fbbd24afcdd8fb853f0040d808f5d7069c1461e13dd3617b6701"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0047.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0047.txt",
+    "bytes": 572,
+    "sha256": "3283fea3def7c91ca383d89b84bb3f61ab9abe2807817d4a74b06d8a4196bde0"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/47.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/47.mp4",
+    "bytes": 138348,
+    "sha256": "393ee210fc28d0e2083a35d2468ca98ab1318d0b444aa962a86f49c21be96da6"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo47.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo47.npz",
+    "bytes": 22388,
+    "sha256": "578eedfa7be0d940fb74ef500ac7bffb5a7da43d4c5156677ddad486b944f827"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0048.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0048.txt",
+    "bytes": 570,
+    "sha256": "b5b18889fc77253e626ea5dc046791b55d2c783b13a843a85dbaf761151e0397"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/48.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/48.mp4",
+    "bytes": 56748,
+    "sha256": "5941d9106ad29abd646fcec820a4548865a3313742f2fe465f9bc38e119b4e82"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo48.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo48.npz",
+    "bytes": 7844,
+    "sha256": "a950c57bed64d6daa82b793d8387947acbb622d072e52a0c6409c36414a8ff20"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/0049.txt",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/0049.txt",
+    "bytes": 568,
+    "sha256": "9d756105ed2a2df8717b192830f7f124daba71ad01b73e0cc3fe846008a7f45a"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/49.mp4",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/49.mp4",
+    "bytes": 58610,
+    "sha256": "c959ca492232466014ad06697406d0a01f359444cee50149588fc66019b52712"
+  },
+  {
+    "path": "results/official/fm_dit-10000/raw/diag_data_demo49.npz",
+    "source_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28/vel_diag/npz_data/diag_data_demo49.npz",
+    "bytes": 8564,
+    "sha256": "4a0eb4bc99ef8985dff380f36ed2b17c29d12219bdf97421500096e27ca610e9"
+  }
+]

@@ -1,0 +1,250 @@
+[
+  {
+    "policy": "flash",
+    "checkpoint_step": 2500,
+    "seed": 42,
+    "rollouts": 50,
+    "successes": 50,
+    "success_rate": 1.0,
+    "checkpoint_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/checkpoints/2500.ckpt",
+    "checkpoint_sha256": "5f1f26f07f2fbc6eb3a72c7a0ce70d44b01c4a0cc3a2a519a60eefff1311ec13",
+    "evaluation_dir": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/2500_sr100_89.23ms_ds4_step1.ckpt_2026-10-28_22-02-05",
+    "ds_ratio": 4,
+    "num_inference_steps": 1,
+    "groups": {
+      "optimization": {
+        "successes": 39,
+        "rollouts": 39
+      },
+      "validation": {
+        "successes": 1,
+        "rollouts": 1
+      },
+      "uncollected": {
+        "successes": 10,
+        "rollouts": 10
+      }
+    },
+    "descriptive_wilson_95": [
+      0.9286524008666414,
+      1.0
+    ]
+  },
+  {
+    "policy": "fm_dit",
+    "checkpoint_step": 2500,
+    "seed": 42,
+    "rollouts": 50,
+    "successes": 18,
+    "success_rate": 0.36,
+    "checkpoint_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/fm_dit/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit_bowl_s42_v1_20261028/checkpoints/2500.ckpt",
+    "checkpoint_sha256": "64f386d4c812ac6574d0cd5e7b3f809c609934b44147ec021eb82ff2d98079d5",
+    "evaluation_dir": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-2500/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/2500_sr36_1297.52ms_ds1_step10.ckpt_2026-10-28_22-24-12",
+    "ds_ratio": 1,
+    "num_inference_steps": 10,
+    "groups": {
+      "optimization": {
+        "successes": 13,
+        "rollouts": 39
+      },
+      "validation": {
+        "successes": 1,
+        "rollouts": 1
+      },
+      "uncollected": {
+        "successes": 4,
+        "rollouts": 10
+      }
+    },
+    "descriptive_wilson_95": [
+      0.24138749651846741,
+      0.49858983123887307
+    ]
+  },
+  {
+    "policy": "flash",
+    "checkpoint_step": 5000,
+    "seed": 42,
+    "rollouts": 50,
+    "successes": 49,
+    "success_rate": 0.98,
+    "checkpoint_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/checkpoints/5000.ckpt",
+    "checkpoint_sha256": "d34b80149c73e475a22e757b7e7d20fd20a8b92376b5c290d4bed6b729b9c787",
+    "evaluation_dir": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/5000_sr98_77.77ms_ds4_step1.ckpt_2026-10-28_22-07-19",
+    "ds_ratio": 4,
+    "num_inference_steps": 1,
+    "groups": {
+      "optimization": {
+        "successes": 38,
+        "rollouts": 39
+      },
+      "validation": {
+        "successes": 1,
+        "rollouts": 1
+      },
+      "uncollected": {
+        "successes": 10,
+        "rollouts": 10
+      }
+    },
+    "descriptive_wilson_95": [
+      0.8950455641036219,
+      0.9964607407283539
+    ]
+  },
+  {
+    "policy": "fm_dit",
+    "checkpoint_step": 5000,
+    "seed": 42,
+    "rollouts": 50,
+    "successes": 35,
+    "success_rate": 0.7,
+    "checkpoint_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/fm_dit/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit_bowl_s42_v1_20261028/checkpoints/5000.ckpt",
+    "checkpoint_sha256": "4735e6fe7cf958aa4d6f58f7cf191574381d5c8d2f36665ed1b509399d153bd6",
+    "evaluation_dir": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-5000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/5000_sr70_1197.91ms_ds1_step10.ckpt_2026-10-28_22-33-09",
+    "ds_ratio": 1,
+    "num_inference_steps": 10,
+    "groups": {
+      "optimization": {
+        "successes": 27,
+        "rollouts": 39
+      },
+      "validation": {
+        "successes": 1,
+        "rollouts": 1
+      },
+      "uncollected": {
+        "successes": 7,
+        "rollouts": 10
+      }
+    },
+    "descriptive_wilson_95": [
+      0.562496495355466,
+      0.8089644649911906
+    ]
+  },
+  {
+    "policy": "flash",
+    "checkpoint_step": 7500,
+    "seed": 42,
+    "rollouts": 50,
+    "successes": 49,
+    "success_rate": 0.98,
+    "checkpoint_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/checkpoints/7500.ckpt",
+    "checkpoint_sha256": "1b93fff020cd6446d4c3fa17dccf16e0d64ce2973e8de0ca677a1ef1cc562c10",
+    "evaluation_dir": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/7500_sr98_79.08ms_ds4_step1.ckpt_2026-10-28_22-12-30",
+    "ds_ratio": 4,
+    "num_inference_steps": 1,
+    "groups": {
+      "optimization": {
+        "successes": 38,
+        "rollouts": 39
+      },
+      "validation": {
+        "successes": 1,
+        "rollouts": 1
+      },
+      "uncollected": {
+        "successes": 10,
+        "rollouts": 10
+      }
+    },
+    "descriptive_wilson_95": [
+      0.8950455641036219,
+      0.9964607407283539
+    ]
+  },
+  {
+    "policy": "fm_dit",
+    "checkpoint_step": 7500,
+    "seed": 42,
+    "rollouts": 50,
+    "successes": 39,
+    "success_rate": 0.78,
+    "checkpoint_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/fm_dit/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit_bowl_s42_v1_20261028/checkpoints/7500.ckpt",
+    "checkpoint_sha256": "5ac14383642295c4c746420b3f90073d8c52bde5220e9f2bdc6f8cad88c0c037",
+    "evaluation_dir": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-7500/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/7500_sr78_1312.30ms_ds1_step10.ckpt_2026-10-28_22-39-22",
+    "ds_ratio": 1,
+    "num_inference_steps": 10,
+    "groups": {
+      "optimization": {
+        "successes": 31,
+        "rollouts": 39
+      },
+      "validation": {
+        "successes": 1,
+        "rollouts": 1
+      },
+      "uncollected": {
+        "successes": 7,
+        "rollouts": 10
+      }
+    },
+    "descriptive_wilson_95": [
+      0.6475845041874634,
+      0.8724608402978559
+    ]
+  },
+  {
+    "policy": "flash",
+    "checkpoint_step": 10000,
+    "seed": 42,
+    "rollouts": 50,
+    "successes": 49,
+    "success_rate": 0.98,
+    "checkpoint_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/checkpoints/10000.ckpt",
+    "checkpoint_sha256": "3080d313b0cb24b574e127bbbd0477ee27f245a70bfe792ca22d721330f260f4",
+    "evaluation_dir": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/flash-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr98_78.80ms_ds4_step1.ckpt_2026-10-28_22-18-58",
+    "ds_ratio": 4,
+    "num_inference_steps": 1,
+    "groups": {
+      "optimization": {
+        "successes": 38,
+        "rollouts": 39
+      },
+      "validation": {
+        "successes": 1,
+        "rollouts": 1
+      },
+      "uncollected": {
+        "successes": 10,
+        "rollouts": 10
+      }
+    },
+    "descriptive_wilson_95": [
+      0.8950455641036219,
+      0.9964607407283539
+    ]
+  },
+  {
+    "policy": "fm_dit",
+    "checkpoint_step": 10000,
+    "seed": 42,
+    "rollouts": 50,
+    "successes": 37,
+    "success_rate": 0.74,
+    "checkpoint_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/fm_dit/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit_bowl_s42_v1_20261028/checkpoints/10000.ckpt",
+    "checkpoint_sha256": "aceb009d70b4abb5c682a80e6a1fbc9894840d400a33d6409450e9fc757d8888",
+    "evaluation_dir": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-10000/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr74_1173.74ms_ds1_step10.ckpt_2026-10-28_22-45-28",
+    "ds_ratio": 1,
+    "num_inference_steps": 10,
+    "groups": {
+      "optimization": {
+        "successes": 28,
+        "rollouts": 39
+      },
+      "validation": {
+        "successes": 1,
+        "rollouts": 1
+      },
+      "uncollected": {
+        "successes": 8,
+        "rollouts": 10
+      }
+    },
+    "descriptive_wilson_95": [
+      0.6044684273515117,
+      0.8412847250644762
+    ]
+  }
+]

@@ -1,0 +1,77 @@
+--- prior-evaluate_heldout.py
++++ curve-evaluate_heldout.py
+@@ -28,7 +28,8 @@
+ from roboverse_learn.il.runners import default_runner as dr
+ from load_frozen_initials import load_frozen_initials
+ 
+-GPU_UUID = 'GPU-eb1c016b-9505-66b6-0362-57dea67de4eb'
++GPU_UUIDS = {0: 'GPU-7425c8dc-71ce-0ff9-760d-a5bcb025a8ab', 2: 'GPU-eb1c016b-9505-66b6-0362-57dea67de4eb'}
++GPU_UUID = None
+ 
+ 
+ def digest(path):
+@@ -169,7 +170,7 @@
+         np.savez_compressed(self.out / 'episodes' / f'{self.index:04d}.npz', **arrays)
+         source = self.states[self.index]
+         row = {'test_id': self.index, 'candidate_id': source['candidate_id'], 'initial_state_sha256': source['state_sha256'],
+-               'policy': self.policy, 'checkpoint_step': 10000, 'checkpoint_sha256': self.checkpoint_sha,
++               'policy': self.policy, 'checkpoint_step': int(self.checkpoint.stem), 'checkpoint_sha256': self.checkpoint_sha,
+                'geometric_success_once': success, 'first_success_step': len(formula) if success else None,
+                'control_steps': len(formula), 'episode_simulated_seconds': len(formula) * .015,
+                'termination': 'first_geometric_success' if success else '300_step_limit',
+@@ -183,7 +184,7 @@
+ 
+     def finish(self):
+         assert len(self.rows) == len(self.states)
+-        summary = {'policy': self.policy, 'checkpoint_step': 10000, 'seed': 42, 'checkpoint_sha256': self.checkpoint_sha,
++        summary = {'policy': self.policy, 'checkpoint_step': int(self.checkpoint.stem), 'seed': 42, 'checkpoint_sha256': self.checkpoint_sha,
+                    'test_initials_sha256': digest(self.initials), 'rollouts': len(self.rows),
+                    'successes': sum(row['geometric_success_once'] for row in self.rows),
+                    'success_rate': sum(row['geometric_success_once'] for row in self.rows) / len(self.rows),
+@@ -197,6 +198,7 @@
+ 
+ 
+ def main():
++    global GPU_UUID
+     started = time.monotonic()
+     ap = argparse.ArgumentParser()
+     ap.add_argument('--policy', choices=['flash', 'fm_dit'], required=True)
+@@ -204,13 +206,18 @@
+     ap.add_argument('--frozen-root', type=Path, required=True)
+     ap.add_argument('--plan', type=Path, required=True)
+     ap.add_argument('--rollouts', type=int, choices=[3, 50], required=True)
++    ap.add_argument('--step', type=int, choices=[2500, 5000, 7500, 10000], required=True)
++    ap.add_argument('--physical-gpu', type=int, choices=[0, 2], required=True)
+     args = ap.parse_args()
++    GPU_UUID = GPU_UUIDS[args.physical_gpu]
+     assert os.environ.get('CUDA_VISIBLE_DEVICES') == GPU_UUID
+-    assert os.environ.get('MUJOCO_EGL_DEVICE_ID') == '2'
++    assert os.environ.get('MUJOCO_EGL_DEVICE_ID') == str(args.physical_gpu)
+     assert os.environ.get('MUJOCO_GL') == 'egl'
+     assert torch.cuda.device_count() == 1 and torch.cuda.is_available()
+     plan = json.loads(args.plan.read_text())
+-    entry = next(row for row in plan['checkpoints'] if row['policy'] == args.policy)
++    entry = next(row for row in plan['checkpoints'] if row['policy'] == args.policy and row['checkpoint_step'] == args.step)
++    if args.step < 10000:
++        assert entry['physical_gpu_index'] == args.physical_gpu
+     checkpoint = Path(entry['checkpoint_path'])
+     assert digest(checkpoint) == entry['checkpoint_sha256']
+     initials = args.frozen_root / plan['test_initials_relative_path']
+@@ -218,7 +225,7 @@
+     args.output.mkdir(parents=True, exist_ok=False)
+     out = args.output
+     payload = torch.load(checkpoint, pickle_module=dill, map_location='cpu')
+-    assert dill.loads(payload['pickles']['global_step']) == 10000
++    assert dill.loads(payload['pickles']['global_step']) == args.step
+     cfg = copy.deepcopy(payload['cfg'])
+     assert cfg.policy_name == args.policy and cfg.train_config.training_params.seed == 42
+     assert cfg.train_config.training_params.use_ema
+@@ -243,7 +250,7 @@
+                    'torch': torch.__version__, 'mujoco': mujoco.__version__,
+                    'CUDA_VISIBLE_DEVICES': os.environ['CUDA_VISIBLE_DEVICES'],
+                    'MUJOCO_EGL_DEVICE_ID': os.environ['MUJOCO_EGL_DEVICE_ID'], 'torch_device': 0,
+-                   'physical_gpu_index': 2, 'physical_gpu_uuid': GPU_UUID,
++                   'physical_gpu_index': args.physical_gpu, 'physical_gpu_uuid': GPU_UUID,
+                    'cuda_device_name': torch.cuda.get_device_name(0),
+                    'script_sha256': digest(__file__), 'plan_sha256': digest(args.plan),
+                    'source_commit': subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip(),

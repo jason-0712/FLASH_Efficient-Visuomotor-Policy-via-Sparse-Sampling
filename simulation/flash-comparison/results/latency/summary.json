@@ -1,0 +1,115 @@
+{
+  "gpu": "NVIDIA H100",
+  "pytorch": "2.7.0+cu128",
+  "cuda": "12.8",
+  "source_reference_index": 49,
+  "source_raw_frames": 121,
+  "input_rgb_sha256": "a1f8e02cd9462bcdc83a4b847a17ee461c00ece4bb9351f1ff75d12687d08e22",
+  "input_state_sha256": "2ef1dd3b006b25472ae2afec03e2055f8582c0925873ff128c88b6ce1373e668",
+  "measurement": "CUDA synchronized wall time of official DefaultEvalRunner.get_action, including CPU-to-GPU observation transfer, normalization, observation history, model forward on actual inference calls, action resampling and action dictionary conversion; excludes simulator/render/reset/model loading. Frozen expert observations, not a closed-loop score.",
+  "control_dt_seconds": 0.015,
+  "specs": {
+    "flash": {
+      "actual_inference_steps": 1,
+      "chunk_control_steps": 32,
+      "warmup_actual_calls_each_round": 10,
+      "measured_control_steps_each_round": 3200
+    },
+    "fm_dit": {
+      "actual_inference_steps": 10,
+      "chunk_control_steps": 8,
+      "warmup_actual_calls_each_round": 10,
+      "measured_control_steps_each_round": 3200
+    }
+  },
+  "policies": {
+    "flash": {
+      "all_control_calls": {
+        "n": 6400,
+        "mean_ms": 0.7306077604687499,
+        "median_ms": 0.1079155,
+        "p90_ms": 0.7868888,
+        "min_ms": 0.06803,
+        "max_ms": 19.322036
+      },
+      "actual_inference_calls": {
+        "n": 200,
+        "mean_ms": 10.819280195000001,
+        "median_ms": 9.2513475,
+        "p90_ms": 16.7715521,
+        "min_ms": 6.217265,
+        "max_ms": 19.322036
+      },
+      "cache_calls": {
+        "n": 6200,
+        "mean_ms": 0.4051667141935484,
+        "median_ms": 0.1072835,
+        "p90_ms": 0.7477,
+        "min_ms": 0.06803,
+        "max_ms": 4.79757
+      },
+      "rounds": {
+        "0": {
+          "n": 100,
+          "mean_ms": 9.281224279999998,
+          "median_ms": 9.234662499999999,
+          "p90_ms": 9.2821073,
+          "min_ms": 8.59095,
+          "max_ms": 13.427445
+        },
+        "1": {
+          "n": 100,
+          "mean_ms": 12.357336109999999,
+          "median_ms": 11.574594999999999,
+          "p90_ms": 17.9544719,
+          "min_ms": 6.217265,
+          "max_ms": 19.322036
+        }
+      }
+    },
+    "fm_dit": {
+      "all_control_calls": {
+        "n": 6400,
+        "mean_ms": 6.368038058124999,
+        "median_ms": 0.071983,
+        "p90_ms": 40.080701,
+        "min_ms": 0.057661,
+        "max_ms": 121.441416
+      },
+      "actual_inference_calls": {
+        "n": 800,
+        "mean_ms": 49.45227891375,
+        "median_ms": 40.3666485,
+        "p90_ms": 71.812168,
+        "min_ms": 39.776182,
+        "max_ms": 121.441416
+      },
+      "cache_calls": {
+        "n": 5600,
+        "mean_ms": 0.21314650732142856,
+        "median_ms": 0.068269,
+        "p90_ms": 0.6389282000000001,
+        "min_ms": 0.057661,
+        "max_ms": 9.229563
+      },
+      "rounds": {
+        "0": {
+          "n": 400,
+          "mean_ms": 49.77950935499999,
+          "median_ms": 40.147313499999996,
+          "p90_ms": 73.1821917,
+          "min_ms": 39.776182,
+          "max_ms": 83.567876
+        },
+        "1": {
+          "n": 400,
+          "mean_ms": 49.125048472500005,
+          "median_ms": 40.4689145,
+          "p90_ms": 69.44401640000001,
+          "min_ms": 40.044141,
+          "max_ms": 121.441416
+        }
+      }
+    }
+  }
+}

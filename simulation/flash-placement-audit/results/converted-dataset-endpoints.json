@@ -1,0 +1,660 @@
+{
+  "ds1": {
+    "path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/data_policy/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plateFrankaL0_obs:joint_pos_act:joint_pos_ds1_40.zarr",
+    "all_state_action_arrays_exactly_match_raw_stride": true,
+    "samples": 4767,
+    "last_actual_open_demos": 5,
+    "last_targets_open_demos": 8,
+    "demonstrations": [
+      {
+        "reference_id": 1,
+        "samples": 116,
+        "last_raw_index_stored": 115,
+        "last_raw_index_available": 115,
+        "last_both_actual_open": true,
+        "last_both_targets_open": true
+      },
+      {
+        "reference_id": 2,
+        "samples": 128,
+        "last_raw_index_stored": 127,
+        "last_raw_index_available": 127,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 3,
+        "samples": 138,
+        "last_raw_index_stored": 137,
+        "last_raw_index_available": 137,
+        "last_both_actual_open": true,
+        "last_both_targets_open": true
+      },
+      {
+        "reference_id": 4,
+        "samples": 127,
+        "last_raw_index_stored": 126,
+        "last_raw_index_available": 126,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 5,
+        "samples": 127,
+        "last_raw_index_stored": 126,
+        "last_raw_index_available": 126,
+        "last_both_actual_open": true,
+        "last_both_targets_open": true
+      },
+      {
+        "reference_id": 7,
+        "samples": 90,
+        "last_raw_index_stored": 89,
+        "last_raw_index_available": 89,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 9,
+        "samples": 116,
+        "last_raw_index_stored": 115,
+        "last_raw_index_available": 115,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 11,
+        "samples": 122,
+        "last_raw_index_stored": 121,
+        "last_raw_index_available": 121,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 12,
+        "samples": 123,
+        "last_raw_index_stored": 122,
+        "last_raw_index_available": 122,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 14,
+        "samples": 121,
+        "last_raw_index_stored": 120,
+        "last_raw_index_available": 120,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 15,
+        "samples": 116,
+        "last_raw_index_stored": 115,
+        "last_raw_index_available": 115,
+        "last_both_actual_open": false,
+        "last_both_targets_open": true
+      },
+      {
+        "reference_id": 16,
+        "samples": 131,
+        "last_raw_index_stored": 130,
+        "last_raw_index_available": 130,
+        "last_both_actual_open": true,
+        "last_both_targets_open": true
+      },
+      {
+        "reference_id": 17,
+        "samples": 116,
+        "last_raw_index_stored": 115,
+        "last_raw_index_available": 115,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 18,
+        "samples": 117,
+        "last_raw_index_stored": 116,
+        "last_raw_index_available": 116,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 19,
+        "samples": 136,
+        "last_raw_index_stored": 135,
+        "last_raw_index_available": 135,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 20,
+        "samples": 111,
+        "last_raw_index_stored": 110,
+        "last_raw_index_available": 110,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 21,
+        "samples": 120,
+        "last_raw_index_stored": 119,
+        "last_raw_index_available": 119,
+        "last_both_actual_open": false,
+        "last_both_targets_open": true
+      },
+      {
+        "reference_id": 22,
+        "samples": 123,
+        "last_raw_index_stored": 122,
+        "last_raw_index_available": 122,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 23,
+        "samples": 116,
+        "last_raw_index_stored": 115,
+        "last_raw_index_available": 115,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 24,
+        "samples": 111,
+        "last_raw_index_stored": 110,
+        "last_raw_index_available": 110,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 25,
+        "samples": 87,
+        "last_raw_index_stored": 86,
+        "last_raw_index_available": 86,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 26,
+        "samples": 105,
+        "last_raw_index_stored": 104,
+        "last_raw_index_available": 104,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 28,
+        "samples": 122,
+        "last_raw_index_stored": 121,
+        "last_raw_index_available": 121,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 29,
+        "samples": 109,
+        "last_raw_index_stored": 108,
+        "last_raw_index_available": 108,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 30,
+        "samples": 124,
+        "last_raw_index_stored": 123,
+        "last_raw_index_available": 123,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 31,
+        "samples": 117,
+        "last_raw_index_stored": 116,
+        "last_raw_index_available": 116,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 32,
+        "samples": 116,
+        "last_raw_index_stored": 115,
+        "last_raw_index_available": 115,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 34,
+        "samples": 125,
+        "last_raw_index_stored": 124,
+        "last_raw_index_available": 124,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 35,
+        "samples": 115,
+        "last_raw_index_stored": 114,
+        "last_raw_index_available": 114,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 36,
+        "samples": 126,
+        "last_raw_index_stored": 125,
+        "last_raw_index_available": 125,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 37,
+        "samples": 120,
+        "last_raw_index_stored": 119,
+        "last_raw_index_available": 119,
+        "last_both_actual_open": false,
+        "last_both_targets_open": true
+      },
+      {
+        "reference_id": 38,
+        "samples": 127,
+        "last_raw_index_stored": 126,
+        "last_raw_index_available": 126,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 39,
+        "samples": 111,
+        "last_raw_index_stored": 110,
+        "last_raw_index_available": 110,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 40,
+        "samples": 124,
+        "last_raw_index_stored": 123,
+        "last_raw_index_available": 123,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 42,
+        "samples": 129,
+        "last_raw_index_stored": 128,
+        "last_raw_index_available": 128,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 43,
+        "samples": 124,
+        "last_raw_index_stored": 123,
+        "last_raw_index_available": 123,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 44,
+        "samples": 106,
+        "last_raw_index_stored": 105,
+        "last_raw_index_available": 105,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 45,
+        "samples": 140,
+        "last_raw_index_stored": 139,
+        "last_raw_index_available": 139,
+        "last_both_actual_open": true,
+        "last_both_targets_open": true
+      },
+      {
+        "reference_id": 48,
+        "samples": 114,
+        "last_raw_index_stored": 113,
+        "last_raw_index_available": 113,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 49,
+        "samples": 121,
+        "last_raw_index_stored": 120,
+        "last_raw_index_available": 120,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      }
+    ]
+  },
+  "ds4": {
+    "path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/data_policy/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plateFrankaL0_obs:joint_pos_act:joint_pos_ds4_40.zarr",
+    "all_state_action_arrays_exactly_match_raw_stride": true,
+    "samples": 1204,
+    "last_actual_open_demos": 2,
+    "last_targets_open_demos": 3,
+    "demonstrations": [
+      {
+        "reference_id": 1,
+        "samples": 29,
+        "last_raw_index_stored": 112,
+        "last_raw_index_available": 115,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 2,
+        "samples": 32,
+        "last_raw_index_stored": 124,
+        "last_raw_index_available": 127,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 3,
+        "samples": 35,
+        "last_raw_index_stored": 136,
+        "last_raw_index_available": 137,
+        "last_both_actual_open": true,
+        "last_both_targets_open": true
+      },
+      {
+        "reference_id": 4,
+        "samples": 32,
+        "last_raw_index_stored": 124,
+        "last_raw_index_available": 126,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 5,
+        "samples": 32,
+        "last_raw_index_stored": 124,
+        "last_raw_index_available": 126,
+        "last_both_actual_open": true,
+        "last_both_targets_open": true
+      },
+      {
+        "reference_id": 7,
+        "samples": 23,
+        "last_raw_index_stored": 88,
+        "last_raw_index_available": 89,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 9,
+        "samples": 29,
+        "last_raw_index_stored": 112,
+        "last_raw_index_available": 115,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 11,
+        "samples": 31,
+        "last_raw_index_stored": 120,
+        "last_raw_index_available": 121,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 12,
+        "samples": 31,
+        "last_raw_index_stored": 120,
+        "last_raw_index_available": 122,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 14,
+        "samples": 31,
+        "last_raw_index_stored": 120,
+        "last_raw_index_available": 120,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 15,
+        "samples": 29,
+        "last_raw_index_stored": 112,
+        "last_raw_index_available": 115,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 16,
+        "samples": 33,
+        "last_raw_index_stored": 128,
+        "last_raw_index_available": 130,
+        "last_both_actual_open": false,
+        "last_both_targets_open": true
+      },
+      {
+        "reference_id": 17,
+        "samples": 29,
+        "last_raw_index_stored": 112,
+        "last_raw_index_available": 115,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 18,
+        "samples": 30,
+        "last_raw_index_stored": 116,
+        "last_raw_index_available": 116,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 19,
+        "samples": 34,
+        "last_raw_index_stored": 132,
+        "last_raw_index_available": 135,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 20,
+        "samples": 28,
+        "last_raw_index_stored": 108,
+        "last_raw_index_available": 110,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 21,
+        "samples": 30,
+        "last_raw_index_stored": 116,
+        "last_raw_index_available": 119,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 22,
+        "samples": 31,
+        "last_raw_index_stored": 120,
+        "last_raw_index_available": 122,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 23,
+        "samples": 29,
+        "last_raw_index_stored": 112,
+        "last_raw_index_available": 115,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 24,
+        "samples": 28,
+        "last_raw_index_stored": 108,
+        "last_raw_index_available": 110,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 25,
+        "samples": 22,
+        "last_raw_index_stored": 84,
+        "last_raw_index_available": 86,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 26,
+        "samples": 27,
+        "last_raw_index_stored": 104,
+        "last_raw_index_available": 104,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 28,
+        "samples": 31,
+        "last_raw_index_stored": 120,
+        "last_raw_index_available": 121,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 29,
+        "samples": 28,
+        "last_raw_index_stored": 108,
+        "last_raw_index_available": 108,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 30,
+        "samples": 31,
+        "last_raw_index_stored": 120,
+        "last_raw_index_available": 123,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 31,
+        "samples": 30,
+        "last_raw_index_stored": 116,
+        "last_raw_index_available": 116,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 32,
+        "samples": 29,
+        "last_raw_index_stored": 112,
+        "last_raw_index_available": 115,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 34,
+        "samples": 32,
+        "last_raw_index_stored": 124,
+        "last_raw_index_available": 124,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 35,
+        "samples": 29,
+        "last_raw_index_stored": 112,
+        "last_raw_index_available": 114,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 36,
+        "samples": 32,
+        "last_raw_index_stored": 124,
+        "last_raw_index_available": 125,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 37,
+        "samples": 30,
+        "last_raw_index_stored": 116,
+        "last_raw_index_available": 119,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 38,
+        "samples": 32,
+        "last_raw_index_stored": 124,
+        "last_raw_index_available": 126,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 39,
+        "samples": 28,
+        "last_raw_index_stored": 108,
+        "last_raw_index_available": 110,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 40,
+        "samples": 31,
+        "last_raw_index_stored": 120,
+        "last_raw_index_available": 123,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 42,
+        "samples": 33,
+        "last_raw_index_stored": 128,
+        "last_raw_index_available": 128,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 43,
+        "samples": 31,
+        "last_raw_index_stored": 120,
+        "last_raw_index_available": 123,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 44,
+        "samples": 27,
+        "last_raw_index_stored": 104,
+        "last_raw_index_available": 105,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 45,
+        "samples": 35,
+        "last_raw_index_stored": 136,
+        "last_raw_index_available": 139,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 48,
+        "samples": 29,
+        "last_raw_index_stored": 112,
+        "last_raw_index_available": 113,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      },
+      {
+        "reference_id": 49,
+        "samples": 31,
+        "last_raw_index_stored": 120,
+        "last_raw_index_available": 120,
+        "last_both_actual_open": false,
+        "last_both_targets_open": false
+      }
+    ]
+  }
+}

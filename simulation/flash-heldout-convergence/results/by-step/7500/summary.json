@@ -1,0 +1,67 @@
+{
+  "task": "libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate",
+  "test_initials_sha256": "ad70b6e7b77873373246002ea0a07e1345312e0e2c10b62e092f939f16b24076",
+  "checkpoint_step": 7500,
+  "policies": {
+    "flash": {
+      "policy": "flash",
+      "checkpoint_step": 7500,
+      "seed": 42,
+      "checkpoint_sha256": "1b93fff020cd6446d4c3fa17dccf16e0d64ce2973e8de0ca677a1ef1cc562c10",
+      "test_initials_sha256": "ad70b6e7b77873373246002ea0a07e1345312e0e2c10b62e092f939f16b24076",
+      "rollouts": 50,
+      "successes": 50,
+      "success_rate": 1.0,
+      "primary_metric": "original geometric SuccessOnce, official early stop",
+      "stable_placement_metric_evaluated": false,
+      "all_resets_match_frozen_cpu_traces": true,
+      "raw_observations_and_actions_saved": true,
+      "wall_seconds_through_final_artifacts": 198.44806233909912,
+      "completed_utc": "2026-10-29T07:01:46.730907+00:00",
+      "descriptive_wilson_95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "actual_model_calls_total": 200,
+      "control_steps_total": 5459,
+      "mean_control_steps": 109.18,
+      "num_inference_steps": 1,
+      "ds_ratio": 4
+    },
+    "fm_dit": {
+      "policy": "fm_dit",
+      "checkpoint_step": 7500,
+      "seed": 42,
+      "checkpoint_sha256": "5ac14383642295c4c746420b3f90073d8c52bde5220e9f2bdc6f8cad88c0c037",
+      "test_initials_sha256": "ad70b6e7b77873373246002ea0a07e1345312e0e2c10b62e092f939f16b24076",
+      "rollouts": 50,
+      "successes": 36,
+      "success_rate": 0.72,
+      "primary_metric": "original geometric SuccessOnce, official early stop",
+      "stable_placement_metric_evaluated": false,
+      "all_resets_match_frozen_cpu_traces": true,
+      "raw_observations_and_actions_saved": true,
+      "wall_seconds_through_final_artifacts": 300.4917734339833,
+      "completed_utc": "2026-10-29T07:06:57.613156+00:00",
+      "descriptive_wilson_95": [
+        0.5833487630404344,
+        0.8252582933408878
+      ],
+      "actual_model_calls_total": 1010,
+      "control_steps_total": 7905,
+      "mean_control_steps": 158.1,
+      "num_inference_steps": 10,
+      "ds_ratio": 1
+    }
+  },
+  "paired_counts": {
+    "both_success": 36,
+    "flash_only_success": 14,
+    "fm_dit_only_success": 0,
+    "both_fail": 0
+  },
+  "success_rate_difference_percentage_points": 28.000000000000004,
+  "scope": "Single training seed; fixed robot, unseen object XY inside training empirical bounds; fresh native reset for both. Separate from original reference-50 results.",
+  "stable_placement_metric_evaluated": false,
+  "interval_interpretation": "Descriptive binomial intervals within this sample; not training-seed uncertainty, cross-task evidence, or a causal architecture comparison."
+}

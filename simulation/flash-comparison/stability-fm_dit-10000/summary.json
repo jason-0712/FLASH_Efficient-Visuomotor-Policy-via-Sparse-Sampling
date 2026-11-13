@@ -1,0 +1,12 @@
+{
+  "policy": "fm_dit",
+  "checkpoint_global_step": 10000,
+  "checkpoint_sha256": "aceb009d70b4abb5c682a80e6a1fbc9894840d400a33d6409450e9fc757d8888",
+  "rollouts": 50,
+  "geometric_successes_once": 37,
+  "stable_placement_successes": 0,
+  "protocol_id": "bowl-stable-v1-20261028",
+  "protocol_sha256": "1711b93c8f26e5459273a3b23770a5d4abf71adba36f2c69c35f04323012ccf9",
+  "rng_restored_after_continuation": true,
+  "original_checker_unchanged": true
+}

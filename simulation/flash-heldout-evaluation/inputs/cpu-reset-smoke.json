@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "selection_rule": "First, middle and last frozen test IDs (0,24,49), selected before replay",
+  "test_initials_sha256": "ad70b6e7b77873373246002ea0a07e1345312e0e2c10b62e092f939f16b24076",
+  "replays": [
+    {
+      "test_id": 0,
+      "candidate_id": 0,
+      "all_saved_arrays_bitwise_equal": true,
+      "initial_native_qpos_sha256": "300eac6c3c12596a6bcac476d7778db4238547bb85c9b22e8593bbd9692a4c23",
+      "samples": 201
+    },
+    {
+      "test_id": 24,
+      "candidate_id": 26,
+      "all_saved_arrays_bitwise_equal": true,
+      "initial_native_qpos_sha256": "93221bc383a734fc411b4835b84b018042bad40c08495a83cac8ed9eabbdf201",
+      "samples": 201
+    },
+    {
+      "test_id": 49,
+      "candidate_id": 52,
+      "all_saved_arrays_bitwise_equal": true,
+      "initial_native_qpos_sha256": "a9396ec993be8c1d251b997e7cf2e134d2da19c0c2238696ca2c95d91ad8a63d",
+      "samples": 201
+    }
+  ],
+  "policy_executed": false,
+  "torch_cuda_available": false,
+  "torch_cuda_initialized": false
+}

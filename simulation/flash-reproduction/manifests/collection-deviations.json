@@ -1,0 +1,8 @@
+{
+  "default_tot_steps_after_success": 20,
+  "recovered_reference_ids": [7, 25],
+  "recovery_tot_steps_after_success": 0,
+  "reason": "Both references hit the unchanged official success checker but exhausted their action sequence before the collector's post-success recording finished. Replayed separately with the public zero-extra-steps option; original failed outputs are preserved.",
+  "smoke_reference_ids_reused": [1, 2],
+  "training_demo_target": 40
+}

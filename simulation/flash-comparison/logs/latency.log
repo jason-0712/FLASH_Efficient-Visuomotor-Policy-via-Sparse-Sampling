@@ -1,0 +1,179 @@
+2026-10-28 22:34:54.022 | INFO     | roboverse_learn.il.runners.default_runner:__init__:703 - [Init] Creating initial model from current config (will be replaced by checkpoint config during eval)...
+[FLASH] basis=legendre, degree=6, H_poly=10 (poly_prefix=1, poly_suffix=1), fit_pad=1 (H_poly_ext=12)
+[FLASH] cond(S^TS)=1.40e+01
+[FLASH] coeff scales: ['0.3015', '0.5081', '0.6597', '0.7114', '0.7965', '0.7600', '0.8745']
+[FLASH] history fit: 8/10 pts, cond=4.39e+05 → 8.73e+01 (λ=0.1)
+[FLASH] history_noise_std=0.5, solver=euler
+[FLASH] boundary_constraint=C1, pin indices=[2, 10] in H_poly_ext=12 (4 constraints: 2 pos + 2 vel)
+2026-10-28 22:34:54.485 | INFO     | roboverse_learn.il.utils.eval_args:__post_init__:120 - Args: Args(task='libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate', robot='franka', num_envs=1, sim='mujoco', max_demo=50, headless=True, table=True, task_id_range_low=0, task_id_range_high=1000, subset='pickcube_l0', action_set_steps=1, save_video_freq=1, max_step=300, gpu_id=0, downsample_ratio=4, level=0, scene_mode=0, randomization_seed=None, velocity_pd_gains=True, send_vel_target=True, velocity_kp_scale=1.0, velocity_kd_scale=1.0, fd_vel_target=False, fixed_error_ylim=True, ood_shift=0.0, eval_history_noise_std=0.0, eval_history_noise_seed=0, gripper_binarize=False, gripper_binarize_threshold=0.02)
+2026-10-28 22:34:54.917 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:38 - [Checkpoint loaded] path=/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/checkpoints/10000.ckpt global_step=10000 seed=42 use_ema=True
+2026-10-28 22:34:54.917 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:59 - ============================================================
+2026-10-28 22:34:54.917 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:60 - [Eval] Rebuilding model from CHECKPOINT config...
+[FLASH] basis=legendre, degree=6, H_poly=10 (poly_prefix=1, poly_suffix=1), fit_pad=1 (H_poly_ext=12)
+[FLASH] cond(S^TS)=1.40e+01
+[FLASH] coeff scales: ['0.3015', '0.5081', '0.6597', '0.7114', '0.7965', '0.7600', '0.8745']
+[FLASH] history fit: 8/10 pts, cond=4.39e+05 → 8.73e+01 (λ=0.1)
+[FLASH] history_noise_std=0.5, solver=euler
+[FLASH] boundary_constraint=C1, pin indices=[2, 10] in H_poly_ext=12 (4 constraints: 2 pos + 2 vel)
+2026-10-28 22:34:55.414 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:66 - [Eval] Model rebuilt from checkpoint config successfully.
+2026-10-28 22:34:55.414 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:67 - ============================================================
+2026-10-28 22:34:55.631 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:110 - [Eval] num_inference_steps = 1 (overridden from current YAML)
+2026-10-28 22:34:55.631 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:110 - [Eval] flash_solver = euler (overridden from current YAML)
+2026-10-28 22:34:55.633 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:253 - [FLASH-G Resample] ENABLED  (n_dense=32 > n_act=8)
+2026-10-28 22:34:55.634 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:258 - [FLASH-G] expert_freq=66.7Hz, ds=4, expert_dt=0.0600s, control_dt=0.0150s, T_expert=0.6600s, obs_subsample=4
+2026-10-28 22:34:57.743 | INFO     | roboverse_learn.il.runners.default_runner:__init__:703 - [Init] Creating initial model from current config (will be replaced by checkpoint config during eval)...
+2026-10-28 22:34:58.184 | INFO     | roboverse_learn.il.utils.eval_args:__post_init__:120 - Args: Args(task='libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate', robot='franka', num_envs=1, sim='mujoco', max_demo=50, headless=True, table=True, task_id_range_low=0, task_id_range_high=1000, subset='pickcube_l0', action_set_steps=1, save_video_freq=1, max_step=300, gpu_id=0, downsample_ratio=1, level=0, scene_mode=0, randomization_seed=None, velocity_pd_gains=True, send_vel_target=True, velocity_kp_scale=1.0, velocity_kd_scale=1.0, fd_vel_target=False, fixed_error_ylim=True, ood_shift=0.0, eval_history_noise_std=0.0, eval_history_noise_seed=0, gripper_binarize=False, gripper_binarize_threshold=0.02)
+2026-10-28 22:34:58.429 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:38 - [Checkpoint loaded] path=/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/fm_dit/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit_bowl_s42_v1_20261028/checkpoints/10000.ckpt global_step=10000 seed=42 use_ema=True
+2026-10-28 22:34:58.429 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:59 - ============================================================
+2026-10-28 22:34:58.429 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:60 - [Eval] Rebuilding model from CHECKPOINT config...
+2026-10-28 22:34:58.920 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:66 - [Eval] Model rebuilt from checkpoint config successfully.
+2026-10-28 22:34:58.920 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:67 - ============================================================
+2026-10-28 22:34:58.962 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:110 - [Eval] num_inference_steps = 10 (overridden from current YAML)
+2026-10-28 22:34:58.963 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:273 - [Non-FLASH-G Velocity] physics_dt=0.001000s, control_dt=0.0150s, vel_scale=4.44x
+2026-10-28 22:35:20.215 | INFO     | roboverse_learn.il.runners.default_runner:__init__:703 - [Init] Creating initial model from current config (will be replaced by checkpoint config during eval)...
+2026-10-28 22:35:20.474 | INFO     | roboverse_learn.il.utils.eval_args:__post_init__:120 - Args: Args(task='libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate', robot='franka', num_envs=1, sim='mujoco', max_demo=50, headless=True, table=True, task_id_range_low=0, task_id_range_high=1000, subset='pickcube_l0', action_set_steps=1, save_video_freq=1, max_step=300, gpu_id=0, downsample_ratio=1, level=0, scene_mode=0, randomization_seed=None, velocity_pd_gains=True, send_vel_target=True, velocity_kp_scale=1.0, velocity_kd_scale=1.0, fd_vel_target=False, fixed_error_ylim=True, ood_shift=0.0, eval_history_noise_std=0.0, eval_history_noise_seed=0, gripper_binarize=False, gripper_binarize_threshold=0.02)
+2026-10-28 22:35:20.625 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:38 - [Checkpoint loaded] path=/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/fm_dit/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit_bowl_s42_v1_20261028/checkpoints/10000.ckpt global_step=10000 seed=42 use_ema=True
+2026-10-28 22:35:20.625 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:59 - ============================================================
+2026-10-28 22:35:20.625 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:60 - [Eval] Rebuilding model from CHECKPOINT config...
+2026-10-28 22:35:20.906 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:66 - [Eval] Model rebuilt from checkpoint config successfully.
+2026-10-28 22:35:20.907 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:67 - ============================================================
+2026-10-28 22:35:20.940 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:110 - [Eval] num_inference_steps = 10 (overridden from current YAML)
+2026-10-28 22:35:20.940 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:273 - [Non-FLASH-G Velocity] physics_dt=0.001000s, control_dt=0.0150s, vel_scale=4.44x
+2026-10-28 22:35:42.263 | INFO     | roboverse_learn.il.runners.default_runner:__init__:703 - [Init] Creating initial model from current config (will be replaced by checkpoint config during eval)...
+[FLASH] basis=legendre, degree=6, H_poly=10 (poly_prefix=1, poly_suffix=1), fit_pad=1 (H_poly_ext=12)
+[FLASH] cond(S^TS)=1.40e+01
+[FLASH] coeff scales: ['0.3015', '0.5081', '0.6597', '0.7114', '0.7965', '0.7600', '0.8745']
+[FLASH] history fit: 8/10 pts, cond=4.39e+05 → 8.73e+01 (λ=0.1)
+[FLASH] history_noise_std=0.5, solver=euler
+[FLASH] boundary_constraint=C1, pin indices=[2, 10] in H_poly_ext=12 (4 constraints: 2 pos + 2 vel)
+2026-10-28 22:35:42.523 | INFO     | roboverse_learn.il.utils.eval_args:__post_init__:120 - Args: Args(task='libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate', robot='franka', num_envs=1, sim='mujoco', max_demo=50, headless=True, table=True, task_id_range_low=0, task_id_range_high=1000, subset='pickcube_l0', action_set_steps=1, save_video_freq=1, max_step=300, gpu_id=0, downsample_ratio=4, level=0, scene_mode=0, randomization_seed=None, velocity_pd_gains=True, send_vel_target=True, velocity_kp_scale=1.0, velocity_kd_scale=1.0, fd_vel_target=False, fixed_error_ylim=True, ood_shift=0.0, eval_history_noise_std=0.0, eval_history_noise_seed=0, gripper_binarize=False, gripper_binarize_threshold=0.02)
+2026-10-28 22:35:42.621 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:38 - [Checkpoint loaded] path=/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/checkpoints/10000.ckpt global_step=10000 seed=42 use_ema=True
+2026-10-28 22:35:42.621 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:59 - ============================================================
+2026-10-28 22:35:42.621 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:60 - [Eval] Rebuilding model from CHECKPOINT config...
+[FLASH] basis=legendre, degree=6, H_poly=10 (poly_prefix=1, poly_suffix=1), fit_pad=1 (H_poly_ext=12)
+[FLASH] cond(S^TS)=1.40e+01
+[FLASH] coeff scales: ['0.3015', '0.5081', '0.6597', '0.7114', '0.7965', '0.7600', '0.8745']
+[FLASH] history fit: 8/10 pts, cond=4.39e+05 → 8.73e+01 (λ=0.1)
+[FLASH] history_noise_std=0.5, solver=euler
+[FLASH] boundary_constraint=C1, pin indices=[2, 10] in H_poly_ext=12 (4 constraints: 2 pos + 2 vel)
+2026-10-28 22:35:42.903 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:66 - [Eval] Model rebuilt from checkpoint config successfully.
+2026-10-28 22:35:42.903 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:67 - ============================================================
+2026-10-28 22:35:42.994 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:110 - [Eval] num_inference_steps = 1 (overridden from current YAML)
+2026-10-28 22:35:42.994 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:110 - [Eval] flash_solver = euler (overridden from current YAML)
+2026-10-28 22:35:42.996 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:253 - [FLASH-G Resample] ENABLED  (n_dense=32 > n_act=8)
+2026-10-28 22:35:42.996 | INFO     | roboverse_learn.il.runners.default_eval_runner:_init_policy:258 - [FLASH-G] expert_freq=66.7Hz, ds=4, expert_dt=0.0600s, control_dt=0.0150s, T_expert=0.6600s, obs_subsample=4
+{
+  "gpu": "NVIDIA H100",
+  "pytorch": "2.7.0+cu128",
+  "cuda": "12.8",
+  "source_reference_index": 49,
+  "source_raw_frames": 121,
+  "input_rgb_sha256": "a1f8e02cd9462bcdc83a4b847a17ee461c00ece4bb9351f1ff75d12687d08e22",
+  "input_state_sha256": "2ef1dd3b006b25472ae2afec03e2055f8582c0925873ff128c88b6ce1373e668",
+  "measurement": "CUDA synchronized wall time of official DefaultEvalRunner.get_action, including CPU-to-GPU observation transfer, normalization, observation history, model forward on actual inference calls, action resampling and action dictionary conversion; excludes simulator/render/reset/model loading. Frozen expert observations, not a closed-loop score.",
+  "control_dt_seconds": 0.015,
+  "specs": {
+    "flash": {
+      "actual_inference_steps": 1,
+      "chunk_control_steps": 32,
+      "warmup_actual_calls_each_round": 10,
+      "measured_control_steps_each_round": 3200
+    },
+    "fm_dit": {
+      "actual_inference_steps": 10,
+      "chunk_control_steps": 8,
+      "warmup_actual_calls_each_round": 10,
+      "measured_control_steps_each_round": 3200
+    }
+  },
+  "policies": {
+    "flash": {
+      "all_control_calls": {
+        "n": 6400,
+        "mean_ms": 0.7306077604687499,
+        "median_ms": 0.1079155,
+        "p90_ms": 0.7868888,
+        "min_ms": 0.06803,
+        "max_ms": 19.322036
+      },
+      "actual_inference_calls": {
+        "n": 200,
+        "mean_ms": 10.819280195000001,
+        "median_ms": 9.2513475,
+        "p90_ms": 16.7715521,
+        "min_ms": 6.217265,
+        "max_ms": 19.322036
+      },
+      "cache_calls": {
+        "n": 6200,
+        "mean_ms": 0.4051667141935484,
+        "median_ms": 0.1072835,
+        "p90_ms": 0.7477,
+        "min_ms": 0.06803,
+        "max_ms": 4.79757
+      },
+      "rounds": {
+        "0": {
+          "n": 100,
+          "mean_ms": 9.281224279999998,
+          "median_ms": 9.234662499999999,
+          "p90_ms": 9.2821073,
+          "min_ms": 8.59095,
+          "max_ms": 13.427445
+        },
+        "1": {
+          "n": 100,
+          "mean_ms": 12.357336109999999,
+          "median_ms": 11.574594999999999,
+          "p90_ms": 17.9544719,
+          "min_ms": 6.217265,
+          "max_ms": 19.322036
+        }
+      }
+    },
+    "fm_dit": {
+      "all_control_calls": {
+        "n": 6400,
+        "mean_ms": 6.368038058124999,
+        "median_ms": 0.071983,
+        "p90_ms": 40.080701,
+        "min_ms": 0.057661,
+        "max_ms": 121.441416
+      },
+      "actual_inference_calls": {
+        "n": 800,
+        "mean_ms": 49.45227891375,
+        "median_ms": 40.3666485,
+        "p90_ms": 71.812168,
+        "min_ms": 39.776182,
+        "max_ms": 121.441416
+      },
+      "cache_calls": {
+        "n": 5600,
+        "mean_ms": 0.21314650732142856,
+        "median_ms": 0.068269,
+        "p90_ms": 0.6389282000000001,
+        "min_ms": 0.057661,
+        "max_ms": 9.229563
+      },
+      "rounds": {
+        "0": {
+          "n": 400,
+          "mean_ms": 49.77950935499999,
+          "median_ms": 40.147313499999996,
+          "p90_ms": 73.1821917,
+          "min_ms": 39.776182,
+          "max_ms": 83.567876
+        },
+        "1": {
+          "n": 400,
+          "mean_ms": 49.125048472500005,
+          "median_ms": 40.4689145,
+          "p90_ms": 69.44401640000001,
+          "min_ms": 40.044141,
+          "max_ms": 121.441416
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-10-29T06:50:55.329825+00:00",
+  "pid": 2750139,
+  "hostname": "server1cps",
+  "python": "3.11.16",
+  "numpy": "1.26.4",
+  "torch": "2.7.0+cu128",
+  "mujoco": "3.17.0",
+  "CUDA_VISIBLE_DEVICES": "GPU-7425c8dc-71ce-0ff9-760d-a5bcb025a8ab",
+  "MUJOCO_EGL_DEVICE_ID": "0",
+  "torch_device": 0,
+  "physical_gpu_index": 0,
+  "physical_gpu_uuid": "GPU-7425c8dc-71ce-0ff9-760d-a5bcb025a8ab",
+  "cuda_device_name": "NVIDIA H100",
+  "script_sha256": "47e31e1709571ffb15bb87783d315701bddc7f48e0a2c145a83d410cd9b8b502",
+  "plan_sha256": "f6d3fe2325bdbfeb88b29712d9dc3d9dfdf7e1122750e8bc785a1f1656901257",
+  "source_commit": "f47e490f2b820f835d1b9145da3cdb3df69f50a0",
+  "source_diff_sha256": "56fec88a58c6475de026bc2a4bf81fb4a797679c6a7ff104676149accfb677d9"
+}

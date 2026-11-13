@@ -1,0 +1,809 @@
+{
+  "status": "PASS",
+  "formal_videos_decoded": 100,
+  "all_frame_counts_match_recorded_control_steps": true,
+  "note": "Container duration is distinct from 15 ms/control-step simulation duration.",
+  "ffmpeg_binary": "/home/hanyu/miniconda3/envs/flash_fr3/lib/python3.11/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2",
+  "records": [
+    {
+      "policy": "flash",
+      "test_id": 0,
+      "frames": 104,
+      "container_seconds": 10.4,
+      "simulation_seconds": 1.56,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/0.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 1,
+      "frames": 110,
+      "container_seconds": 11.0,
+      "simulation_seconds": 1.65,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/1.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 2,
+      "frames": 110,
+      "container_seconds": 11.0,
+      "simulation_seconds": 1.65,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/2.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 3,
+      "frames": 107,
+      "container_seconds": 10.7,
+      "simulation_seconds": 1.605,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/3.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 4,
+      "frames": 108,
+      "container_seconds": 10.8,
+      "simulation_seconds": 1.6199999999999999,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/4.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 5,
+      "frames": 107,
+      "container_seconds": 10.7,
+      "simulation_seconds": 1.605,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/5.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 6,
+      "frames": 108,
+      "container_seconds": 10.8,
+      "simulation_seconds": 1.6199999999999999,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/6.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 7,
+      "frames": 108,
+      "container_seconds": 10.8,
+      "simulation_seconds": 1.6199999999999999,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/7.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 8,
+      "frames": 111,
+      "container_seconds": 11.1,
+      "simulation_seconds": 1.665,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/8.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 9,
+      "frames": 105,
+      "container_seconds": 10.5,
+      "simulation_seconds": 1.575,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/9.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 10,
+      "frames": 113,
+      "container_seconds": 11.3,
+      "simulation_seconds": 1.6949999999999998,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/10.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 11,
+      "frames": 107,
+      "container_seconds": 10.7,
+      "simulation_seconds": 1.605,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/11.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 12,
+      "frames": 109,
+      "container_seconds": 10.9,
+      "simulation_seconds": 1.635,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/12.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 13,
+      "frames": 103,
+      "container_seconds": 10.3,
+      "simulation_seconds": 1.545,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/13.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 14,
+      "frames": 109,
+      "container_seconds": 10.9,
+      "simulation_seconds": 1.635,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/14.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 15,
+      "frames": 111,
+      "container_seconds": 11.1,
+      "simulation_seconds": 1.665,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/15.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 16,
+      "frames": 111,
+      "container_seconds": 11.1,
+      "simulation_seconds": 1.665,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/16.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 17,
+      "frames": 112,
+      "container_seconds": 11.2,
+      "simulation_seconds": 1.68,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/17.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 18,
+      "frames": 111,
+      "container_seconds": 11.1,
+      "simulation_seconds": 1.665,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/18.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 19,
+      "frames": 111,
+      "container_seconds": 11.1,
+      "simulation_seconds": 1.665,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/19.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 20,
+      "frames": 110,
+      "container_seconds": 11.0,
+      "simulation_seconds": 1.65,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/20.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 21,
+      "frames": 107,
+      "container_seconds": 10.7,
+      "simulation_seconds": 1.605,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/21.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 22,
+      "frames": 106,
+      "container_seconds": 10.6,
+      "simulation_seconds": 1.5899999999999999,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/22.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 23,
+      "frames": 104,
+      "container_seconds": 10.4,
+      "simulation_seconds": 1.56,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/23.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 24,
+      "frames": 109,
+      "container_seconds": 10.9,
+      "simulation_seconds": 1.635,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/24.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 25,
+      "frames": 106,
+      "container_seconds": 10.6,
+      "simulation_seconds": 1.5899999999999999,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/25.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 26,
+      "frames": 101,
+      "container_seconds": 10.1,
+      "simulation_seconds": 1.515,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/26.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 27,
+      "frames": 112,
+      "container_seconds": 11.2,
+      "simulation_seconds": 1.68,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/27.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 28,
+      "frames": 111,
+      "container_seconds": 11.1,
+      "simulation_seconds": 1.665,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/28.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 29,
+      "frames": 104,
+      "container_seconds": 10.4,
+      "simulation_seconds": 1.56,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/29.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 30,
+      "frames": 109,
+      "container_seconds": 10.9,
+      "simulation_seconds": 1.635,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/30.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 31,
+      "frames": 113,
+      "container_seconds": 11.3,
+      "simulation_seconds": 1.6949999999999998,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/31.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 32,
+      "frames": 106,
+      "container_seconds": 10.6,
+      "simulation_seconds": 1.5899999999999999,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/32.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 33,
+      "frames": 111,
+      "container_seconds": 11.1,
+      "simulation_seconds": 1.665,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/33.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 34,
+      "frames": 106,
+      "container_seconds": 10.6,
+      "simulation_seconds": 1.5899999999999999,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/34.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 35,
+      "frames": 111,
+      "container_seconds": 11.1,
+      "simulation_seconds": 1.665,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/35.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 36,
+      "frames": 107,
+      "container_seconds": 10.7,
+      "simulation_seconds": 1.605,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/36.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 37,
+      "frames": 107,
+      "container_seconds": 10.7,
+      "simulation_seconds": 1.605,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/37.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 38,
+      "frames": 110,
+      "container_seconds": 11.0,
+      "simulation_seconds": 1.65,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/38.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 39,
+      "frames": 106,
+      "container_seconds": 10.6,
+      "simulation_seconds": 1.5899999999999999,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/39.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 40,
+      "frames": 113,
+      "container_seconds": 11.3,
+      "simulation_seconds": 1.6949999999999998,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/40.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 41,
+      "frames": 114,
+      "container_seconds": 11.4,
+      "simulation_seconds": 1.71,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/41.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 42,
+      "frames": 108,
+      "container_seconds": 10.8,
+      "simulation_seconds": 1.6199999999999999,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/42.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 43,
+      "frames": 109,
+      "container_seconds": 10.9,
+      "simulation_seconds": 1.635,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/43.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 44,
+      "frames": 104,
+      "container_seconds": 10.4,
+      "simulation_seconds": 1.56,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/44.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 45,
+      "frames": 111,
+      "container_seconds": 11.1,
+      "simulation_seconds": 1.665,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/45.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 46,
+      "frames": 114,
+      "container_seconds": 11.4,
+      "simulation_seconds": 1.71,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/46.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 47,
+      "frames": 112,
+      "container_seconds": 11.2,
+      "simulation_seconds": 1.68,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/47.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 48,
+      "frames": 111,
+      "container_seconds": 11.1,
+      "simulation_seconds": 1.665,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/48.mp4"
+    },
+    {
+      "policy": "flash",
+      "test_id": 49,
+      "frames": 108,
+      "container_seconds": 10.8,
+      "simulation_seconds": 1.6199999999999999,
+      "video": "runs/flash/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash/franka/10000_sr100_48.15ms_ds4_step1.ckpt_2026-10-29_14-20-52/49.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 0,
+      "frames": 89,
+      "container_seconds": 8.9,
+      "simulation_seconds": 1.335,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/0.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 1,
+      "frames": 99,
+      "container_seconds": 9.9,
+      "simulation_seconds": 1.4849999999999999,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/1.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 2,
+      "frames": 98,
+      "container_seconds": 9.8,
+      "simulation_seconds": 1.47,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/2.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 3,
+      "frames": 102,
+      "container_seconds": 10.2,
+      "simulation_seconds": 1.53,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/3.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 4,
+      "frames": 110,
+      "container_seconds": 11.0,
+      "simulation_seconds": 1.65,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/4.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 5,
+      "frames": 104,
+      "container_seconds": 10.4,
+      "simulation_seconds": 1.56,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/5.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 6,
+      "frames": 114,
+      "container_seconds": 11.4,
+      "simulation_seconds": 1.71,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/6.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 7,
+      "frames": 94,
+      "container_seconds": 9.4,
+      "simulation_seconds": 1.41,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/7.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 8,
+      "frames": 89,
+      "container_seconds": 8.9,
+      "simulation_seconds": 1.335,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/8.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 9,
+      "frames": 103,
+      "container_seconds": 10.3,
+      "simulation_seconds": 1.545,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/9.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 10,
+      "frames": 89,
+      "container_seconds": 8.9,
+      "simulation_seconds": 1.335,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/10.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 11,
+      "frames": 98,
+      "container_seconds": 9.8,
+      "simulation_seconds": 1.47,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/11.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 12,
+      "frames": 92,
+      "container_seconds": 9.2,
+      "simulation_seconds": 1.38,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/12.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 13,
+      "frames": 95,
+      "container_seconds": 9.5,
+      "simulation_seconds": 1.425,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/13.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 14,
+      "frames": 93,
+      "container_seconds": 9.3,
+      "simulation_seconds": 1.395,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/14.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 15,
+      "frames": 103,
+      "container_seconds": 10.3,
+      "simulation_seconds": 1.545,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/15.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 16,
+      "frames": 99,
+      "container_seconds": 9.9,
+      "simulation_seconds": 1.4849999999999999,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/16.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 17,
+      "frames": 94,
+      "container_seconds": 9.4,
+      "simulation_seconds": 1.41,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/17.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 18,
+      "frames": 300,
+      "container_seconds": 30.0,
+      "simulation_seconds": 4.5,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/18.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 19,
+      "frames": 105,
+      "container_seconds": 10.5,
+      "simulation_seconds": 1.575,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/19.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 20,
+      "frames": 100,
+      "container_seconds": 10.0,
+      "simulation_seconds": 1.5,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/20.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 21,
+      "frames": 103,
+      "container_seconds": 10.3,
+      "simulation_seconds": 1.545,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/21.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 22,
+      "frames": 100,
+      "container_seconds": 10.0,
+      "simulation_seconds": 1.5,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/22.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 23,
+      "frames": 99,
+      "container_seconds": 9.9,
+      "simulation_seconds": 1.4849999999999999,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/23.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 24,
+      "frames": 98,
+      "container_seconds": 9.8,
+      "simulation_seconds": 1.47,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/24.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 25,
+      "frames": 107,
+      "container_seconds": 10.7,
+      "simulation_seconds": 1.605,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/25.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 26,
+      "frames": 93,
+      "container_seconds": 9.3,
+      "simulation_seconds": 1.395,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/26.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 27,
+      "frames": 106,
+      "container_seconds": 10.6,
+      "simulation_seconds": 1.5899999999999999,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/27.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 28,
+      "frames": 98,
+      "container_seconds": 9.8,
+      "simulation_seconds": 1.47,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/28.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 29,
+      "frames": 95,
+      "container_seconds": 9.5,
+      "simulation_seconds": 1.425,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/29.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 30,
+      "frames": 300,
+      "container_seconds": 30.0,
+      "simulation_seconds": 4.5,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/30.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 31,
+      "frames": 100,
+      "container_seconds": 10.0,
+      "simulation_seconds": 1.5,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/31.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 32,
+      "frames": 106,
+      "container_seconds": 10.6,
+      "simulation_seconds": 1.5899999999999999,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/32.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 33,
+      "frames": 300,
+      "container_seconds": 30.0,
+      "simulation_seconds": 4.5,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/33.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 34,
+      "frames": 300,
+      "container_seconds": 30.0,
+      "simulation_seconds": 4.5,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/34.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 35,
+      "frames": 103,
+      "container_seconds": 10.3,
+      "simulation_seconds": 1.545,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/35.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 36,
+      "frames": 300,
+      "container_seconds": 30.0,
+      "simulation_seconds": 4.5,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/36.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 37,
+      "frames": 98,
+      "container_seconds": 9.8,
+      "simulation_seconds": 1.47,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/37.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 38,
+      "frames": 103,
+      "container_seconds": 10.3,
+      "simulation_seconds": 1.545,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/38.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 39,
+      "frames": 97,
+      "container_seconds": 9.7,
+      "simulation_seconds": 1.4549999999999998,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/39.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 40,
+      "frames": 108,
+      "container_seconds": 10.8,
+      "simulation_seconds": 1.6199999999999999,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/40.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 41,
+      "frames": 103,
+      "container_seconds": 10.3,
+      "simulation_seconds": 1.545,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/41.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 42,
+      "frames": 106,
+      "container_seconds": 10.6,
+      "simulation_seconds": 1.5899999999999999,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/42.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 43,
+      "frames": 105,
+      "container_seconds": 10.5,
+      "simulation_seconds": 1.575,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/43.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 44,
+      "frames": 95,
+      "container_seconds": 9.5,
+      "simulation_seconds": 1.425,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/44.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 45,
+      "frames": 91,
+      "container_seconds": 9.1,
+      "simulation_seconds": 1.365,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/45.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 46,
+      "frames": 105,
+      "container_seconds": 10.5,
+      "simulation_seconds": 1.575,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/46.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 47,
+      "frames": 103,
+      "container_seconds": 10.3,
+      "simulation_seconds": 1.545,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/47.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 48,
+      "frames": 300,
+      "container_seconds": 30.0,
+      "simulation_seconds": 4.5,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/48.mp4"
+    },
+    {
+      "policy": "fm_dit",
+      "test_id": 49,
+      "frames": 107,
+      "container_seconds": 10.7,
+      "simulation_seconds": 1.605,
+      "video": "runs/fm_dit/official-style/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/10000_sr88_698.03ms_ds1_step10.ckpt_2026-10-29_14-24-31/49.mp4"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "policy": "fm_dit",
+  "checkpoint_step": 2500,
+  "seed": 42,
+  "rollouts": 50,
+  "successes": 18,
+  "success_rate": 0.36,
+  "checkpoint_path": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/fm_dit/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit_bowl_s42_v1_20261028/checkpoints/2500.ckpt",
+  "checkpoint_sha256": "64f386d4c812ac6574d0cd5e7b3f809c609934b44147ec021eb82ff2d98079d5",
+  "evaluation_dir": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/comparison_20261028/official-runs/fm_dit-2500/eval/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/fm_dit/franka/2500_sr36_1297.52ms_ds1_step10.ckpt_2026-10-28_22-24-12",
+  "ds_ratio": 1,
+  "num_inference_steps": 10,
+  "groups": {
+    "optimization": {
+      "successes": 13,
+      "rollouts": 39
+    },
+    "validation": {
+      "successes": 1,
+      "rollouts": 1
+    },
+    "uncollected": {
+      "successes": 4,
+      "rollouts": 10
+    }
+  }
+}

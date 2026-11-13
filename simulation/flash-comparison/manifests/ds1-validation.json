@@ -1,0 +1,874 @@
+{
+  "root": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/data-formal",
+  "expected_successes": 40,
+  "demonstrations": [
+    {
+      "demo_id": "demo_0001",
+      "source_reference_index": 1,
+      "frames": 116,
+      "joint_shape": [
+        116,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.334355718372578,
+      "rgb_mean_abs_frame_change_max": 0.9258982340494791,
+      "metadata_sha256": "6a3c72028dc34a550223ec51dc8309fb9572ff42b8eb55265ecfe6e86c0aaab8",
+      "rgb_sha256": "694e2efc21d6e1e1d61c53cbe829cf8f1d04ab2c0f2f67611dc9bba5e344abb8",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0002",
+      "source_reference_index": 2,
+      "frames": 128,
+      "joint_shape": [
+        128,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.44832861513286,
+      "rgb_mean_abs_frame_change_max": 1.02093505859375,
+      "metadata_sha256": "043e416252c0c015d835bbe2a3ac1078f3abe24a1a9055081c2e6542bb340be9",
+      "rgb_sha256": "b5d16005e3701b78e0866f2fd744098cf36bb5f884de6bc31db8e9b7005faa5e",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0003",
+      "source_reference_index": 3,
+      "frames": 138,
+      "joint_shape": [
+        138,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.24111039992983,
+      "rgb_mean_abs_frame_change_max": 0.9720815022786459,
+      "metadata_sha256": "2238553b79d20a9e346a4d1fd1f76120bb9adbebb03a6f34de79115be2c18eff",
+      "rgb_sha256": "300e9e989168a639220b9cf39346e8c20b78537a393f7936de9884f7dcc82ca4",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0004",
+      "source_reference_index": 4,
+      "frames": 127,
+      "joint_shape": [
+        127,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.11889037272037,
+      "rgb_mean_abs_frame_change_max": 0.918792724609375,
+      "metadata_sha256": "89e729d9b275778696b7908bca2603af23a9cc088072a5809ddd5120979d4604",
+      "rgb_sha256": "9a3242430214490940b1e31bc52496ce28e689ed1c49f293dc42c81e446b32b4",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0005",
+      "source_reference_index": 5,
+      "frames": 127,
+      "joint_shape": [
+        127,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.278073144951367,
+      "rgb_mean_abs_frame_change_max": 1.0051625569661458,
+      "metadata_sha256": "5caacaaa823b7804a3695a161de13f8ac4034ff490eafa560c2195effea93fff",
+      "rgb_sha256": "d30bfaeb052a787253c0e4922a204087726aeb8ccf56f548b8768122984351a1",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0007",
+      "source_reference_index": 7,
+      "frames": 90,
+      "joint_shape": [
+        90,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.140777290939155,
+      "rgb_mean_abs_frame_change_max": 0.9707997639973959,
+      "metadata_sha256": "4bb83dc9f722db5f34e77cb91d5d1784a786878305ef05ddc7a4ed533f8b628a",
+      "rgb_sha256": "fcbe5df09b95b51a8eb09e5168805d8591f8b7338aa473643848458d32210f01",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0009",
+      "source_reference_index": 9,
+      "frames": 116,
+      "joint_shape": [
+        116,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.280629805894442,
+      "rgb_mean_abs_frame_change_max": 0.9830780029296875,
+      "metadata_sha256": "b0dd100ad27f920969bb1109e4097d745a2b950cd1dd13426b918c6deedbbdf0",
+      "rgb_sha256": "e80257e4d7e429e9d93cae1daf12dd2ffa996fcaf8596eba71eafd2b5665f181",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0011",
+      "source_reference_index": 11,
+      "frames": 122,
+      "joint_shape": [
+        122,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.245199868634998,
+      "rgb_mean_abs_frame_change_max": 0.9110616048177084,
+      "metadata_sha256": "a1a3da6eee813b442122e2819bdb799cc3144b4e701b3005c167826227c61d61",
+      "rgb_sha256": "f61c0878145ae4f920e430411d3ae26d924c26cb88efbcff6cdf725a4b6cb2c9",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0012",
+      "source_reference_index": 12,
+      "frames": 123,
+      "joint_shape": [
+        123,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.412726014168776,
+      "rgb_mean_abs_frame_change_max": 0.9634246826171875,
+      "metadata_sha256": "767e8d7978cf221d1cb89bf6c8df20ba96dec3ee0503c194f05242f348ab98cb",
+      "rgb_sha256": "1f51fb82c1f3cb73bbdb3ee17d4a997aff25257e42b989818914627e6044f440",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0014",
+      "source_reference_index": 14,
+      "frames": 121,
+      "joint_shape": [
+        121,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.357472932685393,
+      "rgb_mean_abs_frame_change_max": 1.01312255859375,
+      "metadata_sha256": "5623a1a144faccde883b6f1fa29e5f9eaf414adc6f5b911b4428ac5fce706263",
+      "rgb_sha256": "94223ba2a47f03cf27a7cddf828512138c35649d1d1b38335a05e93b9c3d8e0e",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0015",
+      "source_reference_index": 15,
+      "frames": 116,
+      "joint_shape": [
+        116,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.342440907501246,
+      "rgb_mean_abs_frame_change_max": 0.9620768229166666,
+      "metadata_sha256": "6b9d362ea1d5f25349eb7d7769fb085f7c463abe32c03d6285a402c64b2021b1",
+      "rgb_sha256": "bcafbe1d842f6895f60347851d57a257d9e465772da8346fbea01b5a66f0b53d",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0016",
+      "source_reference_index": 16,
+      "frames": 131,
+      "joint_shape": [
+        131,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.33332510731221,
+      "rgb_mean_abs_frame_change_max": 1.0629170735677083,
+      "metadata_sha256": "ebb1b94739659f12211253f07a6b99643f34fc3ae9037884c93079389ffc454f",
+      "rgb_sha256": "d52320e58821209111078f426e87f8dc76bd178411f6003d7847086366a690dc",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0017",
+      "source_reference_index": 17,
+      "frames": 116,
+      "joint_shape": [
+        116,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.367718798480997,
+      "rgb_mean_abs_frame_change_max": 1.1062062581380208,
+      "metadata_sha256": "b33d7dbc5a2aff3c11d0cb342df63fa65fea31b66974eb1a87870f96677e8b84",
+      "rgb_sha256": "692d40746d13434cc8baea2d56c118c7dcadd6b4caa888de0a7fe680cd40334a",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0018",
+      "source_reference_index": 18,
+      "frames": 117,
+      "joint_shape": [
+        117,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.371780766935743,
+      "rgb_mean_abs_frame_change_max": 0.8964182535807291,
+      "metadata_sha256": "8e1c0a5de5bd5dbe0db2d572e00d7207b3c23901c825dfb1062d02a6063f9bc5",
+      "rgb_sha256": "027c12799c974e41412d16990bde7ae3351d61f981873714f4446aca470ef6d3",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0019",
+      "source_reference_index": 19,
+      "frames": 136,
+      "joint_shape": [
+        136,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.324274128989018,
+      "rgb_mean_abs_frame_change_max": 1.0324452718098958,
+      "metadata_sha256": "b12412413ce8fa7fed2af97db1f17c0936ac0dfa0ff54bab6da8719a85706043",
+      "rgb_sha256": "ae4e4b6297e0c9494f42fc8d187cbfc954c3265dde52a86191dfb88d91013e71",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0020",
+      "source_reference_index": 20,
+      "frames": 111,
+      "joint_shape": [
+        111,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.202884927396052,
+      "rgb_mean_abs_frame_change_max": 1.1125590006510417,
+      "metadata_sha256": "8b7b989de57f3a7051eb6596fecf6e5fd5ca75243b8c9d22e37b8b12cacf771b",
+      "rgb_sha256": "3c81ffaecd1c01f136ee0c45828cc495db6bb5de851619e515ab123dbd2cfefa",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0021",
+      "source_reference_index": 21,
+      "frames": 120,
+      "joint_shape": [
+        120,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.3281881860734,
+      "rgb_mean_abs_frame_change_max": 0.9506734212239584,
+      "metadata_sha256": "16b88621ea1842dff27ed1773fd505267d9557944f7e68b3d8d363db7492e746",
+      "rgb_sha256": "ec65fd0249fe5739cc0161c4ad0f537ea92b8a25c3f27c4c05cec7cabc75db94",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0022",
+      "source_reference_index": 22,
+      "frames": 123,
+      "joint_shape": [
+        123,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.2537481579448,
+      "rgb_mean_abs_frame_change_max": 0.9000091552734375,
+      "metadata_sha256": "bea4ef1cfed74acf5952181a98888e7cc7eef70741817b82d71a2f418e0fe0ac",
+      "rgb_sha256": "38ebd4330f9fba3f23648eeb4c7153d9dc83e8282e1e08aba02ed76c4f5dc001",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0023",
+      "source_reference_index": 23,
+      "frames": 116,
+      "joint_shape": [
+        116,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.385094610603215,
+      "rgb_mean_abs_frame_change_max": 0.9877878824869791,
+      "metadata_sha256": "1e614345e3f142052dae50d0e8aa249881b0dc48532f04797ad4bf4d82aea38f",
+      "rgb_sha256": "12a6a63508d3f045db2797a173e1e7e44b5b39e5ba72d6fb481a85930e4a55b5",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0024",
+      "source_reference_index": 24,
+      "frames": 111,
+      "joint_shape": [
+        111,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.235047012558002,
+      "rgb_mean_abs_frame_change_max": 1.0063578287760417,
+      "metadata_sha256": "3e40bac9e0aef51a6cc256dc0307ab4222ded5240f7aac11e37d10c296adb2db",
+      "rgb_sha256": "b2e51afc7adc11d4f6a88dc00fa123101f8136848fb8d0d8ccd46e5bf2cf4f5f",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0025",
+      "source_reference_index": 25,
+      "frames": 87,
+      "joint_shape": [
+        87,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.404862132509443,
+      "rgb_mean_abs_frame_change_max": 0.9944508870442709,
+      "metadata_sha256": "295365e7e29686390ceac5609637fe359818fddb1acbb252e313f52ca804dd22",
+      "rgb_sha256": "d43bf6f4488915119112b0e94b5f60abee0bc07d1b4601ec0a72aed8cf698654",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0026",
+      "source_reference_index": 26,
+      "frames": 105,
+      "joint_shape": [
+        105,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.317160494558358,
+      "rgb_mean_abs_frame_change_max": 0.9240163167317709,
+      "metadata_sha256": "a93fe7f0203eed598304535b5b4362892b99cd00de2b9962a6c62b59ff376029",
+      "rgb_sha256": "c060e0dc604b19424e7bb0032d929920699a551de31659a863819ab4ad4525a9",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0028",
+      "source_reference_index": 28,
+      "frames": 122,
+      "joint_shape": [
+        122,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.407570791952438,
+      "rgb_mean_abs_frame_change_max": 1.10223388671875,
+      "metadata_sha256": "7955f72909fbde392df404ba3eaf272b91960c0451d9e9d622ecd9ff2bf17262",
+      "rgb_sha256": "214053dfe2d4645e8d76ea359e6450ebd02c1aedbcce3a8ec24c5d2df27c7136",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0029",
+      "source_reference_index": 29,
+      "frames": 109,
+      "joint_shape": [
+        109,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.34755448499023,
+      "rgb_mean_abs_frame_change_max": 1.00726318359375,
+      "metadata_sha256": "31fef1ad83ba8dd9cc3bfeef9d934ee3e2f609329ae176b1b29ccc7f3e18b8e3",
+      "rgb_sha256": "49b0b080793c364c50f4e28f90449483ace186a14af4342cc85901e38abd3faf",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0030",
+      "source_reference_index": 30,
+      "frames": 124,
+      "joint_shape": [
+        124,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.29517340333239,
+      "rgb_mean_abs_frame_change_max": 0.9637654622395834,
+      "metadata_sha256": "68299fe060b874a1586431543455b6aee00ee6f180bd8f2445b4a23791664443",
+      "rgb_sha256": "6d968c6bf827dea673bd5e238e7dc2a07865afb4ecb5755489fcbec573aaddd4",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0031",
+      "source_reference_index": 31,
+      "frames": 117,
+      "joint_shape": [
+        117,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.290575094611473,
+      "rgb_mean_abs_frame_change_max": 0.975372314453125,
+      "metadata_sha256": "67beecf56bb8b9123292ef3b3e6a85ad4b41ae872d51e471322fe70cddd1b715",
+      "rgb_sha256": "60bb970bc4ad78a85981e110757ac616012e2814dd7bbe1f4331c1f63fe58623",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0032",
+      "source_reference_index": 32,
+      "frames": 116,
+      "joint_shape": [
+        116,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.423192361187414,
+      "rgb_mean_abs_frame_change_max": 0.8887074788411459,
+      "metadata_sha256": "7c2ea3f2ced027d807c53f863287a6154ae7da3a80889a2b09585e6d41a17914",
+      "rgb_sha256": "77401ddb895267750dab1d99bb71c04c2178abfa89b0258db9dcb0ca9af271c2",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0034",
+      "source_reference_index": 34,
+      "frames": 125,
+      "joint_shape": [
+        125,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.304028287169388,
+      "rgb_mean_abs_frame_change_max": 0.9415181477864584,
+      "metadata_sha256": "a0b8aee39e56d8001193d389364809cfdca84d5f5a67899240a25fdb05d4d4bb",
+      "rgb_sha256": "e204ff6beac70426add8927add0490f90d164a21a024103962372c39c2b9387c",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0035",
+      "source_reference_index": 35,
+      "frames": 115,
+      "joint_shape": [
+        115,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.28647082362726,
+      "rgb_mean_abs_frame_change_max": 0.8231099446614584,
+      "metadata_sha256": "5a108c0ba348c39348ea599e456ac069e3625c6f4fc77b628580dce76e7316e5",
+      "rgb_sha256": "ccf6ad64f7964a1c6f3c34d9b9e1d1f5d6c5cce64a130b860a2308fce67858ea",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0036",
+      "source_reference_index": 36,
+      "frames": 126,
+      "joint_shape": [
+        126,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.15034108622174,
+      "rgb_mean_abs_frame_change_max": 0.8656972249348959,
+      "metadata_sha256": "952c6903e45faee292a5d77463faf082f042832a9f8cab9ef785533d6fdfce72",
+      "rgb_sha256": "28bc6391c5bbca372cbf99cf5eeb6cca7b061adb8c782636f4cc09f9aad426e3",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0037",
+      "source_reference_index": 37,
+      "frames": 120,
+      "joint_shape": [
+        120,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.271579392744258,
+      "rgb_mean_abs_frame_change_max": 0.9416656494140625,
+      "metadata_sha256": "006af681e2e85d77163cea777e95887bff4101712b73fd476cbf74623a86981d",
+      "rgb_sha256": "985c2c3d9e028f4a3209140183e194177124d080e5720412be8c476f84d33aa2",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0038",
+      "source_reference_index": 38,
+      "frames": 127,
+      "joint_shape": [
+        127,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.312160192711286,
+      "rgb_mean_abs_frame_change_max": 0.9539235432942709,
+      "metadata_sha256": "44e491c411ba4792ad81c618df51caa245856a7d7f38f9ed3b46ea4f3f4a64b3",
+      "rgb_sha256": "429fabdca4314a5cdc5f2a5a727214ae4f19420a63376e79416ae6062226b723",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0039",
+      "source_reference_index": 39,
+      "frames": 111,
+      "joint_shape": [
+        111,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.267326247773273,
+      "rgb_mean_abs_frame_change_max": 0.9850921630859375,
+      "metadata_sha256": "6d2323be7e716a9db1d17b380e7269e8866756772d668165db83be5415850ca8",
+      "rgb_sha256": "04006c48c57ff0ce4656bcc17b555043c498e3c5fab96aea5b07ad049568a4cd",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0040",
+      "source_reference_index": 40,
+      "frames": 124,
+      "joint_shape": [
+        124,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.414945883777893,
+      "rgb_mean_abs_frame_change_max": 1.0846405029296875,
+      "metadata_sha256": "a6834bdbcd74e4a7e9d9817750214a48587b85c435f737e8522298669368064d",
+      "rgb_sha256": "ddf3fb4d72e2890f9e316cfb2e460e888caed52690f66f2c731ee63480a0d84a",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0042",
+      "source_reference_index": 42,
+      "frames": 129,
+      "joint_shape": [
+        129,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.201713382172446,
+      "rgb_mean_abs_frame_change_max": 0.9654490152994791,
+      "metadata_sha256": "9b08ed8be81aa78de3c0e9d000be04875803687f1339c2128ebfcbec08a34d97",
+      "rgb_sha256": "a68064c59bb335246b65dcb987e0dd93e2e1eb4095b03bb42b6eee89f63ce266",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0043",
+      "source_reference_index": 43,
+      "frames": 124,
+      "joint_shape": [
+        124,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.25242091443743,
+      "rgb_mean_abs_frame_change_max": 0.9371185302734375,
+      "metadata_sha256": "f9ca0b434606879489fc1d666e5eee5b93809e944077f174c2b6eb635a1a9a13",
+      "rgb_sha256": "71fd65943aa83e461b239a2feddc6391971aa60378c6a17bf57472f6f611810d",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0044",
+      "source_reference_index": 44,
+      "frames": 106,
+      "joint_shape": [
+        106,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.380856847865445,
+      "rgb_mean_abs_frame_change_max": 0.9886118570963541,
+      "metadata_sha256": "7fe626d709766b5360205e0840b8d94ed4a881cb996b54e11cd9369e9c56500e",
+      "rgb_sha256": "161ceb439ec29327a408ece13e94ef5c6aff62d3af718d1b4f9b5be639aa528c",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0045",
+      "source_reference_index": 45,
+      "frames": 140,
+      "joint_shape": [
+        140,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.283440520750794,
+      "rgb_mean_abs_frame_change_max": 0.9277242024739584,
+      "metadata_sha256": "49be51ea5c5b04adbcbb7c20d88a90fad7a27315e9134ccd79a9911216d930af",
+      "rgb_sha256": "b1fd03420c6b12f4fedfde659a222378632280fb4d1ee7cdc698be37c9d8aa41",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0048",
+      "source_reference_index": 48,
+      "frames": 114,
+      "joint_shape": [
+        114,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.19209178074406,
+      "rgb_mean_abs_frame_change_max": 0.9997202555338541,
+      "metadata_sha256": "dd423421374d9ef821b5737f2670f674ba5658c7dac567d1353cd5b0a3787a6f",
+      "rgb_sha256": "437fb282d5060d04ecf26ab095377a10183ad0bf9631c3e98c8e9f2fb174551c",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    },
+    {
+      "demo_id": "demo_0049",
+      "source_reference_index": 49,
+      "frames": 121,
+      "joint_shape": [
+        121,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.158660197062385,
+      "rgb_mean_abs_frame_change_max": 0.9349873860677084,
+      "metadata_sha256": "3cbef3bbdfa82544e681a58838665b152d9e77bdda99a6a5f3880d717cea78a3",
+      "rgb_sha256": "ac66d53292d07c8f234076526d9fd86cc31cba74747a427ec2096eb1bdbd6c96",
+      "task_description": "Put the black bowl on the plate",
+      "zarr_rgb_abs_diff_max": 0,
+      "zarr_rgb_abs_diff_mean": 0.0
+    }
+  ],
+  "physical_control_dt_seconds": 0.015,
+  "video_fps_note": "Video container fps is a playback setting, not simulation control frequency.",
+  "zarr": {
+    "path": "data_policy/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plateFrankaL0_obs:joint_pos_act:joint_pos_ds1_40.zarr",
+    "samples": 4767,
+    "arrays": {
+      "action": [
+        4767,
+        9
+      ],
+      "head_camera": [
+        4767,
+        3,
+        256,
+        256
+      ],
+      "state": [
+        4767,
+        9
+      ]
+    },
+    "meta_attributes": {
+      "action_space": "joint_pos",
+      "delta_ee": 0,
+      "downsample_ratio": 1,
+      "joint_pos_padding": 0,
+      "num_episodes": 40,
+      "observation_space": "joint_pos",
+      "raw_data_freq_hz": 30.0,
+      "task_name": "libero_90.kitchen_scene1_put_the_black_bowl_on_the_plateFrankaL0_obs:joint_pos_act:joint_pos"
+    },
+    "file_sha256": {
+      ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+      "data/.zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+      "data/action/.zarray": "22a1f91b2daeeb7c53095bc7c681ee5091812e8a6da8c027a9a25b6f1a631ab2",
+      "data/action/0.0": "78154dd6ed29b90f7d01d980b88e7cd9bcdfff3d09ca9e366e516a3f9877b63d",
+      "data/action/1.0": "bb6c83575edd0b332d25567cebb39334a3b8b450bf49e7df3ee88e7a6d5d9afb",
+      "data/action/10.0": "a240c2c619433c7f3241361d78bc1485691364980cb356168a99e67d37593660",
+      "data/action/11.0": "2c922e6d66e4309270790297c871696929aea22fb60074e1891d25ee1f69ca0e",
+      "data/action/12.0": "307a2365259ffcb33e7f0c24130d03417333c5481fa3c4d65b7cdee60f49928b",
+      "data/action/13.0": "de6cc6fe84c4326753a05b6cf077bd8de081bd48782f279b657ded7fd4df4244",
+      "data/action/14.0": "3e6c10a28ed207dd981578f887e20e5be5c765d42394535226bc2b14f63bbc26",
+      "data/action/15.0": "8c80ad6bab484a2c93becfc7d0d1a384614fb6f7ac6d233253904302f0b6941e",
+      "data/action/16.0": "e8ee288a9ff551ba5fedecf8d7bf1a66a21be0f8bdab80b0404e4c152bd8561f",
+      "data/action/17.0": "eb3c4e68906b559db7e6ee0c65947bc99b6af8f109e03ea3b1ec8f62d9651ace",
+      "data/action/18.0": "73bd8160f4975148f4fa05768fc62755ea946c4510c685ea5b7db0005518ad33",
+      "data/action/19.0": "d1a872aadd396041dd32e8a4529f1eeaca8a7810df02eac29464dedaf677874b",
+      "data/action/2.0": "a0e6bf5c9f94ac9bc1866d4f0f1a4f9acf3aad1da38b0a37cafb7354a156d197",
+      "data/action/20.0": "59f6cdbd8d91020c6532883e775793ed84c7ba8df795bf9ba311f6bcee63bc16",
+      "data/action/21.0": "3bfd154c2dfe9f5c972fddcbc99aca90984ef3f9306833a6f28b982b86b04d3d",
+      "data/action/22.0": "e5de3d8a005a814038db4c901094bbf7da156aa97a064ec4748e86268cef7443",
+      "data/action/23.0": "82e9e9995cc665df0fdb61208d067854cb0bf5cf7fe6387fad7f0e12af429ba8",
+      "data/action/24.0": "ce4a5131d4559f99a0f61e76b6cdba81bd75184132cb35d540b4653ff813d084",
+      "data/action/25.0": "1ee6dc875dd928d66deb532c32b3a2e47e2e5501a5b00b29bbe17db53718dfe2",
+      "data/action/26.0": "9932b5f86c7106c0502155f828382adb3ee837ac76c28e25f0df001930ae3004",
+      "data/action/27.0": "5cbd4abc4afc4c3c6f8a367e2566108ba49e4798eaf001795e16483fa0ddb71e",
+      "data/action/28.0": "b96a9f32f75bbd78c3b6de867abc239405630a912b56de0a02e34a2bca96898e",
+      "data/action/29.0": "24d7562e3ed5fdc1b0000ba76f64fe50fa69b505165df29f1e627327fa40c1a4",
+      "data/action/3.0": "c6991b8b4eb2d0db2286cf8a676a59be0829d0dc7952b54129d14dd93416cd2d",
+      "data/action/30.0": "996df44809834a38ebc6f93952fd6fea4623c05fe76410340810cc2001b9a479",
+      "data/action/31.0": "565f01a95c3e961112e0d4d5a32c84fc26ddb5ea4ae380fd4d6ce0b1122afc81",
+      "data/action/32.0": "3db12244407d021a33b4a09cae31a34ff471e9235f232b5b322b4cbba0b566c1",
+      "data/action/33.0": "90a3fa68864b8013a6d8cca1b24ce188499551a674e850b1eafbb81e616aee0f",
+      "data/action/34.0": "c8069e6ccddd91ab9a83401cf00fa1ee5e2a28ffb6b3ad7cabd7b72185b17387",
+      "data/action/35.0": "4542239551e07340a30f8eecef7fa36154824bda65c3ff46778b71bac30ce80e",
+      "data/action/36.0": "3654b13d54daf98079fa0700f3a70d16a4367de1a18131bd7efe4662e31a5e0c",
+      "data/action/37.0": "8f3622c303ea13b00ab628da6f2487b06365b7123d6c1ad7c48dba02d4be832f",
+      "data/action/38.0": "04a7bbe7a445c22b191a7950988df00748e195688c06545abcfba3cab4498edf",
+      "data/action/39.0": "91c4e635c7ab6856ebd7c0c86fef72170d6710d7f73c2ca8e2fdb9b179f20e78",
+      "data/action/4.0": "c71484507d0e0cb321c1d481a555c98b2c7963d2d064fc0a655619b002358b89",
+      "data/action/40.0": "643566d3ec4c46374430d2a5487d53d469178c95a9f63e9e44671b0ac4620e97",
+      "data/action/41.0": "2dbd33a12b9c77157fe14308472ff4de210efeef6c11755758b2597ef0bf3c63",
+      "data/action/42.0": "37ce94446f441e76b2f8681124aa7a49b62e37556542924dc16070e3d6a59e5a",
+      "data/action/43.0": "cb90394366df78483ef3bfb63ad870a2ddd1385f16f67b4cd3896b163170771b",
+      "data/action/44.0": "aaa4100d27fbd95314f28977bc337de4921c4d7b8ef043ed0b0b1bf5ac597933",
+      "data/action/45.0": "917cca84ae850f7a3befb339e0b9ed442963a51dcdb31d7a42c396f72e5ab8e9",
+      "data/action/46.0": "fa80aa131945fabbcee0a890c284fcc043bf7280fcde1ffea1d1fa037f2e36f5",
+      "data/action/47.0": "87e8ff0d1b00997cf38bef7151fca61f493e1f887e679ef551cfdcb217022292",
+      "data/action/5.0": "8fb283a566e74a72651efc958a67ac1655094bc0be79f140396c214cc537e604",
+      "data/action/6.0": "75a8ec6c491931d58fdaa621edfda58014660c03d945a860552d28f3dd5caadd",
+      "data/action/7.0": "fd9f151096ce6760ea03931049eb7e8e7c6195f33aa6fbc839cfbe3424c31c5e",
+      "data/action/8.0": "0ea5ff5f6f59f37eef753ad23bdfd7a40888ea4d7425a0e736f7a2b5da15e6e0",
+      "data/action/9.0": "810e2e9f31d9620cd75018da845dc56cf194da321622e7a0c34e43961c0c4f08",
+      "data/head_camera/.zarray": "ed159ccd9bf7d6f6fc3ba3f96b1f4c41179f5b0be61a8f61cc6c531c33f9e6f1",
+      "data/head_camera/0.0.0.0": "5d8a3c183afdfb57e5f4c3bab108c65e53994aa13c23bc1313153b905d674938",
+      "data/head_camera/1.0.0.0": "c935e0362a487be177b524efe74e50b1d4004b667d22f1e37e8a6f21503fe266",
+      "data/head_camera/10.0.0.0": "dae0cf6a045868ac90ceba5372062283624a3a2e073f418afb6153dd23629fd4",
+      "data/head_camera/11.0.0.0": "be0f76195fac444896048f9da7f8b00239668f2fcf8ccb1f1ba9fda6e1cf5574",
+      "data/head_camera/12.0.0.0": "084630dd56deea37e258c5d096a156b62ff036d6fa0b83441c8cfe9e07b89c74",
+      "data/head_camera/13.0.0.0": "b0cfe192ee106bb164b0460d9f7f989daf7e5b276e83397e73d20f9ef273996c",
+      "data/head_camera/14.0.0.0": "c2774d1dbc9174587d2f68abc861bfa2871f0eba7fc961e0be35ef557a6e5714",
+      "data/head_camera/15.0.0.0": "0c55d45059fa26443590e156d69a7005dfb41ad6e57b47514f5c21e05ef693e6",
+      "data/head_camera/16.0.0.0": "17c2cc2e2779f665f0f937b4533a2d5d1e3be3d305a7da814a76b06ac90c0ba2",
+      "data/head_camera/17.0.0.0": "da5b8ee5692a3cd133dec81796f25af568b1edf2f1c515947e805f4295be3cae",
+      "data/head_camera/18.0.0.0": "5c6a100e2a77cbedd54b2076f935b41bbf93d2ef8e658b0a58e5e14ada51b3c4",
+      "data/head_camera/19.0.0.0": "16815b34c1e5b7e8c1e40e6a9add07b8ebaefd42681ffb5947033b297c0b46ec",
+      "data/head_camera/2.0.0.0": "d4831dc2c32dec407983da28039a22d1e167f5b87132f33c30ddd0bddcac9189",
+      "data/head_camera/20.0.0.0": "1ba5d918a08546218befc1f2ef5be728aed48b72a6190317bb6cabb0792c09af",
+      "data/head_camera/21.0.0.0": "d13f47840da2fb15738d293ae593189b946891335409815b7ea0c6840406e86f",
+      "data/head_camera/22.0.0.0": "5b4a936d377cfe22cf33a2e7281e67cb2cb18c3ab0c4c5d68098220b15f21f64",
+      "data/head_camera/23.0.0.0": "f73d9443fd29e784fca4f654533f4c4ced06b7ed22e4c90c69bbd57e5d87b7cb",
+      "data/head_camera/24.0.0.0": "5f9d0b63919769b8dfc961f8594cc877579cb05ad64c650093fa790b8ee15dd6",
+      "data/head_camera/25.0.0.0": "e3c163149763e8eda3b4560df02b49ffb22497c1f06949eda30c7709d03bf47c",
+      "data/head_camera/26.0.0.0": "f8b5232ee9e131bd68e263349bd46ddcb8cacfc7c5e315b9de83a68d12f0e2a1",
+      "data/head_camera/27.0.0.0": "13b952dca6b6ad46b758c6497f7d3482ffe84fae18e434f8c8dc86f456943d76",
+      "data/head_camera/28.0.0.0": "23c35aabed656b8053afe18d3ea36bc6522a3004554ae2cffcef9a8c2a02be29",
+      "data/head_camera/29.0.0.0": "9961e1fded25b3222c9b8ac4a0fe80fde2e7b572ea8890c68f580132daf25ab8",
+      "data/head_camera/3.0.0.0": "93931ba5c99bbd6522fff4ed7f46bc638ea461738c4d30876cc7eafc14076aef",
+      "data/head_camera/30.0.0.0": "4dd42e4f2484d50e55a400e3d85167f26b1ee1a63af128daa412bcdbcdc5aa03",
+      "data/head_camera/31.0.0.0": "997b0e9206c5e88d1e137ac0ae21c3614e775305c274e2e81401f500bb77ccbd",
+      "data/head_camera/32.0.0.0": "8cf8ccdf545ff98e2ed0742434a308acf0c5ca547036b9d9661c8b702c762383",
+      "data/head_camera/33.0.0.0": "89f42bf4ca836858ea74dd6a7773e28661b190cdb33e5f264ae04fd44f77b9e7",
+      "data/head_camera/34.0.0.0": "48ee89ecbb57684e87ca0a9fff725886c99080b999de1c19c6227b12a7764843",
+      "data/head_camera/35.0.0.0": "be9a6016ddc7646f6e64f6f258718ed8141c5a13ca9d726d2061fe3ceb6aed7d",
+      "data/head_camera/36.0.0.0": "9c4cb61c104b29b8acb9f699659afd3d78f5aed6ea2a7fd74ff846617a120df3",
+      "data/head_camera/37.0.0.0": "d5589669420b0c74b4c52e139ff3605d148d5a2470f55d47f2da3b0c3845c41f",
+      "data/head_camera/38.0.0.0": "791db96cf52dc2b5121cb96ce13413272c2f7bfb66da418ac051d9339fce24f4",
+      "data/head_camera/39.0.0.0": "557f42f090f35e956c6f188f62d6ff230d8912ee9bb4e84b55aa7841edb58968",
+      "data/head_camera/4.0.0.0": "9cfda576c67908f126f5ea0b2b7161aaee5edc92d2589723142f9409921bf7d9",
+      "data/head_camera/40.0.0.0": "84f2029be433652d0475172e1077f953caefbb587d0c7999335455cca7977ab2",
+      "data/head_camera/41.0.0.0": "5797c1c1ece9bbc8e28bc5fa67fff7d65e2985143495ab29b349af1ce18657cd",
+      "data/head_camera/42.0.0.0": "47e2639b4b4677a1dd1ab62fd7843dd01095e28dbf21a3445291179018fdc0ca",
+      "data/head_camera/43.0.0.0": "1ee5cd2cdacc5a7fd862801ac60dc1e50fa9ffa67bb983e5418f1d73ede3c0bc",
+      "data/head_camera/44.0.0.0": "e2226e44f4050ad9f136499bf93040e15e8b55b0121215fe2e99974945160844",
+      "data/head_camera/45.0.0.0": "acd77ad142edb535c513e22f131309a6959af8eb511e7a40d443cf8975623ac2",
+      "data/head_camera/46.0.0.0": "c3aa785643b1bdd581ac6fe5ccd12310858b1bc3b283349ac56c4afbca53b7d5",
+      "data/head_camera/47.0.0.0": "43072858ce4d34ac7377f254936cea1ef63a96e03715b4f3a98e58709c252434",
+      "data/head_camera/5.0.0.0": "8e709865e55417da2d38961b119872c48bc8ebd13a5db66f4ced25308bc91e34",
+      "data/head_camera/6.0.0.0": "154f34592993a44cd84a0e95bfe126bcd90d91c6e29d9d127edf1f750f82fb9b",
+      "data/head_camera/7.0.0.0": "b02340e4d324a17652a2f15b27ec4d0ee2e463ac5e87f85e77489f579a9ede0d",
+      "data/head_camera/8.0.0.0": "fcc88d8880878e3afd4a2a3bf8eef19d3e69644ec3c4c13b05729b6eea3c6821",
+      "data/head_camera/9.0.0.0": "ac6b7031a2421f11f0ac889cd9ea8e6ef0043013411051c84ba01c6145c427d0",
+      "data/state/.zarray": "22a1f91b2daeeb7c53095bc7c681ee5091812e8a6da8c027a9a25b6f1a631ab2",
+      "data/state/0.0": "621ef381912f2760844968701da1d766ae8cd1d1317f0207cb7a8612f0b3ccde",
+      "data/state/1.0": "304f588f51bc3b3a36fa04a4f67cff040a34efd5e06d91715538f134b8482080",
+      "data/state/10.0": "5c7d4978bbc25ccd0b3325f9b35a3c277936c6732109ce986ef5e0de34496ec0",
+      "data/state/11.0": "eeedb2c01bcefd89b0a1490315b921bc8ca1ed2c7b5555b5fd0812a24ee0b6b8",
+      "data/state/12.0": "56c60ec6d6edb994e81fef0cc92d5fe34c2546251bc5ea5d3dbfbacf7095e3f3",
+      "data/state/13.0": "fe884fb3245594c27c3621ffd7ce75779b89b21a9e2fa46229a5593ce8e18449",
+      "data/state/14.0": "d14f4672019fac8347b77942cb5680af8cdc2ecf7fc32aa76ab3d7b5549e1c9c",
+      "data/state/15.0": "c6fca58741ed7ae155a2c7c59551e6444e55a98dd2ae6f8783730a659553c1c5",
+      "data/state/16.0": "4aae6d09c8475753d7b195083fba5bb279afea350dffb91bb6bde804a2da87c1",
+      "data/state/17.0": "c7f3f2d45b989a0ff7f6495ce169bb8dbc052eef833596ad5a2d06f6fb449603",
+      "data/state/18.0": "57178304aba565ca3f310a608160c0fe93cbfb1272ad29594ae652f19f9dfa51",
+      "data/state/19.0": "15a1c974a2502a8f2889538ff679d77521b36a618b1a953fdae1ab9d96989d86",
+      "data/state/2.0": "d99221affb628d6bad5976fdb49739ef281006ab9af8ffc41dfa17f380befaf5",
+      "data/state/20.0": "669e51ad340d03fd5a85b2984535be6505e9f5bbbd6cc4756101b60527d593c8",
+      "data/state/21.0": "15e6e6804cf633d86ea32b079c8d568bdbb3eadc8fb53a38af8423ace3b6f70c",
+      "data/state/22.0": "6d9b88909f10e134903f217f7731908de576804329ee83b8575a9536fdbd9366",
+      "data/state/23.0": "37b16adea480aee95475b783313bbee9562d14a19ddb51ef111db19976444de3",
+      "data/state/24.0": "a3c0c38efc297243a0439fb82f6f9084251594213ae15c6aefb12ef90ad03d2f",
+      "data/state/25.0": "401f34466411152fe06905350189a8946031d1cf27a9c058638e8c742b4d2f8d",
+      "data/state/26.0": "611dc9a8e793e6514cb498f306fb73db9941291b2d7403aaf6cb3060ce11bacd",
+      "data/state/27.0": "d8b3be5152a34b4f54fc3e3311520bdbaa513a6ec9c3ef7b837d0344e719ee6c",
+      "data/state/28.0": "02b79ce247cd0c0c3ed268baf42dd0806915ae1983705d9ae08d92b350ad016d",
+      "data/state/29.0": "acf258c166b297218adab282db1484c8ac08be304efddbaf3ec7b12013b7fa4b",
+      "data/state/3.0": "0ee91a5416b39f27ca37156d1f4645a90bfe664f39e495d2795a928108225af3",
+      "data/state/30.0": "93e11f047ce2213f751bbecf6ce5e4c5720dc5b3212f2430ad02596bca32b63b",
+      "data/state/31.0": "33672b0f15a1d585ff9affb9950d862377e8102938c479590822007ac0a91bb7",
+      "data/state/32.0": "ee7c5848991873e163da3ce4a811b56d3c247d3a811cc40096179a1396233d10",
+      "data/state/33.0": "f84ca81e6e94ad06ac7dcb2b6daa3fae2ff71a5a816787113bb29773b81f71f8",
+      "data/state/34.0": "2019bb3b38283670e227e969cf10d883687f78d21acd2b406b6f15071b6b7045",
+      "data/state/35.0": "9e75a905074491a138bc0162f7c6b95e55399839e912f7fcfed5c067019647d3",
+      "data/state/36.0": "4176be0f9869174ae6f52238ca675c8dfe4a70d39fd9ab135a1d14084da31b30",
+      "data/state/37.0": "b1b9ec92d93592ab1ef81f4deafd69b071ec69e50d352e63186e6edfe51413de",
+      "data/state/38.0": "afb565b42a70db72a86721be4f6f27944ba25c11f51007e4a65dcbe0519a8b5d",
+      "data/state/39.0": "cfd8ce548ea4fcff48065afe7a6908d30ec61e29591ec5b9b67788169d9242c8",
+      "data/state/4.0": "fcd3e979a8336b34905b7d133b12d522c76fa3c7a2dc2ef58dd316af3c2f5492",
+      "data/state/40.0": "2d0c3440bbde764170bcbfdd4cdb3f277c6c6082373cb4cf511655a0ff416e62",
+      "data/state/41.0": "69ab7428fc08afae4a37866bafc736c593280978ca57e821fa4350bad7a1d393",
+      "data/state/42.0": "c8535064db37e97eddeb414be2c6b3c7f26be39a9afdf58c5940658d09b24cf4",
+      "data/state/43.0": "26a8b43e77d4c2fb67f730c6ff038eadbc48c666649d78fc075b5ded6a3f1a53",
+      "data/state/44.0": "fa6ae48b7aa8682dac44b5de369eb86c50bbc11eb750ccd83cff40dcbe1d204c",
+      "data/state/45.0": "8a90fcec3537297fea8b2ef8e0919ff30f42db4ad733a133cd4dcf1489fd1516",
+      "data/state/46.0": "214224d372c86ccce1bf47256fbe8c3847a14448edda786e979686fcd66be049",
+      "data/state/47.0": "b7e37a852be3de68e352af074cf0a90af5f59d95e0f96e33c874c9d895c369de",
+      "data/state/5.0": "74ba8989425176849a644e2d93027ba82184fde4ecf3fe5c3748c6198e17a6cf",
+      "data/state/6.0": "ab36896afb271cd25e8520793cea000ccdf07e6df8f6c6085af303a49680df6c",
+      "data/state/7.0": "908bd00eacd1158860214f70901452c05c3fe88b334ac8c68c7bf59d8d26264c",
+      "data/state/8.0": "0bfce4e92645395571c34029f39d513c5091b62d2857d5ba8e534795be69cf95",
+      "data/state/9.0": "4ae52e7588c793dba1b9681b9b5642ab87bf3825d8882c93f8ca9be8ebfb1649",
+      "meta/.zattrs": "8c7850633b4ce8326abdeb5bc5729b004e3eb1ecde14eebf6d859022865223b2",
+      "meta/.zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+      "meta/episode_ends/.zarray": "8e725d60f98c3f7afed11f3099309027a07c42b2a3f2f25a1ad0279813f9e6e2",
+      "meta/episode_ends/0": "727b4db775f2ea139b3c0c9b32078b10a54c1b932d62ccec139ff8a7ec897759",
+      "metadata.json": "0905320cfbe73728cf111f98d9942891040a6a54f2a7b26696357160bbb64ea3"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "root": "/home/hanyu/flash_fr3/flash_sim_reproduction_20261028/data-smoke",
+  "expected_successes": 2,
+  "demonstrations": [
+    {
+      "demo_id": "demo_0001",
+      "source_reference_index": 1,
+      "frames": 116,
+      "joint_shape": [
+        116,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.334355718372578,
+      "rgb_mean_abs_frame_change_max": 0.9258982340494791,
+      "metadata_sha256": "6a3c72028dc34a550223ec51dc8309fb9572ff42b8eb55265ecfe6e86c0aaab8",
+      "rgb_sha256": "694e2efc21d6e1e1d61c53cbe829cf8f1d04ab2c0f2f67611dc9bba5e344abb8",
+      "task_description": "Put the black bowl on the plate"
+    },
+    {
+      "demo_id": "demo_0002",
+      "source_reference_index": 2,
+      "frames": 128,
+      "joint_shape": [
+        128,
+        9
+      ],
+      "video_container_fps": 30.0,
+      "rgb_std_min": 29.44832861513286,
+      "rgb_mean_abs_frame_change_max": 1.02093505859375,
+      "metadata_sha256": "043e416252c0c015d835bbe2a3ac1078f3abe24a1a9055081c2e6542bb340be9",
+      "rgb_sha256": "b5d16005e3701b78e0866f2fd744098cf36bb5f884de6bc31db8e9b7005faa5e",
+      "task_description": "Put the black bowl on the plate"
+    }
+  ],
+  "physical_control_dt_seconds": 0.015,
+  "video_fps_note": "Video container fps is a playback setting, not simulation control frequency.",
+  "zarr": {
+    "path": "data_policy/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plateFrankaL0_obs:joint_pos_act:joint_pos_ds4_2.zarr",
+    "samples": 61,
+    "arrays": {
+      "action": [
+        61,
+        9
+      ],
+      "head_camera": [
+        61,
+        3,
+        256,
+        256
+      ],
+      "state": [
+        61,
+        9
+      ]
+    },
+    "meta_attributes": {
+      "action_space": "joint_pos",
+      "delta_ee": 0,
+      "downsample_ratio": 4,
+      "joint_pos_padding": 0,
+      "num_episodes": 2,
+      "observation_space": "joint_pos",
+      "raw_data_freq_hz": 30.0,
+      "task_name": "libero_90.kitchen_scene1_put_the_black_bowl_on_the_plateFrankaL0_obs:joint_pos_act:joint_pos"
+    },
+    "file_sha256": {
+      ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+      "data/.zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+      "data/action/.zarray": "36a3728c3bd19351a87a407d921bed39d1498e7f51e89d474fb1623c127524d3",
+      "data/action/0.0": "f86f364aee642e923fd7f03d1250fca618870af3b2bd2dda274228bba54ef2ad",
+      "data/head_camera/.zarray": "a2fc8909e1829d1aea7045f341d0691a89481a6cfcc49cd3a9873d10e42626d2",
+      "data/head_camera/0.0.0.0": "ece133f73e4739f96c4f450d8bbfab0efd5251f609ec2c58811b757667e22d85",
+      "data/state/.zarray": "36a3728c3bd19351a87a407d921bed39d1498e7f51e89d474fb1623c127524d3",
+      "data/state/0.0": "40fe3468093294bae12859aebe2e0a04a1f001847165798e34bc8f364f795d70",
+      "meta/.zattrs": "cf54436e775be3e8a54b347cde53e33705a4e56e29af7e8f96816d2866298523",
+      "meta/.zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+      "meta/episode_ends/.zarray": "4bff6971c7baca0d7c734b437d6b88535fa25fa5eb0dd7622d12bd6a725e9cd8",
+      "meta/episode_ends/0": "dd9c544d6204890c142b2e34c232f73c9a5f3c70c9b0ff37152728778ea68174",
+      "metadata.json": "36a6f8c430e73ffd7b77b324ad31ae2bf5d0d8195f93efea1cb216a633c0fbb3"
+    }
+  }
+}

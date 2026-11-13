@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "episodes_independently_recomputed": 100,
+  "paired_resets_and_initial_rgb_bitwise_equal": 50,
+  "smoke_full_prefix_episodes_bitwise_equal": 6,
+  "actual_resets_independently_compared_with_frozen_cpu_trace": 100,
+  "native_controller_arrays_equal": true,
+  "all_loaded_ema_tensors_and_normalizers_verified": true,
+  "all_episode_videos_and_official_records_present": true,
+  "gpu_uuid": "GPU-eb1c016b-9505-66b6-0362-57dea67de4eb"
+}

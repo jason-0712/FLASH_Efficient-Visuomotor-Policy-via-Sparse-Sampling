@@ -1,0 +1,41 @@
+--- official-evaluate
++++ instrumented-evaluate
+@@ -1,5 +1,6 @@
+ def evaluate(self, ckpt_path=None):
+     args = self.eval_args
++    self._output_dir = _stable_output_dir
+ 
+     num_envs: int = args.num_envs
+     log.info(f"Using GPU device: {args.gpu_id}")
+@@ -201,6 +202,7 @@
+         eval_history_noise_seed=int(getattr(args, "eval_history_noise_seed", 0) or 0),
+     )
+ 
++    self._output_dir = _stable_output_dir
+     # Capture actual PD gains for end-of-eval logging
+     robot_cfg = scenario.robots[0] if scenario.robots else None
+     eval_params = {
+@@ -354,6 +356,7 @@
+                     env._episode_steps[env_id] = 0
+ 
+         policyRunner.reset()
++        _observer.start(env, demo_start_idx)
+ 
+         step = 0
+         MaxStep = args.max_step
+@@ -402,12 +405,14 @@
+                 vel_diag_actual.append(obs.robots[args.robot].joint_vel[0].cpu().numpy())
+ 
+             # eval
++            _observer.sample(obs, success, step)
+             SuccessOnce = [SuccessOnce[i] or success[i] for i in range(num_envs)]
+             TimeOut = [TimeOut[i] or time_out[i] for i in range(num_envs)]
+             step += 1
+-            if all(SuccessOnce):
++            if False:  # supplemental: keep policy running through step 300
+                 break
+ 
++        _observer.end()
+         episode_end_time = time.time()
+         episode_duration_ms = (episode_end_time - episode_start_time) * 1000
+ 

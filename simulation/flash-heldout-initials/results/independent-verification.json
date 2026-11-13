@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "candidate_count": 53,
+  "selected_count": 50,
+  "rejected_candidates": [
+    {
+      "candidate_id": 13,
+      "reasons": [
+        "too_close_to_original_object_configuration"
+      ]
+    },
+    {
+      "candidate_id": 24,
+      "reasons": [
+        "too_close_to_original_object_configuration"
+      ]
+    },
+    {
+      "candidate_id": 47,
+      "reasons": [
+        "too_close_to_original_object_configuration"
+      ]
+    }
+  ],
+  "negative_controls": [
+    {
+      "name": "exact_original_reference_1",
+      "independent_rejection_reasons": [
+        "too_close_to_original_object_configuration"
+      ]
+    },
+    {
+      "name": "already_at_goal",
+      "independent_rejection_reasons": [
+        "already_satisfies_goal",
+        "akita_black_bowl:initial_support_contacts",
+        "akita_black_bowl:tail_min_support_contacts",
+        "akita_black_bowl:max_xyz_drift_m",
+        "bowl_plate_contact"
+      ]
+    },
+    {
+      "name": "bowl_floating_10cm",
+      "independent_rejection_reasons": [
+        "object_penetration_exceeds_limit",
+        "akita_black_bowl:initial_support_contacts",
+        "akita_black_bowl:max_xyz_drift_m",
+        "too_close_to_original_object_configuration"
+      ]
+    },
+    {
+      "name": "bowl_interpenetrating_floor_2cm",
+      "independent_rejection_reasons": [
+        "object_penetration_exceeds_limit",
+        "akita_black_bowl:max_xyz_drift_m",
+        "too_close_to_original_object_configuration"
+      ]
+    }
+  ],
+  "independent_pcg64_stream_and_first_50_selection_verified": true,
+  "original_50_exact_state_and_configuration_disjoint": true,
+  "selected_traces_recomputed": 50,
+  "samples_per_trace": 201,
+  "minimum_distance_to_original_50_xy4_m": 0.005032394938097915,
+  "maximum_object_xyz_drift_m": 0.000248568132519722,
+  "maximum_tail_linear_speed_m_s": 2.6438319049409188e-11,
+  "minimum_object_contact_distance_m": -0.00025208090465763484,
+  "known_negative_second_finger_inherited": -0.03405819233380395,
+  "test_initials_sha256": "ad70b6e7b77873373246002ea0a07e1345312e0e2c10b62e092f939f16b24076",
+  "policy_executed": false,
+  "verification_script_sha256": "6e4f7cee34d65e74e73305f10a0957354b6cab666edb4f5414985137ad7ec9c1",
+  "numpy_version": "1.26.4"
+}
