@@ -148,4 +148,3 @@ bash scripts/run_flash_fr3_return.sh --execute \
 | 推理时龄异常 | 观测源时钟、网络与处理时延 |
 | `no space left on device` | 宿主和容器各自的磁盘空间 |
 
-完整首次源码导出清单保留在[精简前历史记录](https://github.com/jason-0712/FLASH_Efficient-Visuomotor-Policy-via-Sparse-Sampling/blob/fa953cde97ac55e3f4fe9567ced8dce3f0dc7869/docs/source_export_manifest.json)。该次基础工作区HEAD为`e4ae615688d3f7b69748fb866b220c354fdf0ea8`，当时还包含未提交的开发改动。
