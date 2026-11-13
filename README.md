@@ -15,6 +15,15 @@
 | 观测到候选就绪 | 均值307.542 ms，P95 426.161 ms |
 | 控制器记录区间 | 17.8389 ± 2.6105 s |
 
+
+
+
+
+
+https://github.com/user-attachments/assets/ec8382e7-575b-4d74-b81f-02ce42ee092e
+
+
+
 ## 仿真结果
 
 单任务实验现已整理到 [simulation/](simulation/README.md)。任务为 `libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate`，使用同批40条参考回放示范（39条优化、1条内部验证），训练 seed 42。
@@ -94,54 +103,18 @@ CUDA_VISIBLE_DEVICES=1 python scripts/eval_flash_fr3.py \
   --checkpoint runs/train_seed42_15k/best.pt \
   --output runs/eval_seed42_15k --device cuda:0
 ```
-
-原成功检查点的483个验证窗口关节MAE约1.53231°。离线MAE与真机任务成功率分别记录。
-
 ## 推理与FR3执行
 
 机器人端使用ROS 2 Humble、原生FR3/libfranka驱动、两路相机和标准Hand动作接口；详细准备见[部署步骤](docs/DEPLOYMENT.md)。现有部署默认使用名为`franka`的Docker容器，容器内工作区为`/home/ros/ros2_ws`，ROS_DOMAIN_ID为30。路径、IP、相机话题和物体配置需要与实际设备对应。
-
-H100端使用已有检查点和一份真实观测文件预热后启动服务：
-
-```bash
-CUDA_VISIBLE_DEVICES=1 python -u scripts/serve_flash_fr3_shadow.py \
-  --flash-root "$FLASH_ROOT" --dataset-cache data/pickplace_74eps_stride4 \
-  --checkpoint runs/train_seed42_15k/best.pt \
-  --warmup-observation /absolute/path/to/observation.npz \
-  --bind 192.168.1.113 --port 10132 --allowed-client 192.168.1.107 \
-  --device cuda:0 --allow-retimed-observations
-```
-
-正式客户端发送真实物理时间历史；`--allow-retimed-observations`只保留旧接口兼容能力，不会主动重定时正式输入。`run_flash_fr3_history_server.sh`保留原服务器目录布局，新的克隆建议使用上面的显式参数命令。
-
-机器人端首次部署将本机配置放到以下本地路径：
-
-```bash
-mkdir -p artifacts/flash_fr3/task_setup artifacts/flash_fr3/home_poses
-cp configs/gripper.example.json artifacts/flash_fr3/task_setup/events.json
-```
-
-起点应来自本机实际示教或已有保存文件；`configs/task_start.example.json`记录本次成功场景的参考关节姿态，不是任意FR3场景的通用目标。
-
-已完成驱动和配置准备后，保持相机、ROS驱动与H100服务在线：
 
 ```bash
 # 真实任务：会运动机械臂和夹爪
 bash scripts/run_flash_fr3_pickplace.sh --execute --server http://192.168.1.113:10132
 
-# 复位：会运动机械臂，成功到位后自动开爪；使用本机已保存的目标
+# 复位，成功到位后自动开爪
 bash scripts/run_flash_fr3_return.sh --execute \
   --pose artifacts/flash_fr3/home_poses/task_start.json
 ```
-
-回位使用关节插值，需要现场确认路径无遮挡。正式任务保留机器人原有保护及必要异常处理。成功条件是物体实际抓起并放到目标盒内；`TASK_SEQUENCE_FINISHED`表示软件完成抓取/释放序列，物理成功仍由现场观察或独立评估记录。
-
-## 成功配置与后续评估
-
-`configs/fr3_successful_rollout.json`记录一次成功使用的15k EMA、1倍物理时间、原始多项式、解析速度和力矩参数；没有系数修正、历史冻结或块间停车。夹爪速度0.1米/秒、抓取力20牛。
-
-后续固定代码提交、检查点、场景与初始条件；每次都记录结果，包括失败。统计物理成功次数/完整尝试次数，并分别保存机器结果和操作者观察。当前机器人试验的原始记录保留在本机，不由推送动作修改。
-
 ## 过程文档与来源
 
 - [部署全过程总结](FLASH_FR3_部署全过程总结.md)：含首次完整成功记录。
@@ -149,4 +122,4 @@ bash scripts/run_flash_fr3_return.sh --execute \
 - [复现步骤与开发历史](FLASH_FR3_复现步骤.md)：数据、训练和各阶段适配记录。
 - [上游依赖与来源](THIRD_PARTY.md)。
 
-历史文档中的绝对路径、局域网地址和`artifacts/`链接对应原实验电脑；大型证据文件不包含在Git仓库中。`docs/source_export_manifest.json`记录本次从运行工作区导出的源码哈希。导出和推送不会部署新版本或控制机器人。
+
