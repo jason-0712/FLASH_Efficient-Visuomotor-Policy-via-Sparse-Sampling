@@ -1,4 +1,4 @@
-# FLASH on Franka FR3
+# FLASH策略仿真&真机（FR3)复现
 
 基于 [FLASH: Efficient Visuomotor Policy via Sparse Sampling](https://arxiv.org/abs/2605.15492) 的真机视觉抓放项目：从VR示教、策略训练到双相机观测推理，在Franka FR3上执行连续关节力矩控制与异步夹爪动作。
 
