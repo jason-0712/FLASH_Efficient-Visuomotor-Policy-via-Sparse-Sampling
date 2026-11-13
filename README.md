@@ -58,7 +58,6 @@ https://github.com/user-attachments/assets/ec8382e7-575b-4d74-b81f-02ce42ee092e
 | `configs/` | 本次成功配置摘要、夹爪和起始关节姿态示例 |
 | `docs/DEPLOYMENT.md` | 机器人端依赖、部署与正式运行入口 |
 | `simulation/` | LIBERO/MuJoCo仿真结果、逐回合记录、历史复现脚本和文件校验 |
-| `results/fr3/2026-11-13/` | 真机40/50最终计数及25条已提供日志的指标摘要 |
 
 其他`pilot`、`model_prefix`、`retimed`、`torque_hold`及相关测试脚本保留开发历史。正式完整任务使用`run_flash_fr3_pickplace.sh --execute`，无需逐个运行这些旧入口。
 
