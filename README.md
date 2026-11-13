@@ -56,11 +56,12 @@ bash scripts/run_flash_fr3_return.sh --execute \
 | `src/` | FR3连续控制器及接口 |
 | `configs/` | 已验证配置与本机配置示例 |
 | [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) | 训练和真机部署步骤 |
+| [FLASH_FR3_终端命令.md](FLASH_FR3_终端命令.md) | 当前实验环境的三个终端和运行命令 |
 | [results/fr3/](results/fr3/2026-11-13/README.md) | 真机成功率、跟踪误差和时延统计 |
 | `third_party/FLASH-Policy` | 固定版本的作者官方策略子模块 |
 | [simulation/](simulation/README.md) | 仿真补充验证 |
 
-正式抓放使用`run_flash_fr3_pickplace.sh`，回位使用`run_flash_fr3_return.sh`。`pilot`、`model_prefix`、`retimed`等入口保留开发历史，部署步骤以当前说明为准。
+正式抓放使用`run_flash_fr3_pickplace.sh`，回位使用`run_flash_fr3_return.sh`。已删除49个不再使用的历史诊断、实验对照和对应测试，`scripts/`保留63个文件（其中20个为相关测试）。部分名称含`grasp_probe`、`guard_shadow`、`model_prefix`的模块仍提供正式任务或回位使用的公共函数，因此保留，无需手动执行。历史文档中的已删除命令仅说明开发过程。
 
 ## 仿真复现
 
