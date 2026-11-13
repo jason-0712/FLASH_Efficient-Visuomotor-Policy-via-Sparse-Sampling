@@ -2,13 +2,11 @@
 
 基于 [FLASH: Efficient Visuomotor Policy via Sparse Sampling](https://arxiv.org/abs/2605.15492) 的复现项目，包含 LIBERO/MuJoCo 单任务仿真评测和自有双相机 Franka FR3 抓放部署。真机部分使用74条VR示教训练策略，在真实FR3上执行原始Legendre多项式位置、解析速度前馈、连续关节力矩和异步夹爪动作。
 
-**2026-11-13 已完成一次由现场操作者确认的完整自主抓放。** 对应原15k EMA模型完成32次连续更新，抓取与释放均成功。当前成功率实验进行中；一次成功不代表论文任务成功率或全部性能指标已经复现。
 
-本仓库保存源码、配置示例、过程文档和仿真结果。真机示教视频、数据缓存、模型权重、现场图像和现场运行记录保留在本机。
 
 ## 仿真结果
 
-2026-10-28—29 完成的单任务实验现已整理到 [simulation/](simulation/README.md)。任务为 `libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate`，使用同批40条参考回放示范（39条优化、1条内部验证），训练 seed 42。
+单任务实验现已整理到 [simulation/](simulation/README.md)。任务为 `libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate`，使用同批40条参考回放示范（39条优化、1条内部验证），训练 seed 42。
 
 以下为冻结的50组未见物体位置、同一 H100 GPU2 上的配对闭环评测，共400回合：
 
