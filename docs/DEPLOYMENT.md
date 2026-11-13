@@ -91,7 +91,7 @@ bash scripts/run_flash_fr3_return.sh --execute \
 
 回位成功、机械臂控制器停用后自动张开到80毫米；已在起点时也开爪。回位失败不额外开爪，开爪失败单独记录。回位是关节插值，没有桌面或物体碰撞规划。
 
-## 已观察到的运行问题
+## 观察到的运行问题
 
 - `Connection refused`：核对H100服务进程、地址和10132端口。
 - `/controller_manager/list_controllers`不可用：检查机器人端驱动终端，Desk激活FCI不会自动恢复ROS进程。
@@ -99,4 +99,4 @@ bash scripts/run_flash_fr3_return.sh --execute \
 - `推理时龄异常`：检查观测源时间、端到端传输和处理时间；不能仅凭这条信息认定GPU计算慢。
 - `no space left on device`：检查宿主与容器各自磁盘；容器保存成功后，复制回宿主也可能失败。
 
-这些是既有异常的解释，不是新增正式任务前置检查入口。
+
