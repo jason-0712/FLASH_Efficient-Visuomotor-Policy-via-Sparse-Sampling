@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "evaluation_date": "2026-11-13",
+  "task": "Franka FR3 autonomous vision-based pick-and-place",
+  "policy": "FLASH",
+  "final_task_success": {
+    "successful_trials": 40,
+    "attempted_trials": 50,
+    "unsuccessful_trials": 10,
+    "success_rate": 0.8,
+    "evidence": "operator_reported_final_count",
+    "source": "Project operator final count supplied on 2026-11-13",
+    "full_trial_outcome_ledger_included": false,
+    "definition": "Operator-reported completed pick-and-place; no new video-based or timed-stability adjudication performed during this export."
+  },
+  "logged_metrics": {
+    "n_trials": 25,
+    "n_saved_prediction_requests": 840,
+    "n_state_rows": 12118,
+    "total_controller_recorded_interval_s": 445.973,
+    "report_scan_time": "2026-11-13T15:05:13.196315+08:00",
+    "selection": "Formal raw_policy execute records with TASK_SEQUENCE_FINISHED, task_sequence_complete=true, successful grasp and release, and no failed gripper action. Excludes prepare, return, debug records and archive copies.",
+    "selection_verifies_physical_success": false,
+    "full_50_trial_mapping_included": false,
+    "per_trial_equal_weight": {
+      "controller_recorded_interval": {
+        "label": "控制器记录区间",
+        "n_trials": 25,
+        "mean": 17.8389,
+        "sample_std_ddof1": 2.6105,
+        "median": 17.391,
+        "min": 16.1465,
+        "max": 29.9681,
+        "unit": "秒"
+      },
+      "active_segment_transitions": {
+        "label": "实际连续换段次数",
+        "n_trials": 25,
+        "mean": 31.56,
+        "sample_std_ddof1": 4.8139,
+        "median": 31.0,
+        "min": 29.0,
+        "max": 54.0,
+        "unit": "次"
+      },
+      "sampled_joint_tracking_mae": {
+        "label": "七关节采样跟踪MAE",
+        "n_trials": 25,
+        "mean": 0.6002,
+        "sample_std_ddof1": 0.0361,
+        "median": 0.61,
+        "min": 0.5007,
+        "max": 0.6535,
+        "unit": "°"
+      },
+      "time_weighted_joint_tracking_mae": {
+        "label": "七关节时间加权跟踪MAE",
+        "n_trials": 25,
+        "mean": 0.5996,
+        "sample_std_ddof1": 0.0365,
+        "median": 0.6093,
+        "min": 0.498,
+        "max": 0.6534,
+        "unit": "°"
+      },
+      "trial_max_single_joint_tracking_error": {
+        "label": "每条试次最大单关节跟踪误差",
+        "n_trials": 25,
+        "mean": 5.978,
+        "sample_std_ddof1": 0.8945,
+        "median": 6.0809,
+        "min": 3.9464,
+        "max": 7.879,
+        "unit": "°"
+      },
+      "seven_joint_total_iae": {
+        "label": "七关节合计IAE",
+        "n_trials": 25,
+        "mean": 74.4571,
+        "sample_std_ddof1": 7.1437,
+        "median": 74.1685,
+        "min": 66.4248,
+        "max": 104.4613,
+        "unit": "°·s"
+      },
+      "server_prediction_decode_trial_mean": {
+        "label": "每条试次服务端预测时延均值",
+        "n_trials": 25,
+        "mean": 23.3497,
+        "sample_std_ddof1": 3.4613,
+        "median": 25.2151,
+        "min": 15.9241,
+        "max": 26.1365,
+        "unit": "ms"
+      },
+      "observation_to_candidate_ready_trial_mean": {
+        "label": "每条试次观测到候选就绪时龄均值",
+        "n_trials": 25,
+        "mean": 307.0336,
+        "sample_std_ddof1": 20.9968,
+        "median": 303.155,
+        "min": 275.1824,
+        "max": 348.6225,
+        "unit": "ms"
+      },
+      "gripper_width_after_grasp": {
+        "label": "抓取后实测夹爪宽度",
+        "n_trials": 25,
+        "mean": 29.1183,
+        "sample_std_ddof1": 0.3997,
+        "median": 29.3642,
+        "min": 28.3634,
+        "max": 29.5008,
+        "unit": "mm"
+      },
+      "gripper_width_after_release": {
+        "label": "释放后实测夹爪宽度",
+        "n_trials": 25,
+        "mean": 79.4449,
+        "sample_std_ddof1": 0.2281,
+        "median": 79.3339,
+        "min": 78.8611,
+        "max": 79.7594,
+        "unit": "mm"
+      }
+    },
+    "pooled_request_latency": {
+      "server_prediction_decode": {
+        "n_requests": 840,
+        "mean_ms": 23.434,
+        "p50_ms": 25.468,
+        "p95_ms": 26.402,
+        "max_ms": 29.327
+      },
+      "observation_to_candidate_ready": {
+        "n_requests": 840,
+        "mean_ms": 307.542,
+        "p50_ms": 294.095,
+        "p95_ms": 426.161,
+        "max_ms": 655.701
+      }
+    }
+  },
+  "measurement_definitions": {
+    "tracking_mae": "Absolute commanded-versus-measured position error, averaged over seven arm joints and saved state rows within each trial, then trial means weighted equally. Approximately 25 Hz plus event-triggered samples; not a full 1 kHz trace. Separate from offline prediction MAE.",
+    "controller_recorded_interval": "Last minus first status.data[0] controller time; includes recorded waiting, execution and stopping, excludes earlier configuration and prechecks. Not a video-adjudicated task completion time.",
+    "server_prediction_decode": "Server prediction and decoding; excludes camera capture, network upload and complete HTTP round trip. Saved startup and numbered replies, excluding preflight; candidates may not have been executed.",
+    "observation_to_candidate_ready": "packet.ready_monotonic minus observation_monotonic; includes input age, transfer, inference and file writes, excludes subsequent wait for execution. Only archived valid packets are included.",
+    "unavailable_metrics": [
+      "Separately measured cumulative policy waiting time",
+      "Independently adjudicated complete physical task duration",
+      "Aggregate motion/latency metrics for all 40 successful trials",
+      "A complete per-trial outcome ledger for all 50 attempts"
+    ]
+  },
+  "source": {
+    "filename": "report.md",
+    "original_sha256": "2ce2a085f7c2e8c444addf311801acded557004fb90897a4a760a878ca001b08",
+    "original_report_trial_count": 25,
+    "published_report": "source_report.md",
+    "redactions": "Original machine-absolute report.json hyperlinks replaced by plain trial IDs; source document values unchanged. A scope note was prepended.",
+    "csv_precision": "CSV rows were transcribed from the rounded Markdown tables, not original per-trial JSON/CSV files. Reported aggregate values retain the source report precision; tiny differences when recomputing from rounded rows are expected.",
+    "companion_raw_files_supplied": false
+  },
+  "comparison_scope": "Real-world results are separate from the LIBERO/MuJoCo simulation evaluation. No matched real-world baseline is supplied in this update."
+}
