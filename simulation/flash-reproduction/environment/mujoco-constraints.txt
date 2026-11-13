@@ -1,5 +1,0 @@
-numpy==1.26.4
-torch==2.7.0+cu128
-torchvision==0.22.0+cu128
-zarr==2.18.3
-numcodecs==0.13.0

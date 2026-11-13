@@ -1,16 +1,44 @@
-# FR3机器人端部署说明
+# FLASH训练与Franka FR3部署
 
-本文件针对已有可工作的FR3驱动环境。当前成功实验的ROS节点运行在`franka`容器内，ROS 2 Humble、Python 3.10，工作区为`/home/ros/ros2_ws`；机器人电脑宿主为Ubuntu 24.04实时内核。H100训练使用另一个Python 3.11环境。
+H100端使用Python 3.11进行数据处理、训练和推理。机器人端使用已有FR3驱动、双相机和`franka`容器中的ROS 2 Humble / Python 3.10；容器工作区为`/home/ros/ros2_ws`，机器人宿主为Ubuntu 24.04实时内核。
 
-## 依赖和已有硬件接口
+## 1. H100环境与训练
 
-需要`controller_manager`、`franka_hardware`、`franka_semantic_components`、`franka_gripper`、`franka_description`，以及`rclpy`、`cv_bridge`、OpenCV、NumPy和`rmw_cyclonedds_cpp`。成功环境使用libfranka 0.19.0和ros2_control 2.52.0；原生信号处理和机器人保护保持启用。
+已验证训练环境为PyTorch 2.7.0+cu128、Torchvision 0.22.0+cu128、NumPy 1.26.4和NVIDIA H100。在已有CUDA环境及本仓库根目录中运行：
 
-本项目的`flash_fr3_observe.launch.py`复用已安装的`crisp_controllers_robot_demos/launch/franka.launch.py`硬件描述函数。参考CRISP提交为`d12b9adb9161a6078b36da3bd93fa8e8422572e4`；`patches/crisp_fr3_hardware_version.patch`保留FR3硬件描述中的`version=0.0.0`适配。该补丁仅针对这个CRISP版本，不需要运行完整VR遥操作launch。
+```bash
+python -m pip install -r scripts/flash_fr3_requirements.txt
+export FLASH_ROOT="$PWD/third_party/FLASH-Policy"
 
-基础机器人驱动和Docker环境的来源工作区为[jason-0712/franka_ws](https://github.com/jason-0712/franka_ws)。本仓库只导出FLASH相关部分，没有打包完整驱动依赖、Docker镜像或系统内核。基础工作区版本见`source_export_manifest.json`，并需保留其依赖补丁。
+python scripts/prepare_flash_fr3_data.py \
+  --dataset /absolute/path/to/quest3_franka_dualcam_pickplace_74eps \
+  --output data/pickplace_74eps_stride4 --stride 4 --seed 42
 
-实际订阅的话题：
+CUDA_VISIBLE_DEVICES=1 python -u scripts/train_flash_fr3.py \
+  --flash-root "$FLASH_ROOT" \
+  --dataset-cache data/pickplace_74eps_stride4 \
+  --output runs/train_seed42_15k --steps 15000 --schedule-steps 15000 \
+  --seed 42 --batch-size 32 --device cuda:0
+
+CUDA_VISIBLE_DEVICES=1 python scripts/eval_flash_fr3.py \
+  --flash-root "$FLASH_ROOT" --dataset-cache data/pickplace_74eps_stride4 \
+  --checkpoint runs/train_seed42_15k/best.pt \
+  --output runs/eval_seed42_15k --device cuda:0
+```
+
+以上命令沿用已归档15k训练的74条示教配置：66条训练、8条验证，按整条episode划分。替换为自己的采集目录时，以生成的manifest记录实际episode数与划分。
+
+数据适配要求原采集器的LeRobot v2.1字段和`meta/merge_manifest.json`。两路RGB为256×256，每4帧采样，保留8帧历史并预测8个动作点，采样间隔为4/15秒。七关节监督来自示教实测关节，夹爪动作统一为闭合比例；原始6维末端动作没有直接作为关节命令。
+
+训练调用作者官方FLASH核心，使用EMA检查点。子模块固定为`f47e490f2b820f835d1b9145da3cdb3df69f50a0`；加载已保存检查点时保持源码版本和归一化参数一致。
+
+## 2. 机器人端依赖
+
+需要`controller_manager`、`franka_hardware`、`franka_semantic_components`、`franka_gripper`、`franka_description`、`rclpy`、`cv_bridge`、OpenCV、NumPy和`rmw_cyclonedds_cpp`。成功环境使用libfranka 0.19.0、ros2_control 2.52.0，保留原生信号处理和机器人保护。
+
+基础驱动与Docker来自[jason-0712/franka_ws](https://github.com/jason-0712/franka_ws)。本仓库提供FLASH相关源码；完整驱动、Docker镜像和系统内核由基础工作区提供。
+
+`flash_fr3_observe.launch.py`复用CRISP硬件描述函数，参考提交为`d12b9adb9161a6078b36da3bd93fa8e8422572e4`。[硬件描述补丁](../patches/crisp_fr3_hardware_version.patch)针对该版本设置FR3的`version=0.0.0`。
 
 | 输入 | 默认话题 |
 | --- | --- |
@@ -19,11 +47,11 @@
 | 机械臂状态 | `/franka/joint_states` |
 | 夹爪状态 | `/franka_gripper/joint_states` |
 
-正式接收器还需要相机SDK时间来源；相机话题和metadata配置见`flash_fr3_camera_clock.py`及`run_flash_fr3_shadow_client.py`。机械臂客户端使用Fast DDS，独立图像接收进程使用Cyclone DDS。不得在另一个ROS_DOMAIN_ID中启动后误认为服务已就绪。
+相机SDK时钟配置见[flash_fr3_camera_clock.py](../scripts/flash_fr3_camera_clock.py)和[观测客户端](../scripts/run_flash_fr3_shadow_client.py)。机械臂客户端使用Fast DDS，独立图像接收进程使用Cyclone DDS；ROS_DOMAIN_ID为30。
 
-## 安装本项目控制器
+## 3. 构建控制器与恢复驱动
 
-在首次部署或维护期间，将两个ROS包放入既有容器工作区并构建。已经在测试的设备无需因代码上传重新构建或重启。
+首次部署或维护时，在已有容器工作区中构建：
 
 ```bash
 docker cp src/flash_fr3_model_controller franka:/home/ros/ros2_ws/src/
@@ -36,11 +64,9 @@ docker exec -it franka bash -lc '
 '
 ```
 
-正式脚本会使用构建出的`preview_continuous_effort`和安装的持续力矩插件；没有运行模拟器。
+正式脚本使用`preview_continuous_effort`及持续力矩插件。已在运行的实验设备不需要因为仓库文档更新而重新构建。
 
-## 重启机器人后恢复原驱动
-
-在Desk完成Hand初始化并激活FCI。将只读启动文件复制到容器：
+机器人重启后，在Desk完成Hand初始化并激活FCI，再启动驱动：
 
 ```bash
 docker cp scripts/flash_fr3_observe.launch.py franka:/tmp/flash_fr3_observe.launch.py
@@ -53,34 +79,53 @@ docker exec -it franka bash -lc '
 '
 ```
 
-保持终端打开。该launch只激活状态广播器和标准夹爪驱动，本身不发送开合目标。完整抓放还需要原有相机节点和H100 10132推理服务。仅回位不依赖H100或相机，成功到位后开爪需要Hand驱动。
+保持终端打开。该launch激活状态广播器与标准夹爪驱动；完整抓放还需要相机节点与H100服务。回位不依赖H100或相机，成功后的开爪需要Hand驱动。
 
-## 观测、配置和正式入口
+## 4. 观测预热与H100推理服务
 
-真实预热观测可在已启动双相机与状态驱动的ROS终端中采集：
+在机器人端已启动相机与状态驱动的ROS终端中采集：
 
 ```bash
 python3 scripts/capture_flash_fr3_observation.py --output observations/warmup
 ```
 
-该命令仅读取状态和图像，不发送动作。生成的`observations/warmup/observation.npz`传到H100后可用于服务预热；该文件不属于Git源码。
+该命令读取真实图像与状态。将生成的`observation.npz`传到H100，在服务器仓库根目录运行：
 
-原回位入口可保存本机当前静止姿态：
+```bash
+export FLASH_ROOT="$PWD/third_party/FLASH-Policy"
+CUDA_VISIBLE_DEVICES=1 python -u scripts/serve_flash_fr3_shadow.py \
+  --flash-root "$FLASH_ROOT" --dataset-cache data/pickplace_74eps_stride4 \
+  --checkpoint runs/train_seed42_15k/best.pt \
+  --warmup-observation /absolute/path/to/observation.npz \
+  --bind 192.168.1.113 --port 10132 --allowed-client 192.168.1.107 \
+  --device cuda:0 --allow-retimed-observations
+```
+
+IP、路径和相机话题替换为实际环境。正式客户端发送真实物理时间历史；`--allow-retimed-observations`保留旧接口兼容能力。`run_flash_fr3_history_server.sh`沿用原实验机目录，新的克隆优先使用上述显式参数。
+
+## 5. 任务配置与正式入口
+
+首次部署时创建本地配置目录：
+
+```bash
+mkdir -p artifacts/flash_fr3/task_setup artifacts/flash_fr3/home_poses
+cp configs/gripper.example.json artifacts/flash_fr3/task_setup/events.json
+```
+
+任务起点来自本机实际示教或已验证的保存姿态。在正确起点静止时可保存：
 
 ```bash
 bash scripts/run_flash_fr3_return.sh --save \
   --pose artifacts/flash_fr3/home_poses/task_start.json
 ```
 
-已有目标文件拒绝覆盖。重新部署到相同机器可保留本机原目标；不要用中途停车姿态替换任务起点。
+入口拒绝覆盖已有目标。`configs/task_start.example.json`仅提供本次场景的参考姿态。
 
-完整任务：
+保持驱动、相机和推理服务在线，执行完整任务：
 
 ```bash
 bash scripts/run_flash_fr3_pickplace.sh --execute --server http://192.168.1.113:10132
 ```
-
-现场根据物体是否实际放入盒内记录成功/失败。机器报告`TASK_SEQUENCE_FINISHED`及两个夹爪动作成功是软件证据，物体落点需要单独观察。所有报告默认写入`artifacts/flash_fr3/raw_policy_trials/`。
 
 返回本机保存姿态：
 
@@ -89,14 +134,18 @@ bash scripts/run_flash_fr3_return.sh --execute \
   --pose artifacts/flash_fr3/home_poses/task_start.json
 ```
 
-回位成功、机械臂控制器停用后自动张开到80毫米；已在起点时也开爪。回位失败不额外开爪，开爪失败单独记录。回位是关节插值，没有桌面或物体碰撞规划。
+回位成功且控制器停用后，夹爪自动张开到80毫米；回位失败不会额外开爪。回位采用关节插值，需要现场确认路径无遮挡。
 
-## 观察到的运行问题
+机器报告`TASK_SEQUENCE_FINISHED`与grasp/release成功表示执行序列完成。按物体是否实际抓起并放入目标盒内记录任务结果。原始运行记录默认保存到`artifacts/flash_fr3/raw_policy_trials/`；公开指标见[真机结果](../results/fr3/2026-11-13/README.md)。[配置摘要](../configs/fr3_successful_rollout.json)记录一条已确认成功运行的控制参数。
 
-- `Connection refused`：核对H100服务进程、地址和10132端口。
-- `/controller_manager/list_controllers`不可用：检查机器人端驱动终端，Desk激活FCI不会自动恢复ROS进程。
-- `cartesian_reflex`：查看原生驱动错误及该次模型换段记录；不要通过提高保护阈值掩盖问题。
-- `推理时龄异常`：检查观测源时间、端到端传输和处理时间；不能仅凭这条信息认定GPU计算慢。
-- `no space left on device`：检查宿主与容器各自磁盘；容器保存成功后，复制回宿主也可能失败。
+## 6. 常见运行问题
 
+| 现象 | 检查位置 |
+| --- | --- |
+| `Connection refused` | H100服务、地址和10132端口 |
+| 控制器管理服务不可用 | ROS驱动进程；Desk激活FCI后仍需启动ROS |
+| `cartesian_reflex` | 原生驱动错误及本次换段记录，保留原有保护 |
+| 推理时龄异常 | 观测源时钟、网络与处理时延 |
+| `no space left on device` | 宿主和容器各自的磁盘空间 |
 
+完整首次源码导出清单保留在[精简前历史记录](https://github.com/jason-0712/FLASH_Efficient-Visuomotor-Policy-via-Sparse-Sampling/blob/fa953cde97ac55e3f4fe9567ced8dce3f0dc7869/docs/source_export_manifest.json)。该次基础工作区HEAD为`e4ae615688d3f7b69748fb866b220c354fdf0ea8`，当时还包含未提交的开发改动。

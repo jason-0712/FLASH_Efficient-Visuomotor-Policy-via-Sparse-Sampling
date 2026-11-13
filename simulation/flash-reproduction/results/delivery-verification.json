@@ -1,9 +1,0 @@
-{
-  "verified_utc": "2026-10-28T13:39:53.366387+00:00",
-  "raw_files_hashed_against_server_manifest": 150,
-  "raw_evidence_bytes": 4131345,
-  "independently_parsed_successes": 50,
-  "rollout_count": 50,
-  "contiguous_training_log_updates": 15015,
-  "report_local_links_exist": true
-}

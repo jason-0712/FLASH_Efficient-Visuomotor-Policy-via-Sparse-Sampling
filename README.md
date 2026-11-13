@@ -1,9 +1,10 @@
-# FLASH 仿真复现与 Franka FR3 真机部署
+# FLASH on Franka FR3
 
-基于 [FLASH: Efficient Visuomotor Policy via Sparse Sampling](https://arxiv.org/abs/2605.15492) 的复现项目，包含 LIBERO/MuJoCo 单任务仿真评测和自有双相机 Franka FR3 抓放部署。真机部分使用80条VR示教训练策略，在真实FR3上执行原始Legendre多项式位置、解析速度前馈、连续关节力矩和异步夹爪动作。
+基于 [FLASH: Efficient Visuomotor Policy via Sparse Sampling](https://arxiv.org/abs/2605.15492) 的真机视觉抓放项目：从VR示教、策略训练到双相机观测推理，在Franka FR3上执行连续关节力矩控制与异步夹爪动作。
 
-真机自主抓放最终成功率为**40/50（80%）**
-本仓库保存源码、配置示例、过程文档、仿真结果及选定的真机统计摘要。真机示教视频、数据缓存、模型权重、现场图像和原始现场运行记录保留在本机。
+## 真机演示
+
+https://github.com/user-attachments/assets/ec8382e7-575b-4d74-b81f-02ce42ee092e
 
 ## 真机结果
 
@@ -12,56 +13,23 @@
 | 自主抓放成功率 | **40/50（80%）** |
 | 七关节采样跟踪MAE | **0.6002 ± 0.0361°** |
 | 服务端预测与解码 | **均值23.434 ms，P95 26.402 ms** |
-| 观测到候选就绪 | 均值307.542 ms，P95 426.161 ms |
-| 控制器记录区间 | 17.8389 ± 2.6105 s |
 
+成功率采用现场最终50次尝试计数；误差与时延来自已提供报告中的25条执行记录、840个预测请求。跟踪误差基于约25 Hz及事件触发采样，服务端时延不含相机采集和完整网络往返。完整指标与定义见[真机结果](results/fr3/2026-11-13/README.md)。
 
+## 系统流程
 
+```mermaid
+flowchart LR
+    O[双相机与关节/夹爪状态] --> H[H100 · FLASH推理]
+    H --> P[Legendre轨迹系数]
+    P --> C[FR3本地连续力矩控制]
+    C --> R[机械臂与异步夹爪]
+    R --> O
+```
 
+H100根据真实观测历史生成多项式轨迹；机器人端在本地求取位置与解析速度，持续接收新预测并执行。已验证实现使用原始多项式、解析速度前馈、连续力矩更新和独立夹爪接口。
 
-
-### FLASH FR3 Pick-and-Place Demo
-
-https://github.com/user-attachments/assets/ec8382e7-575b-4d74-b81f-02ce42ee092e
-
-
-
-## 仿真结果
-
-单任务实验现已整理到 [simulation/](simulation/README.md)。任务为 `libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate`，使用同批40条参考回放示范（39条优化、1条内部验证），训练 seed 42。
-
-以下为冻结的50组未见物体位置、同一 H100 GPU2 上的配对闭环评测，共400回合：
-
-| 训练更新数 | FLASH，1步推理 | FM-DiT，10步推理 |
-| --- | --- | --- |
-| 2,500 | 48/50（96%） | 10/50（20%） |
-| 5,000 | 49/50（98%） | 32/50（64%） |
-| 7,500 | 50/50（100%） | 36/50（72%） |
-| 10,000 | 50/50（100%） | 44/50（88%） |
-
-![未见位置闭环收敛曲线](simulation/flash-heldout-convergence/plots/heldout-convergence.png)
-[完整结果与口径](simulation/README.md)包括逐回合 CSV/JSONL、冻结初态、配置、曲线、稳定放置诊断、推理计时及校验脚本；训练数据、检查点、视频和二进制轨迹仍在原实验留档中。
-
-## 代码范围
-
-| 路径 | 用途 |
-| --- | --- |
-| `third_party/FLASH-Policy` | 作者官方实现，子模块固定为 `f47e490f2b820f835d1b9145da3cdb3df69f50a0` |
-| `scripts/prepare_flash_fr3_data.py` | LeRobot示教检查、关节监督适配、按episode划分缓存 |
-| `scripts/train_flash_fr3.py`、`eval_flash_fr3.py` | 无仿真的训练、EMA检查点和离线评估 |
-| `scripts/serve_flash_fr3_shadow.py` | H100端观测到原始多项式的HTTP推理服务 |
-| `scripts/run_flash_fr3_raw_policy.py` | 正式连续力矩抓放客户端 |
-| `scripts/run_flash_fr3_pickplace.sh` | 正式抓放入口，转发到原始连续策略实现 |
-| `scripts/run_flash_fr3_return.*` | 快速回位，成功到位后自动开爪 |
-| `src/flash_fr3_model_controller` | C++连续力矩、解析曲线求值及既有执行控制器 |
-| `src/flash_fr3_pilot_controller` | 早期接口调试控制器，不是正式任务前置条件 |
-| `configs/` | 本次成功配置摘要、夹爪和起始关节姿态示例 |
-| `docs/DEPLOYMENT.md` | 机器人端依赖、部署与正式运行入口 |
-| `simulation/` | LIBERO/MuJoCo仿真结果、逐回合记录、历史复现脚本和文件校验 |
-
-其他`pilot`、`model_prefix`、`retimed`、`torque_hold`及相关测试脚本保留开发历史。正式完整任务使用`run_flash_fr3_pickplace.sh --execute`，无需逐个运行这些旧入口。
-
-## 获取源码
+## 获取与使用
 
 ```bash
 git clone --recurse-submodules \
@@ -69,52 +37,33 @@ git clone --recurse-submodules \
 cd FLASH_Efficient-Visuomotor-Policy-via-Sparse-Sampling
 ```
 
-已经克隆的目录使用`git submodule update --init --recursive`获取固定版本的官方策略。训练代码核对上游提交和IL源码摘要；不要把上游切换到最新版后直接加载旧检查点。
-
-## 数据和训练
-
-已验证环境：Python 3.11、PyTorch 2.7.0+cu128、Torchvision 0.22.0+cu128、NumPy 1.26.4、NVIDIA H100。GPU驱动显示的CUDA版本不等于PyTorch自带运行时版本。训练和机器人ROS分别使用独立环境。
-
-在已有CUDA训练环境中安装本项目附加依赖：
+[训练与部署说明](docs/DEPLOYMENT.md)集中介绍环境、数据准备、训练、H100服务和FR3启动流程。完成驱动、双相机、任务配置与推理服务准备后，正式任务入口为：
 
 ```bash
-python -m pip install -r scripts/flash_fr3_requirements.txt
-export FLASH_ROOT="$PWD/third_party/FLASH-Policy"
-
-python scripts/prepare_flash_fr3_data.py \
-  --dataset /absolute/path/to/quest3_franka_dualcam_pickplace_74eps \
-  --output data/pickplace_74eps_stride4 --stride 4 --seed 42
-
-CUDA_VISIBLE_DEVICES=1 python -u scripts/train_flash_fr3.py \
-  --flash-root "$FLASH_ROOT" \
-  --dataset-cache data/pickplace_74eps_stride4 \
-  --output runs/train_seed42_15k --steps 15000 --schedule-steps 15000 \
-  --seed 42 --batch-size 32 --device cuda:0
-```
-
-本数据适配要求原采集器的LeRobot v2.1字段和`meta/merge_manifest.json`，不是任意LeRobot数据集的通用转换器。原始6维末端动作没有被当作关节命令：七关节监督来自示教实测关节，夹爪动作统一为闭合比例。
-
-74条示教按episode分成66条训练、8条验证，每4帧稀疏采样；图像为两路RGB 256×256。窗口中保留8个历史观测，预测8个动作点。物理采样间隔为4/15秒。训练使用作者官方FLASH核心；上述数据、动作监督和FR3控制参数属于本地适配。
-
-离线评估：
-
-```bash
-CUDA_VISIBLE_DEVICES=1 python scripts/eval_flash_fr3.py \
-  --flash-root "$FLASH_ROOT" --dataset-cache data/pickplace_74eps_stride4 \
-  --checkpoint runs/train_seed42_15k/best.pt \
-  --output runs/eval_seed42_15k --device cuda:0
-```
-## 推理与FR3执行
-
-机器人端使用ROS 2 Humble、原生FR3/libfranka驱动、两路相机和标准Hand动作接口；详细准备见[部署步骤](docs/DEPLOYMENT.md)。现有部署默认使用名为`franka`的Docker容器，容器内工作区为`/home/ros/ros2_ws`，ROS_DOMAIN_ID为30。路径、IP、相机话题和物体配置需要与实际设备对应。
-
-```bash
-# 真实任务：会运动机械臂和夹爪
+# 执行真机抓放
 bash scripts/run_flash_fr3_pickplace.sh --execute --server http://192.168.1.113:10132
 
-# 复位，成功到位后自动开爪
+# 返回本机保存的任务起点，成功后开爪
 bash scripts/run_flash_fr3_return.sh --execute \
   --pose artifacts/flash_fr3/home_poses/task_start.json
 ```
 
+## 仓库结构
 
+| 路径 | 用途 |
+| --- | --- |
+| `scripts/` | 数据准备、训练、评估、推理服务与真机执行入口 |
+| `src/` | FR3连续控制器及接口 |
+| `configs/` | 已验证配置与本机配置示例 |
+| [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) | 训练和真机部署步骤 |
+| [results/fr3/](results/fr3/2026-11-13/README.md) | 真机成功率、跟踪误差和时延统计 |
+| `third_party/FLASH-Policy` | 固定版本的作者官方策略子模块 |
+| [simulation/](simulation/README.md) | 仿真补充验证 |
+
+正式抓放使用`run_flash_fr3_pickplace.sh`，回位使用`run_flash_fr3_return.sh`。`pilot`、`model_prefix`、`retimed`等入口保留开发历史，部署步骤以当前说明为准。
+
+## 仿真补充
+
+LIBERO/MuJoCo单任务用于比较FLASH与FM-DiT：10,000步时，在50组未见物体位置上，原任务几何成功率分别为100%与88%。该结果与真机成功率独立统计，详见[简短报告、曲线及逐回合数据](simulation/README.md)。
+
+上游实现、固定版本和依赖来源见[THIRD_PARTY.md](THIRD_PARTY.md)。示教数据、权重、现场图像及原始机器人日志保留在实验环境中。

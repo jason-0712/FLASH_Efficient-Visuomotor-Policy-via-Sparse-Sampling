@@ -1,6 +1,0 @@
-{
-  "demonstrations": 40,
-  "actual_both_fingers_open_at_end": 5,
-  "target_both_fingers_open_at_end": 8,
-  "interpretation": "Finger opening audit only. Raw metadata does not establish the full release/contact/velocity/2-second metric. Demonstrations are collected around first geometric success; lack of opening at their end limits what the learned policy is being supervised to complete."
-}
