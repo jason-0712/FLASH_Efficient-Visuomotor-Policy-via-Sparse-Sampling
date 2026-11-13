@@ -1,0 +1,16 @@
+{
+  "policy": "flash",
+  "checkpoint_step": 5000,
+  "seed": 42,
+  "checkpoint_sha256": "d34b80149c73e475a22e757b7e7d20fd20a8b92376b5c290d4bed6b729b9c787",
+  "test_initials_sha256": "ad70b6e7b77873373246002ea0a07e1345312e0e2c10b62e092f939f16b24076",
+  "rollouts": 50,
+  "successes": 49,
+  "success_rate": 0.98,
+  "primary_metric": "original geometric SuccessOnce, official early stop",
+  "stable_placement_metric_evaluated": false,
+  "all_resets_match_frozen_cpu_traces": true,
+  "raw_observations_and_actions_saved": true,
+  "wall_seconds_through_final_artifacts": 221.96501981304027,
+  "completed_utc": "2026-10-29T06:52:29.070979+00:00"
+}

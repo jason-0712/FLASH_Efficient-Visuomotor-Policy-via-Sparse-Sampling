@@ -1,0 +1,218 @@
+policy_name: flash
+task_name: libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate
+name: robot_libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate
+_target_: roboverse_learn.il.runners.default_runner.DefaultRunner
+image_shape:
+- 3
+- 256
+- 256
+shape_meta:
+  obs:
+    head_cam:
+      shape:
+      - 3
+      - 256
+      - 256
+      type: rgb
+    agent_pos:
+      shape:
+      - 9
+      type: low_dim
+  action:
+    shape:
+    - 9
+exp_name: flash_bowl_s42_v1_20261028
+horizon: 16
+n_obs_steps: 8
+n_action_steps: 8
+n_latency_steps: 0
+dataset_obs_steps: 8
+past_action_visible: false
+keypoint_visible_rate: 1.0
+obs_as_global_cond: true
+use_proprioception: true
+train_enable: false
+eval_enable: true
+eval_path: /home/hanyu/flash_fr3/flash_sim_reproduction_20261028/FLASH-Policy/il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028/checkpoints/10000.ckpt
+multi_run:
+  run_dir: ./il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate
+  wandb_name_base: libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate
+logging:
+  project: RoboVerse_IL_libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate
+  resume: false
+  mode: disabled
+  name: libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate
+  tags:
+  - libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate
+  - flash
+  - flash_bowl_s42_v1_20261028
+  id: null
+  group: null
+checkpoint:
+  topk:
+    monitor_key: test_mean_score
+    mode: max
+    k: 5
+    format_str: epoch={epoch:04d}-test_mean_score={test_mean_score:.3f}.ckpt
+  save_last_ckpt: true
+  save_last_snapshot: false
+  save_root_dir: ./il_outputs/flash/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate/flash_bowl_s42_v1_20261028
+dataset_config:
+  _target_: roboverse_learn.il.datasets.robot_image_dataset.RobotImageDataset
+  zarr_path: ./data_policy/libero_90.kitchen_scene1_put_the_black_bowl_on_the_plateFrankaL0_obs:joint_pos_act:joint_pos_ds4_40.zarr
+  horizon: 16
+  pad_before: 7
+  pad_after: 7
+  seed: 42
+  val_ratio: 0.02
+  batch_size: 32
+  max_train_episodes: null
+policy_config:
+  _target_: roboverse_learn.il.policies.flash.flash_policy.FlashDiTImagePolicy
+  shape_meta:
+    obs:
+      head_cam:
+        shape:
+        - 3
+        - 256
+        - 256
+        type: rgb
+      agent_pos:
+        shape:
+        - 9
+        type: low_dim
+    action:
+      shape:
+      - 9
+  obs_encoder:
+    _target_: roboverse_learn.il.utils.vision.multi_image_obs_encoder.MultiImageObsEncoder
+    shape_meta:
+      obs:
+        head_cam:
+          shape:
+          - 3
+          - 256
+          - 256
+          type: rgb
+        agent_pos:
+          shape:
+          - 9
+          type: low_dim
+      action:
+        shape:
+        - 9
+    rgb_model:
+      _target_: roboverse_learn.il.utils.vision.model_getter.get_resnet
+      name: resnet18
+      weights: null
+    resize_shape: null
+    crop_shape: null
+    random_crop: true
+    use_group_norm: true
+    share_rgb_model: false
+    imagenet_norm: true
+  horizon: 16
+  n_action_steps: 8
+  n_obs_steps: 8
+  obs_as_global_cond: true
+  num_inference_steps: 1
+  diffusion_step_embed_dim: 256
+  hidden_dim: 512
+  num_layers: 4
+  num_heads: 8
+  mlp_ratio: 4
+  dropout: 0.0
+  poly_order: 6
+  basis_type: legendre
+  fit_pad: 1
+  boundary_constraint: true
+  history_noise_std: 0.5
+  history_reg_lambda: 0.1
+  consistency_weight: 1.0
+  flash_solver: euler
+  poly_prefix: 1
+  poly_suffix: 1
+eval_config:
+  eval_args:
+    _target_: roboverse_learn.il.utils.eval_args.Args
+    level: 0
+    task: libero_90.kitchen_scene1_put_the_black_bowl_on_the_plate
+    max_step: 300
+    num_envs: 1
+    sim: mujoco
+    ood_shift: 0.0
+    eval_history_noise_std: 0.0
+    eval_history_noise_seed: 0
+    gripper_binarize: false
+    gripper_binarize_threshold: 0.02
+    velocity_pd_gains: true
+    send_vel_target: true
+    velocity_kp_scale: 1.0
+    velocity_kd_scale: 1.0
+    fd_vel_target: false
+    fixed_error_ylim: true
+    max_demo: 50
+    downsample_ratio: 4
+    gpu_id: 0
+  policy_runner:
+    action:
+      action_type: joint_pos
+      ee_cfg:
+        rotation_rep: quaternion
+        gripper_rep: q_pos
+      delta: 0
+    obs:
+      obs_type: joint_pos
+      ee_cfg:
+        rotation_rep: quaternion
+        gripper_rep: q_pos
+train_config:
+  training_params:
+    device: 0
+    seed: 42
+    debug: false
+    resume: false
+    lr_scheduler: cosine
+    lr_warmup_steps: 500
+    num_epochs: 100
+    num_steps: 15000
+    gradient_accumulate_every: 1
+    lr_total_steps: 0
+    grad_clip_norm: 0
+    use_ema: true
+    freeze_encoder: false
+    rollout_every: 50
+    checkpoint_every: 100
+    checkpoint_every_n_steps: 1250
+    val_every: 5
+    sample_every: 5
+    max_train_steps: 250
+    max_val_steps: 250
+    tqdm_interval_sec: 1.0
+  optimizer:
+    _target_: torch.optim.AdamW
+    lr: 0.0001
+    betas:
+    - 0.95
+    - 0.999
+    eps: 1.0e-08
+    weight_decay: 1.0e-06
+  dataloader:
+    batch_size: 32
+    num_workers: 0
+    shuffle: true
+    pin_memory: true
+    persistent_workers: false
+  val_dataloader:
+    batch_size: 8
+    num_workers: 0
+    shuffle: false
+    pin_memory: true
+    persistent_workers: false
+  ema:
+    _target_: roboverse_learn.il.utils.ema_model.EMAModel
+    update_after_step: 0
+    inv_gamma: 1.0
+    power: 0.75
+    min_value: 0.0
+    max_value: 0.9999

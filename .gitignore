@@ -43,3 +43,13 @@ artifacts/
 configs/*.local.*
 .codex/
 .agents/
+
+# Published simulation run metadata; binary trajectories and weights stay ignored.
+!simulation/**/runs/
+!simulation/**/runs/**/
+!simulation/**/runs/**/*.json
+!simulation/**/runs/**/*.jsonl
+!simulation/**/runs/**/*.yaml
+!simulation/**/runs/**/*.yml
+!simulation/**/runs/**/*.patch
+!simulation/**/runs/**/*.txt

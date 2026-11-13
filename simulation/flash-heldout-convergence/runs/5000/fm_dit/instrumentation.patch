@@ -1,0 +1,65 @@
+--- official-evaluate
++++ heldout-evaluate
+@@ -1,5 +1,6 @@
+ def evaluate(self, ckpt_path=None):
+     args = self.eval_args
++    self._output_dir = _heldout_output
+ 
+     num_envs: int = args.num_envs
+     log.info(f"Using GPU device: {args.gpu_id}")
+@@ -201,6 +202,7 @@
+         eval_history_noise_seed=int(getattr(args, "eval_history_noise_seed", 0) or 0),
+     )
+ 
++    self._output_dir = _heldout_output
+     # Capture actual PD gains for end-of-eval logging
+     robot_cfg = scenario.robots[0] if scenario.robots else None
+     eval_params = {
+@@ -226,7 +228,7 @@
+     assert os.path.exists(env.traj_filepath), (
+         f"Trajectory file: {env.traj_filepath} does not exist."
+     )
+-    init_states, all_actions, all_states = get_traj(env.traj_filepath, robot, env.handler)
++    init_states, all_actions, all_states = _heldout.trajectory(env)
+     num_demos = len(init_states)
+     # ===== OOD: Moves the target object radially outward (away from the robot base) according to args.ood_shift =====
+     _ood_shift = float(getattr(args, "ood_shift", 0.0) or 0.0)
+@@ -341,6 +343,7 @@
+                 randomization_manager.apply_camera_randomization()
+ 
+         tic = time.time()
++        _heldout.reset_native(env, demo_start_idx)
+         obs, extras = env.reset(states=init_states[demo_start_idx:demo_end_idx])
+         toc = time.time()
+         log.trace(f"Time to reset: {toc - tic:.2f}s")
+@@ -354,6 +357,7 @@
+                     env._episode_steps[env_id] = 0
+ 
+         policyRunner.reset()
++        _heldout.start(env, obs, demo_start_idx, policyRunner)
+ 
+         step = 0
+         MaxStep = args.max_step
+@@ -402,12 +406,14 @@
+                 vel_diag_actual.append(obs.robots[args.robot].joint_vel[0].cpu().numpy())
+ 
+             # eval
++            _heldout.sample(obs, success, step, action, inference_time_ms)
+             SuccessOnce = [SuccessOnce[i] or success[i] for i in range(num_envs)]
+             TimeOut = [TimeOut[i] or time_out[i] for i in range(num_envs)]
+             step += 1
+             if all(SuccessOnce):
+                 break
+ 
++        _heldout.end()
+         episode_end_time = time.time()
+         episode_duration_ms = (episode_end_time - episode_start_time) * 1000
+ 
+@@ -667,6 +673,7 @@
+     except Exception as e:
+         log.warning(f"Failed to rename eval dir: {e}")
+ 
++    _heldout.finish()
+     # env.close() often hangs due to Isaac Sim background threads.
+     # Schedule a forced exit so the process releases GPU memory even
+     # if env.close() never returns.
