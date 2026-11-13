@@ -116,11 +116,5 @@ bash scripts/run_flash_fr3_pickplace.sh --execute --server http://192.168.1.113:
 bash scripts/run_flash_fr3_return.sh --execute \
   --pose artifacts/flash_fr3/home_poses/task_start.json
 ```
-## 过程文档与来源
-
-- [部署全过程总结](FLASH_FR3_部署全过程总结.md)：含首次完整成功记录。
-- [正式入口与检查说明](FLASH_FR3_正式入口检查说明.md)：当前执行方式及保留参数依据。
-- [复现步骤与开发历史](FLASH_FR3_复现步骤.md)：数据、训练和各阶段适配记录。
-- [上游依赖与来源](THIRD_PARTY.md)。
 
 
