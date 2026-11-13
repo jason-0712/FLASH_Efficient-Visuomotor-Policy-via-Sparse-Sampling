@@ -62,7 +62,7 @@ bash scripts/run_flash_fr3_return.sh --execute \
 
 正式抓放使用`run_flash_fr3_pickplace.sh`，回位使用`run_flash_fr3_return.sh`。`pilot`、`model_prefix`、`retimed`等入口保留开发历史，部署步骤以当前说明为准。
 
-## 仿真补充
+## 仿真复现
 
 LIBERO/MuJoCo单任务用于比较FLASH与FM-DiT：10,000步时，在50组未见物体位置上，原任务几何成功率分别为100%与88%。该结果与真机成功率独立统计，详见[简短报告、曲线及逐回合数据](simulation/README.md)。
 
